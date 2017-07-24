@@ -10,7 +10,7 @@ In this project, you'll learn how to use CSS to create an animated sunrise.
 
 ### Additional information for club leaders
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberry-pi.org/en/projects/sunrise/print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/sunrise/print).
 
 
 --- collapse ---
