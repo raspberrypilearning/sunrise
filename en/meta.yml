@@ -1,6 +1,5 @@
----
+hero_image: images/banner.png
 title: Sunrise
-hero_image: images/sunrise.png
 theme: yellow
 duration: 2
 listed: true
