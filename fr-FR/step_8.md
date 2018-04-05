@@ -1,5 +1,5 @@
 --- challenge ---
-## Challenge: Plus d'animations
+## Défi : Plus d'animations
 
 Pouvez-vous animer une autre image ? Vous pouvez animer la position, la couleur, la forme, la taille, l'opacité (seethroughness) ou tout ce à quoi vous pouvez penser. Essayez également de changer la durée de vos animations. 
 
