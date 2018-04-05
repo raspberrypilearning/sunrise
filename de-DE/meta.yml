@@ -1,0 +1,26 @@
+hero_image: images/banner.png
+title: Sonnenaufgang
+theme: yellow
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-1, programming-0, phys-comp-0, manufacture-0, community-0
+description: Erstelle einen animierten Sonnenaufgang.
+original_url: https://codeclubprojects.org/en-GB/webdev/sunrise
+interests: ''
+technologies: html-css-javascript
+site_areas: projects
+hardware: ''
+software: html-css-javascript
+version: 3
+last_tested: 2017-01-01
+steps: 
+- title: Einführung
+- title: Die Sonne herstellen
+- title: Den Sonnenaufgang animieren
+- title: 'Aufgabe: Diagonale Animation'
+- title: Unendliche Animation
+- title: Den Himmel animieren
+- title: 'Aufgabe: Verbessere den Himme'
+- title: 'Aufgabe: Noch mehr Animationen'
