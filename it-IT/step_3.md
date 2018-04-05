@@ -22,11 +22,11 @@ per farlo, è necessario definire un elenco di __key frames__. Ogni key frame (f
 
 +Ora che hai creato l'animazione `sunrise` non ti rimane che dire al sole di usarla!
 
-    Aggiungi il codice evidenziato al CSS del tuo sole:
+   Aggiungi il codice evidenziato al CSS del tuo sole:
 
-    ![screenshot](images/sunrise-sunrise.png)
+   ![screenshot](images/sunrise-sunrise.png)
 
-    In questo modo dici al sole di impiegare 10 secondi per l'animazione.
+   In questo modo dici al sole di impiegare 10 secondi per l'animazione.
 
 + Per eseguire nuovamente l'animazione nel Trinket, fai clic su **Autorun**.
 
