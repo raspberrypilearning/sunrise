@@ -1,0 +1,24 @@
+---
+title: شروق الشمس
+hero_image: images/sunrise.png
+theme: yellow
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+description: أنشئ رسمًا متحركًا لشروق الشمس.
+original_url: https://codeclubprojects.org/en-GB/webdev/sunrise
+interests: ''
+technologies: html/css
+site_areas: codeclub, webdev
+steps:
+- title: المقدمة
+- title: إنشاء كائن الشمس
+- title: تحريك شروق الشمس
+- title: 'التحدي: التحريك بشكل قطري'
+- title: رسم متحرك لانهائي
+- title: تحريك السماء
+- title: 'التحدي: تحسين ظهور السماء'
+- title: 'التحدي: رسوم متحركة أخرى'
+
