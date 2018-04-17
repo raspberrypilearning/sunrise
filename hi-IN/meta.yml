@@ -1,0 +1,24 @@
+---
+title: सूर्योदय
+hero_image: images/banner.png
+theme: yellow
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+description: एक एनिमेट किया हुआ सूर्योदय बनाएँ।
+original_url: https://codeclubprojects.org/en-GB/webdev/sunrise
+interests: ''
+technologies: html/css
+site_areas: codeclub, webdev
+steps:
+- title: भूमिका
+- title: एक सूर्य बनाना
+- title: सूर्योदय को एनिमेट करना
+- title: 'चुनौती: तिरछी एनिमेशन'
+- title: अनंत एनिमेशन
+- title: आकाश को एनिमेट करना
+- title: 'चुनौती: आकाश में सुधार करें'
+- title: 'चुनौती: और एनिमेशन'
+
