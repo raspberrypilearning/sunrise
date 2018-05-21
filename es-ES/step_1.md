@@ -1,7 +1,5 @@
 ## Introducción
 
-In this project, you'll learn how to use CSS to create an animated sunrise.
-
 En este proyecto, aprenderas como usar CSS para crear un amanecer animado.
 
 <div class="trinket">
