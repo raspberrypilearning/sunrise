@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## Challenge: Diagonal animation
+## Challange: Удосконалення анімації
 
-Can you add code to your `sunrise` animation, to make your sun start at the bottom left of the sky and move diagonally to its position at roughly the top center?
+Ви можете додати свій код `sunrise` анімації, щоб ваше сонце сходило в нижньому лівому куті неба і переміщалося по діагоналі до його положення приблизно у верхній частині центру?
 
-You can use the `left` property to do this, for example:
+Для цього ви можете скористатись властивостями `left`, наприклад:
 
     left: 40%;
     
