@@ -1,8 +1,8 @@
-## Infinite animation
+## Безмежна мультиплікація
 
-Let's make the animation keep repeating forever.
+Давайте зробимо мультиплікацію, яка буде повторюватися.
 
-+ If you want the sun to rise and then set, just add more keyframes to your animation:
++ Якщо ви хочете, щоб сонце піднімалося і сідало, просто додайте додаткові ключові кадри до вашої мультиплікації:
     
         @keyframes sunrise {
             0%  
@@ -12,10 +12,10 @@ Let's make the animation keep repeating forever.
         }
         
     
-    This means that the animation starts and ends with the sun at the bottom of the sky, and stays at the top from 33% until 66% of the animation.
+    Це означає, що мультиплікація починається і закінчується сонцем у нижній частині неба, і залишається на вершині з 33% до 66% мультиплікації.
 
-+ Now you just need to add the word `infinite` to the `#sun` animation to make it loop forever:
++ Тепер вам просто потрібно додати слово `infinite` до `#sun` мультиплікації, щоб це було назавжди:
     
     ![screenshot](images/sunrise-infinite.png)
 
-+ Test out your animation. Does the sun keep rising and setting?
++ Випробуйте свою мультиплікацію. Чи піднімається і сідає сонце?
