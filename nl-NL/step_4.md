@@ -2,7 +2,7 @@
 
 ## Uitdaging: diagonale animatie
 
-Kun je code toevoegen aan je `sunrise` animatie, om je zon linksonder in de lucht te laten beginnen en diagonaal naar zijn positie te verplaatsen op ongeveer het midden bovenaan?
+Kun je code toevoegen aan je `zonsopkomst` animatie, om je zon linksonder in de lucht te laten beginnen en diagonaal naar zijn positie te verplaatsen op ongeveer het midden bovenaan?
 
 Je kunt de `left` eigenschap gebruiken om dit te doen, bijvoorbeeld:
 
