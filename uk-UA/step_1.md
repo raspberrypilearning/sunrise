@@ -1,40 +1,40 @@
-## Introduction
+## Вступ
 
-In this project, you'll learn how to use CSS to create an animated sunrise.
+У цьому проекті ви дізнаєтеся, як використовувати CSS для створення мультиплікаційного сходу сонця.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/html/abcc0284a3?outputOnly=true&start=result" width="600" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
-  <img src="images/sunrise-final.png">
+  <img src="images / sunrise-final.png">
 </div>
 
-### Additional information for club leaders
+### Додаткова інформація для керівників гуртка
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/sunrise/print).
+Якщо вам потрібно роздрукувати цей проект, будь ласка, скористайтеся [версією для друку](https://projects.raspberrypi.org/en/projects/sunrise/print).
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: Нотатки керівника гуртка
 
-## Introduction:
+## Вступ:
 
-In this project, children will to learn how to animate a simple scene using CSS. They will use the CSS @keyframes rule to animate various properties of images and divs.
+У цьому проекті діти зможуть навчитися створювати просту сцену за допомогою CSS Вони використовуватимуть правило CSS @keyframes, щоб анімувати різні властивості зображень та divs.
 
-## Online Resources
+## Онлайн Ресурси
 
-We recommend using [trinket](https://trinket.io/) to write HTML & CSS online. This project contains the following trinkets:
+Ми рекомендуємо використовувати [trinket](https://trinket.io/) щоб написати HTML & CSS онлайн. Цей проект містить наступні trinkets:
 
-+ ['Sunrise' starting point](https://trinket.io/html/web-sunrise)
++ [Оберіть пункт відправлення](https://trinket.io/html/web-sunrise)
 
-Children can also make use of this blank trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) to write their own HTML & CSS, or alternatively they can use this template trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
+Діти також можуть скористатися цим пустим бланком [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) щоб написати свій власний HTML & CSS, або вони можуть по черзі використовувати цей шаблон [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
-There is also a trinket containing a sample solution to the challenges:
+Також, існує trinket, що міститься у зразку вирішення завдання:
 
-+ ['Sunrise' Finished](https://trinket.io/html/abcc0284a3)
++ ["Схід сонця" завершено](https://trinket.io/html/abcc0284a3)
 
-## Offline Resources
+## Офлайн Ресурси
 
-This project can be [completed offline](../offline.html) if preferred. You can access the project resources by clicking the 'Download Project Materials' link for this project. This link contains a 'Project Resources' folder, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This folder includes the following files:
+Цей проект може бути [завершений офлайн](../offline.html), якщо потрібно. Ви можете отримати доступ до ресурсів проекту, натиснувши посилання " Матеріали Проекту" для цього проекту. Це посилання містить розділ "Ресурси Проекту", який включає в себе ресурси, якщо дітям доведеться завершувати цей проект в режимі офлайн. Переконайтеся, що кожна дитина має доступ до копії цих ресурсів. Ця версія містить наступні файли:
 
 + template/index.html
 + template/prefix.js
@@ -48,7 +48,7 @@ This project can be [completed offline](../offline.html) if preferred. You can a
 + sunrise/rainbow.png
 + sunrise/sun.png
 
-You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
+Також, ви можете знайти завершену версію завдання цього проекту в секції "Волонтерські Ресурси", яка містить:
 
 + sunrise-finished/index.html
 + sunrise-finished/style.css
@@ -57,25 +57,25 @@ You can also find a completed version of this project's challenges in the 'Volun
 + sunrise-finished/sun.png
 + sunrise-finished/rainbow.png
 
-## Learning Objectives
+## Цілі навчання
 
-+ Styling and animation with CSS: 
-    + Introducing `@keyframes` rule for defining steps in an animation.
-    + Reinforcing the use of properties to define the size, shape, position and colour of elements on a webpage.
++ Стиль та анімація з CSS: 
+    + Представляємо правило @keyframes для визначення кроків у анімації.
+    + Посилення використання властивостей для визначення розміру, форми, положення та кольору елементів на веб-сторінці.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Цей проект охоплює елементи з наступних напрямків навчального плану [ Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator).
++ [Розробка основних 2D та 3D активів](https://www.raspberrypi.org/curriculum/design/creator).
 
-## Challenges
+## Завдання
 
-+ "Diagonal animation" - editing animation `@keyframe` properties to use left:;
-+ "Improve the sky" - add more keyframes and setting background:.
-+ "More animation" - animate more images or elements using a variety of CSS properties. 
++ "Діагональна анімація" - редагування анімації @ властивості кеш-пам'яті для використання ліворуч :;
++ "Покращувати небо" - додати інші ключові кадри та налаштування фону :.
++ "Більше анімації" - анімують більше зображень або елементів, що використовують різні властивості CSS. 
 
-## Frequently Asked Questions
+## Найбільш поширенні питання
 
-+ This project makes use of the javascript `prefixfree.js` library, to allow animation compatibility between browsers. If this library isn't used, then children using older browsers will instead need to declare an animation for their browser, for example:
++ Цей проект використовує бібліотеку javascript prefixfree.js, щоб дозволити анімаційну сумісність між браузерами. Якщо ця бібліотека не використовується, то діти, що використовують старі браузери, замість цього повинні оголосити анімацію для свого браузера, наприклад:
 
     animation: sky 10s infinite;            //for all newer browsers
     -webkit-animation: sky 10s infinite;    // For Webkit browsers(Chrome, Safari...)
@@ -84,18 +84,18 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
     -ms-animation: sky 10s infinite;        // For Microsoft browsers 
     
 
-\--- /collapse \---
+\---collapse\---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: Матеріали проекту
 
-## Project resources
+## Проектні ресурси
 
-+ [.zip file containing all project resources](resources/sunrise-project-resources.zip)
-+ [Online Trinket containing all 'Sunrise' project resources](http://jumpto.cc/web-sunrise)
-+ [Online Trinket template](http://jumpto.cc/trinket-template)
-+ [Online blank Trinket](http://jumpto.cc/trinket-blank)
++ [.zip файли, що містять всі проектні ресурси](resources/sunrise-project-resources.zip)
++ [Online Trinket містить всі проектні ресурси 'Сходу сонця'](http://jumpto.cc/web-sunrise)
++ [Шаблон Online Trinket](http://jumpto.cc/trinket-template)
++ [Пустий Online Trinket](http://jumpto.cc/trinket-blank)
 + [template/index.html](resources/template-index.html)
 + [template/style.css](resources/template-style.css)
 + [intro/index.html](resources/intro-index.html)
@@ -109,10 +109,10 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 + [sunrise/boat.png](resources/sunrise-boat.png)
 + [sunrise/helicopter.png](resources/sunrise-helicopter.png)
 
-## Club leader resources
+## Ресурси керівника гуртка
 
-+ [.zip file containing all completed project resources](resources/sunrise-volunteer-resources.zip)
-+ [Online completed Trinket project](https://trinket.io/html/abcc0284a3)
++ [.zip файли, що містять всі проектні ресурси](resources/sunrise-volunteer-resources.zip)
++ [Завершений Trinket проект онлайн](https://trinket.io/html/abcc0284a3)
 + [sunrise-finished/index.html](resources/sunrise-finished-index.html)
 + [sunrise-finished/style.css](resources/sunrise-finished-style.css)
 + [sunrise-finished/prefixfree.js](resources/sunrise-finished-prefixfree.js)
@@ -120,4 +120,4 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 + [sunrise-finished/boat.png](resources/sunrise-finished-boat.png)
 + [sunrise-finished/rainbow.png](resources/sunrise-finished-rainbow.png)
 
-\--- /collapse \---
+\---collapse\---
