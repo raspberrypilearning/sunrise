@@ -7,23 +7,23 @@ html {
 }
 
 
-#lucht {
+#sky {
   position: absolute;
   top: 0;
   width: 100%;
   height: 50%;
   background: lightblue;
-  animation: lucht 10s infinite;
+  animation: sky 10s infinite;
 }
 
-@keyframes lucht {
+@keyframes sky {
   0%   {background:black;}
   33%  {background:lightblue;}
   66%  {background:lightblue;}
   100%  {background:black;}
 }
 
-#zee {
+#sea {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -31,44 +31,44 @@ html {
   background: blue;
 }
 
-#zon {
+#sun {
   position: absolute;
   left: 0;
   top: 120%;
   width: 100px;
   height: 100px;
-  animation: zonsopkomst 10s infinite;
+  animation: sunrise 10s infinite;
 }
 
-@keyframes zonsopkomst {
+@keyframes sunrise {
   0%   {left:0; top:120%;}
   33%  {left:40%; top:0;}
   66%  {left:40%; top:0;}
   100%  {left:80%; top:120%;}
 }
 
-#boot {
+#boat {
   position: absolute;
   left: -50%;
   top: 30%;
   width: 200px;
   height: 80px;
-  animation: links-rechts 20s infinite;
+  animation: left-right 20s infinite;
 }
 
-@keyframes links-rechts {
+@keyframes left-right {
   0%    {left:-50%;}
   100%  {left:200%;}
 }
 
-#regenboog {
+#rainbow {
   position: absolute;
   left: 0;
   width: 200px;
-  animation: vervagen 10s infinite;
+  animation: fade 10s infinite;
 }
 
-@keyframes vervagen {
+@keyframes fade {
   0%   {opacity: 0;}
   50%  {opacity: 100;}
   66%  {opacity: 0;}
