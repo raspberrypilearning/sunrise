@@ -1,27 +1,27 @@
 \--- challenge \---
 
-## Challenge: More animation
+## Challange: Удосконалення анімації
 
-Can you animate another image? You can animate the position, colour, shape, size, opacity (seethroughness) or anything else you can think of. Also try changing the amount of time your animations run for.
+Чи можете ви анімувати іншу картинку? Ви можете анімувати позицію, колір, форму, розмір, непрозорості (чистоту) або щось інше, про яке ви можете думати. Також спробуйте змінити час, за який запускаються анімації.
 
-For each item you want to animate, you will need to:
+Для кожного елемента, який ви хочете анімувати, вам потрібно буде:
 
-+ Include it in your HTML with an id
-+ Add a style for the id
-+ Create an @keyframes rule
-+ Use `animation:` in the style to use the animation you defined with @keyframes 
++ Включіть його у ваш HTML з ідентифікатором
++ Додайте стиль для ідентифікатора
++ Створіть правило у @keyframes
++ Використовуйте `animation:` у стилі, щоб використовувати анімацію, яку ви визначили з @keyframes 
 
-Click on the image icon to see the images that are included in the project:
+Клацніть піктограму зображення, щоб побачити зображення, включені в проект:
 
-![screenshot](images/sunrise-images.png)
+![знімок екрану](images/sunrise-images.png)
 
-You can also upload your own images if you like.
+Ви також можете завантажувати свої власні зображення, якщо хочете.
 
-Don't forget you can put items in the sea as well as the sky:
+Не забувайте, що ви можете поставити предмети як в море, так і в небо:
 
-![screenshot](images/sunrise-boat.png)
+![Знімок екрану](images/sunrise-boat.png)
 
-In the example the rainbow uses opacity for a fade effect:
+Наприклад веселка використовує туманність для ефекту зникання:
 
     @keyframes fade {
       0%  
@@ -31,7 +31,7 @@ In the example the rainbow uses opacity for a fade effect:
     }
     
 
-The boat uses a negative starting position so that you can't see it for part of the animation:
+Човен спочатку розташований невдало, так що ви не можете бачити його частиною анімації:
 
      @keyframes left-right {
       0%   
