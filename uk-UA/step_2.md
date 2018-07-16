@@ -1,14 +1,14 @@
-## Creating the sun
+## Створення сонця
 
-Let's start by adding an image for the sun and positioning it with some CSS.
+Почнемо з додавання зображення для сонця та позиціонування його за допомогою CSS.
 
-+ Open this trinket: <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto.cc/web-sunrise</a>.
++ Відкрийте це посилання: <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto.cc/web-magazine</a>.
     
-    The project should look like this:
+    Проект повинен виглядати так:
     
-    ![screenshot](images/sunrise-starter.png)
+    ![знімок екрану](images/sunrise-starter.png)
 
-+ Look inside the `body` of your `index.html` file and you'll find the the `div` elements for the sky and the sea.
++ Подивіться всередину вашого файлу index.html, і ви знайдете елементи div для неба та моря.
     
         <div id="sky">
         </div>
@@ -17,18 +17,18 @@ Let's start by adding an image for the sun and positioning it with some CSS.
         </div>
         
 
-+ An image for the sun is already included in your project.
++ Зображення для сонця вже включено у ваш проект.
     
-    Add the image inside your sun `div` including an id so you can style it:
+    Додайте зображення всередині вашого сонячного диску, включаючи ідентифікатор, щоб ви могли його накреслити:
     
-    ![screenshot](images/sunrise-sun-image.png)
+    ![знімок екрану](images/sunrise-sun-image.png)
 
-+ Whoa, the image is huge. Go to `style.css` and add the CSS to set the image height:
++ Ого, зображення величезне. Перейдіть у style.css і додайте CSS, щоб встановити висоту зображення:
     
-    ![screenshot](images/sunrise-sun-height.png)
+    ![знімок екрану](images/sunrise-sun-height.png)
     
-    Note that the width is updated automatically to keep the proportions the same.
+    Зверніть увагу, що ширина оновлюється автоматично, щоб зберегти пропорції однаково.
 
-+ Finally, let's add some code to position the sun:
++ Нарешті, давайте додамо деякий код до позиції сонця:
     
-    ![screenshot](images/sunrise-sun-position.png)
+    ![знімок екрану](images/sunrise-sun-position.png)
