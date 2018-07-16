@@ -1,15 +1,15 @@
 \--- challenge \---
 
-## Uitdaging: Meer animaties
+## Uitdaging: meer animatie
 
-Kun je een andere afbeelding animeren? Je kunt de positie, kleur, vorm, grootte, dekking (doorkijk) of iets anders dat je maar kunt bedenken animeren. Probeer ook de hoeveelheid tijd die je animaties lopen te wijzigen.
+Kun je een andere afbeelding animeren? Je kunt de positie, kleur, vorm, grootte, dekking (doorzichtigheid) of iets anders dat je maar kunt bedenken animeren. Probeer ook de hoeveelheid tijd te wijzigen die je animaties lopen.
 
 Voor elk item dat je wilt animeren, moet je:
 
-+ Neem het in je HTML op met een ID
-+ Voeg een stijl toe voor de ID
-+ Maak een @keyframes-regel
-+ Gebruik `animation:` in de stijl om de animatie te gebruiken die je hebt gedefinieerd met @keyframes 
++ het in je HTML opnemen met een ID
++ een stijl toevoegen voor de ID
++ een @keyframes-regel maken
++ `animation:` gebruiken met de stijl die je hebt gedefinieerd met @keyframes 
 
 Klik op het afbeeldingspictogram om de afbeeldingen te bekijken die in het project zijn opgenomen:
 
@@ -21,14 +21,19 @@ Vergeet niet dat je voorwerpen zowel in de zee als in de lucht kunt plaatsen:
 
 ![screenshot](images/sunrise-boat.png)
 
-In het voorbeeld gebruikt de regenboog voor een vervagingseffect fade:
+In het voorbeeld gebruikt de regenboog opacity (doorzichtigheid) voor het vervaageffect:
 
-    @keyframes vervagen {0% 50% 66% 100%}
+    @keyframes vervagen {
+      0%  
+      50% 
+      66% 
+      100%  
+    }
     
 
 De boot gebruikt een negatieve startpositie, zodat je het voor een deel van de animatie niet kunt zien:
 
-     @keyframes left-right {
+     @keyframes links-rechts {
       0%   
       100% 
     }
