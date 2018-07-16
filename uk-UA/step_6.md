@@ -1,8 +1,8 @@
-## Animating the sky
+## Мультиплікація неба
 
-Animation isn't just for movement. Let's animate the sky to turn dark at night.
+Мультиплікація не просто для руху. Давайте зробимо небо так, щоб воно ставало темним вночі.
 
-+ Add an animation called `sky` to your CSS:
++ Додайте мультиплікацію `sky` до свого CSS:
     
         @keyframes sky {
             0%
@@ -10,13 +10,13 @@ Animation isn't just for movement. Let's animate the sky to turn dark at night.
         }
         
     
-    Notice that this time you're animating the colour of the sky, and not the position.
+    Зверніть увагу, що на цей раз ви оживляєте колір неба, а не положення.
 
-+ Add code to your sky, to tell it to use your new animation:
++ Додайте код до свого неба, щоб повідомити , як використовувати нову анімацію:
     
         animation: sky 10s;
         
     
-    ![screenshot](images/sunrise-sky.png)
+    ![знімок екрану](images/sunrise-sky.png)
 
-+ Click **Autorun** to test your animation.
++ Натисніть **Autorun** щоб перевірити свою мультиплікацію.
