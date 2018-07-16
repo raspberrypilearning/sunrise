@@ -1,12 +1,12 @@
-## Animating the sunrise
+## Анімація сходу сонця
 
-To animate your sunrise, you need to define how the sun moves and how long it takes to rise.
+Щоб анімувати схід сонця, потрібно визначити, як рухається сонце і скільки часу воно піднімається.
 
-To do this you define a list of **key frames**. Each key frame defines the CSS properties of an element at a particular point in an animation.
+Для цього ви визначаєте список основних кадрів. Кожен ключовий кадр визначає властивості CSS елемента в певній точці анімації.
 
-+ First, you need to use `@keyframes` to create a new animation called sunrise.
++ Спочатку, ви повинні використати `@keyframes` щоб створити нову анімацію сходу сонця.
     
-    Add this CSS code to the end of your `style.css` file:
+    Додайте цей код CSS в кінці свого style.css файлу : 
     
         @keyframes sunrise {
             0%
@@ -14,16 +14,16 @@ To do this you define a list of **key frames**. Each key frame defines the CSS p
         }
         
     
-    This code tells the sun where to position itself at the start (`0%`) and the end (`100%`) of the animation.
+    Цей код повідомляє Сонце, де розташовувати себе на початку (`0%`) та кінці (`100%`) анімації.
     
-    Because the sun is inside the sky `div`, the `top` and `left` positions you give are within to the sky, with `top: 100%` being the bottom of the sky, and not the bottom of the webpage.
+    Оскільки сонце знаходиться всередині неба `div`, то `top` та `left` позиції, які ви даєте в межах до неба, при `top: 100 %` - це нижня частина неба, а не нижня частина веб-сторінки.
 
-+ Now that you have created a `sunrise` animation, you just need to tell your sun to use it!
++ Тепер, коли ви створили анімацію sunrise , вам просто потрібно сказати своєму сонцю користуватися ним!
     
-    Add the highlighted code to your sun's CSS:
+    Додайте виділений код до вашого сонця CSS :
     
     ![screenshot](images/sunrise-sunrise.png)
     
-    This tells the sun to spend 10 seconds animating a sunrise.
+    Це говорить про те, що сонце проведе 10 секунд, на анімованому сході сонця.
 
-+ To run the animation again in Trinket, just click **Autorun**.
++ Щоб знову запустити анімацію в Trinket, просто натисніть **Autorun**.
