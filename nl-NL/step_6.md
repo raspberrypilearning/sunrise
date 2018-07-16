@@ -2,9 +2,9 @@
 
 Animatie is niet alleen voor beweging. Laten we de lucht animeren zodat deze 's nachts donker wordt.
 
-+ Voeg een animatie met de naam `sky` toe aan je CSS:
++ Voeg een animatie met de naam `lucht` toe aan je CSS:
     
-        @keyframes sky {
+        @keyframes lucht {
             0%
             100%
         }
@@ -14,7 +14,7 @@ Animatie is niet alleen voor beweging. Laten we de lucht animeren zodat deze 's 
 
 + Voeg code toe aan je lucht, om het te vertellen om je nieuwe animatie te gebruiken:
     
-        animation: sky 10s;
+        animation: lucht 10s;
         
     
     ![screenshot](images/sunrise-sky.png)
