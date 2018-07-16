@@ -6,14 +6,14 @@ html {
   overflow: hidden;
 }
 
-#sky {  
+#lucht {  
   position: absolute;
   width: 100%;
   height: 50%;
   background: lightblue;
 }
 
-#sea {
+#zee {
   position: absolute;
   width: 100%;
   height: 50%;
