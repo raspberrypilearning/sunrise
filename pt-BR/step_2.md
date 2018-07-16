@@ -1,14 +1,14 @@
-## Creating the sun
+## Criando o sol
 
-Let's start by adding an image for the sun and positioning it with some CSS.
+Vamos começar adicionando uma imagem para o sol e posicionando-a com algum CSS.
 
-+ Open this trinket: <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto.cc/web-sunrise</a>.
++ Abrar o trinket: <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto.cc/web-sunrise</a>.
     
-    The project should look like this:
+    O projeto deve ficar assim:
     
-    ![screenshot](images/sunrise-starter.png)
+    ![captura de tela](images/sunrise-starter.png)
 
-+ Look inside the `body` of your `index.html` file and you'll find the the `div` elements for the sky and the sea.
++ Olhe dentro do `body` do seu arquivo `index.html` e você encontrará os elementos `div` para o céu e para o mar.
     
         <div id="sky">
         </div>
@@ -17,18 +17,18 @@ Let's start by adding an image for the sun and positioning it with some CSS.
         </div>
         
 
-+ An image for the sun is already included in your project.
++ Uma imagem para o sol já está incluída no seu projeto.
     
-    Add the image inside your sun `div` including an id so you can style it:
+    Adicione a imagem dentro do seu sol `div` incluindo uma identificação para que você possa usar um estilo:
     
-    ![screenshot](images/sunrise-sun-image.png)
+    ![captura de tela](images/sunrise-sun-image.png)
 
-+ Whoa, the image is huge. Go to `style.css` and add the CSS to set the image height:
++ Uau, a imagem é enorme. Vá para `style.css` e adicione o CSS para definir a altura da imagem:
     
-    ![screenshot](images/sunrise-sun-height.png)
+    ![captura de tela](images/sunrise-sun-height.png)
     
-    Note that the width is updated automatically to keep the proportions the same.
+    Observe que a largura é atualizada automaticamente para manter as proporções iguais.
 
-+ Finally, let's add some code to position the sun:
++ Finalmente, vamos adicionar um código para posicionar o sol:
     
-    ![screenshot](images/sunrise-sun-position.png)
+    ![captura de tela](images/sunrise-sun-position.png)
