@@ -17,9 +17,9 @@ software: html-css-javascript
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Введення
+  - title: Вступ
   - title: Створення сонця
-  - title: Мультиплікація сходу сонця
+  - title: Анімація сходу сонця
   - title: 'Завдання: Удосконалення анімації'
   - title: Безмежна мультиплікація
   - title: Мультиплікація неба
