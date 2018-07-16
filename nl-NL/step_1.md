@@ -14,11 +14,11 @@ Als je dit project wilt afdrukken, gebruik dan de [Printervriendelijke versie](h
 
 ## \--- collapse \---
 
-## titel: Clubleider notities
+## title: Clubleider notities
 
 ## Inleiding:
 
-In dit project zullen kinderen leren hoe ze een eenvoudige scène kunnen animeren met behulp van CSS. Ze gebruiken de CSS @keyframes-regel om verschillende eigenschappen van afbeeldingen en divs te animeren.
+In dit project zullen kinderen leren hoe ze een eenvoudige scène kunnen animeren met behulp van CSS. Ze gebruiken de CSS @keyframes-regel om verschillende eigenschappen van afbeeldingen en div's te animeren.
 
 ## Online bronnen
 
@@ -34,7 +34,7 @@ Er is ook een trinket met een voorbeeldoplossing voor de uitdagingen:
 
 ## Offline bronnen
 
-Dit project kan indien gewenst [geheel offline ](../offline.html) voltooid worden. Je krijgt toegang tot de projectbronnen door op de koppeling 'Projectmaterialen downloaden' voor dit project te klikken. Deze koppeling bevat een map 'Projectresources' met bronnen die kinderen nodig hebben om dit project offline te voltooien. Zorg ervoor dat elk kind toegang heeft tot een kopie van deze bronnen. Deze map bevat de volgende bestanden:
+Dit project kan indien gewenst [geheel offline ](../offline.html) voltooid worden. Je krijgt toegang tot de projectbronnen door op de koppeling 'Projectmaterialen downloaden' voor dit project te klikken. Deze link bevat een 'Projectbronnen'-sectie die bronnen bevat om dit project offline te voltooien. Zorg ervoor dat elk kind toegang heeft tot een kopie van deze bronnen. Deze map bevat de volgende bestanden:
 
 + template/index.html
 + template/prefix.js
@@ -57,7 +57,7 @@ Je kunt ook een voltooide versie van de uitdagingen van dit project vinden in de
 + sunrise-finished/sun.png
 + sunrise-finished/rainbow.png
 
-## leerdoelen
+## Leerdoelen
 
 + Styling en animatie met CSS: 
     + Introductie van `@keyframes` regel voor het definiëren van stappen in een animatie.
@@ -69,31 +69,31 @@ Dit project behandelt elementen uit de volgende onderdelen van het [Raspberry Pi
 
 ## Uitdagingen
 
-+ "Diagonal animation" - bewerken van animatie `@keyframe` eigenschappen om left: te gebruiken;
-+ "Verbeter de lucht" - voeg meer keyframes toe en stel achtergrond in :.
++ "Diagonale animatie" - bewerken van animatie `@keyframe` eigenschappen om left: te gebruiken;
++ "Verbeter de lucht" - voeg meer keyframes toe en stel achtergrond in met background:.
 + "Meer animatie" - animeer meer afbeeldingen of elementen met behulp van verschillende CSS-eigenschappen. 
 
 ## Veel Gestelde Vragen
 
 + Dit project maakt gebruik van de javascript `prefixfree.js` bibliotheek om animatiefunctionaliteit tussen browsers mogelijk te maken. Als deze bibliotheek niet wordt gebruikt, moeten kinderen die oudere browsers gebruiken in plaats daarvan een animatie voor hun browser declareren, bijvoorbeeld:
 
-    animation: sky 10s infinite;            //for all newer browsers
-    -webkit-animation: sky 10s infinite;    // For Webkit browsers(Chrome, Safari...)
-    -moz-animation: sky 10s infinite;       // For Mozilla browsers
-    -o-animation: sky 10s infinite;         // For Opera browsers
-    -ms-animation: sky 10s infinite;        // For Microsoft browsers 
+    animation: sky 10s infinite;            //voor alle nieuwe browsers
+    -webkit-animation: sky 10s infinite;    // voor Webkit browsers (Chrome, Safari...)
+    -moz-animation: sky 10s infinite;       // voor Mozilla browsers
+    -o-animation: sky 10s infinite;         // voor Opera browsers
+    -ms-animation: sky 10s infinite;        // voor Microsoft browsers 
     
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## titel: Projectmaterialen
+## title: Projectmaterialen
 
-## Project middelen
+## Projectbronnen
 
 + [.zip-bestand met alle projectbronnen](resources/sunrise-project-resources.zip)
-+ [Online Trinket met alle projectbronnen van 'Sunrise'](http://jumpto.cc/web-sunrise)
++ [Online Trinket met alle projectbronnen van 'Zonsopkomst'](http://jumpto.cc/web-sunrise)
 + [Online Trinket-sjabloon](http://jumpto.cc/trinket-template)
 + [Online lege Trinket](http://jumpto.cc/trinket-blank)
 + [template/index.html](resources/template-index.html)
@@ -109,7 +109,7 @@ Dit project behandelt elementen uit de volgende onderdelen van het [Raspberry Pi
 + [sunrise/boat.png](resources/sunrise-boat.png)
 + [sunrise/helicopter.png](resources/sunrise-helicopter.png)
 
-## Club leider middelen
+## Clubleider bronnen
 
 + [.zip-bestand met alle voltooide projectresources](resources/sunrise-volunteer-resources.zip)
 + [Online voltooid Trinket-project](https://trinket.io/html/abcc0284a3)
