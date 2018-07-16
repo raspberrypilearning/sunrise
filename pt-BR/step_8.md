@@ -1,27 +1,27 @@
 \--- challenge \---
 
-## Challenge: More animation
+## Desafio: Mais animação
 
-Can you animate another image? You can animate the position, colour, shape, size, opacity (seethroughness) or anything else you can think of. Also try changing the amount of time your animations run for.
+Você pode animar outra imagem? Você pode animar a posição, a cor, a forma, o tamanho, a opacidade (transparência) ou qualquer outra coisa em que possa pensar. Também tente alterar a quantidade de tempo que suas animações são executadas.
 
-For each item you want to animate, you will need to:
+Para cada item que você deseja animar, você precisará:
 
-+ Include it in your HTML with an id
-+ Add a style for the id
-+ Create an @keyframes rule
-+ Use `animation:` in the style to use the animation you defined with @keyframes 
++ Inclua no seu HTML com um id
++ Adicione um estilo para o id
++ Crie uma regra @keyframes
++ Use `animation: ` no estilo para usar a animação que você definiu no @keyframes 
 
-Click on the image icon to see the images that are included in the project:
+Clique no ícone da imagem para ver as imagens incluídas no projeto:
 
-![screenshot](images/sunrise-images.png)
+![captura de tela](images/sunrise-images.png)
 
-You can also upload your own images if you like.
+Você também pode enviar suas próprias imagens, se você desejar.
 
-Don't forget you can put items in the sea as well as the sky:
+Não esqueça que você pode colocar itens no mar e no céu:
 
-![screenshot](images/sunrise-boat.png)
+![captura de tela](images/sunrise-boat.png)
 
-In the example the rainbow uses opacity for a fade effect:
+No exemplo, o arco-íris usa a opacidade para ter um efeito de transparência:
 
     @keyframes fade {
       0%  
@@ -31,7 +31,7 @@ In the example the rainbow uses opacity for a fade effect:
     }
     
 
-The boat uses a negative starting position so that you can't see it for part of the animation:
+O barco usa uma posição inicial oculta para que você não possa vê-lo antes de iniciar a animação:
 
      @keyframes left-right {
       0%   
