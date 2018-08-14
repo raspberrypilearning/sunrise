@@ -8,7 +8,7 @@ Neste projeto, você aprenderá a usar CSS para criar um nascer do sol animado.
   <img src="images/sunrise-final.png">
 </div>
 
-### Informações adicionais para os líderes do clube
+### Informação adicional para líderes de clubes
 
 Se você precisar imprimir este projeto, use a [versão para impressão](https://projects.raspberrypi.org/en/projects/sunrise/print).
 
@@ -63,7 +63,7 @@ Você também pode encontrar uma versão completa dos desafios deste projeto na 
     + Introduzindo a regra `@keyframes` para definir etapas em uma animação.
     + Reforçando o uso de propriedades para definir o tamanho, forma, posição e cor dos elementos em uma página da web.
 
-Este projeto abrange elementos das seguintes vertentes do [Raspberry Pi Currículo de Criação Digital](http://rpf.io/curriculum):
+Este projeto abrange elementos das seguintes vertentes do [Currículo de Criação Digital Raspberry Pi](http://rpf.io/curriculum):
 
 + [Desenho de itens básicos 2D e 3D](https://www.raspberrypi.org/curriculum/design/creator).
 
@@ -71,9 +71,9 @@ Este projeto abrange elementos das seguintes vertentes do [Raspberry Pi Currícu
 
 + "Animação diagonal" - edição de animação `@keyframe` propriedades para usar à esquerda:;
 + "Melhore o céu" - adicione mais animações e defina o plano de fundo:.
-+ "Mais animação" - anime mais imagens ou elementos usando uma variedade de propriedades CSS. 
++ "Mais animações" - anime mais imagens ou elementos usando uma variedade de propriedades CSS. 
 
-## Perguntas mais frequentes
+## Perguntas frequentes
 
 + Este projeto faz uso da biblioteca javascript `prefixfree.js`, para permitir a compatibilidade de animação entre os navegadores. Se essa biblioteca não for usada, as crianças que usam navegadores mais antigos precisarão declarar uma animação para seu navegador, por exemplo:
 
@@ -90,7 +90,7 @@ Este projeto abrange elementos das seguintes vertentes do [Raspberry Pi Currícu
 
 ## title: Materiais para o projeto
 
-## Resursos do projeto
+## Recursos do projeto
 
 + [Arquivo .zip contendo todos os recursos do projeto](resources/sunrise-project-resources.zip)
 + [Projeto Online Trinket contendo todos os recursos do projeto 'Sol animado'](http://jumpto.cc/web-sunrise)
