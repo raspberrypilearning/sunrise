@@ -18,4 +18,4 @@ Vamos fazer a animação ficar repetindo para sempre.
     
     ![captura de tela](images/sunrise-infinite.png)
 
-+ Testando sua animação. O sol continua subindo e se deitando?
++ Testando sua animação. O sol continua subindo e se pondo?
