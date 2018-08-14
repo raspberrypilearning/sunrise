@@ -20,8 +20,8 @@ steps:
   - title: Introdução
   - title: Criando o sol
   - title: Animando o nascer do sol
-  - title: 'Desafio: Melhorar a animação'
-  - title: Animação repetitiva
-  - title: Animação do céu
+  - title: 'Desafio: Animação diagonal'
+  - title: Repetição da animação
+  - title: Animando o céu
   - title: 'Desafio: Melhorar o céu'
   - title: 'Desafio: Mais animações'
