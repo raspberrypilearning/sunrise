@@ -1,6 +1,6 @@
 \--- challenge \---
 
-## Desafio: Mais animação
+## Desafio: Mais animações
 
 Você pode animar outra imagem? Você pode animar a posição, a cor, a forma, o tamanho, a opacidade (transparência) ou qualquer outra coisa em que possa pensar. Também tente alterar a quantidade de tempo que suas animações são executadas.
 
@@ -13,13 +13,13 @@ Para cada item que você deseja animar, você precisará:
 
 Clique no ícone da imagem para ver as imagens incluídas no projeto:
 
-![captura de tela](images/sunrise-images.png)
+![screenshot](images/sunrise-images.png)
 
 Você também pode enviar suas próprias imagens, se você desejar.
 
 Não esqueça que você pode colocar itens no mar e no céu:
 
-![captura de tela](images/sunrise-boat.png)
+![screenshot](images/sunrise-boat.png)
 
 No exemplo, o arco-íris usa a opacidade para ter um efeito de transparência:
 
