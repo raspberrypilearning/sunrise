@@ -1,7 +1,7 @@
 ---
 hero_image: images/banner.png
 title: Nascer do Sol
-theme: amarelo
+theme: yellow
 duration: 2
 listed: true
 ingredient: false
@@ -11,7 +11,7 @@ description: Crie um nascer do sol animado.
 original_url: https://codeclubprojects.org/en-GB/webdev/sunrise
 interests: ''
 technologies: html-css-javascript
-site_areas: projetos
+site_areas: projects
 hardware: ''
 software: html-css-javascript
 version: 3
@@ -24,7 +24,7 @@ steps:
   - 
     title: Animando o nascer do sol
   - 
-    title: 'Desafio: melhorar a animação'
+    title: 'Desafio: Melhorar a animação'
   - 
     title: Animação repetitiva
   - 
