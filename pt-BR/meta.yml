@@ -1,3 +1,4 @@
+---
 hero_image: images/banner.png
 title: Nascer do Sol
 theme: yellow
@@ -6,7 +7,7 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-1, programming-0, phys-comp-0, manufacture-0, community-0
-description: Neste projeto, você vai aprender a usar CSS para criar um nascer do sol animado.
+description: Crie um nascer do sol animado.
 original_url: https://codeclubprojects.org/en-GB/webdev/sunrise
 interests: ''
 technologies: html-css-javascript
@@ -15,5 +16,12 @@ hardware: ''
 software: html-css-javascript
 version: 3
 last_tested: 2017-01-01
-steps: 
-- title: Nascer do Sol
+steps:
+  - title: Introdução
+  - title: Criando o sol
+  - title: Animando o nascer do sol
+  - title: 'Desafio: Melhorar a animação'
+  - title: Animação repetitiva
+  - title: Animação do céu
+  - title: 'Desafio: Melhorar o céu'
+  - title: 'Desafio: Mais animações'
