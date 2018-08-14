@@ -17,6 +17,6 @@ A animação não é apenas um movimento. Vamos animar o céu para ficar escuro 
         animation: sky 10s;
         
     
-    ![captura de tela](images/sunrise-sky.png)
+    ![screenshot](images/sunrise-sky.png)
 
 + Clique **Autorun** para testar sua animação.
