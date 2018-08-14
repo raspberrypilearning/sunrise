@@ -22,7 +22,7 @@ Para fazer isso, você define uma lista de **key frames**. Cada key frame define
     
     Adicione o código destacado do CSS no seu sol:
     
-    ![captura de tela](images/sunrise-sunrise.png)
+    ![screenshot](images/sunrise-sunrise.png)
     
     Isso irá dizer para o sol ficar 10 segundos animando o amanhecer.
 
