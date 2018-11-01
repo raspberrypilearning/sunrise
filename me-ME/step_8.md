@@ -1,27 +1,27 @@
 \--- challenge \---
 
-## Challenge: More animation
+## Izazov: Više animacije
 
-Can you animate another image? You can animate the position, colour, shape, size, opacity (seethroughness) or anything else you can think of. Also try changing the amount of time your animations run for.
+Da li možeš da animiraš neku drugu sliku? Možeš da animiraš njenu poziciju, boju, oblik, veličinu, neprozirnost (providnost) ili bilo šta drugo čega možeš se sjetiš. Takođe probaj da mijenjaš vrijeme trajanja svojih animacija.
 
-For each item you want to animate, you will need to:
+Za svaki elemenat koji želiš da animiraš biće potrebno da:
 
-+ Include it in your HTML with an id
-+ Add a style for the id
-+ Create an @keyframes rule
-+ Use `animation:` in the style to use the animation you defined with @keyframes 
++ Dodaš elemenat sa identifikatorom (id) u svoj HTML
++ Dodaš stil za id
++ Kreiraš @keyframes pravilo
++ Upotrijebiš `animation:` u stilu za korišćenje animacije koju si definisao/definisala sa @keyframes 
 
-Click on the image icon to see the images that are included in the project:
+Klikni na ikonu za slike da pregledaš slike koje sadrži projekat:
 
 ![screenshot](images/sunrise-images.png)
 
-You can also upload your own images if you like.
+Ako želiš, možeš takođe da preneseš svoje slike.
 
-Don't forget you can put items in the sea as well as the sky:
+Ne zaboravi da elemente možeš da postaviš na more, kao i na nebo:
 
 ![screenshot](images/sunrise-boat.png)
 
-In the example the rainbow uses opacity for a fade effect:
+U primjeru se za dugu koristi opacity (providnost) kako bi se postigao efekat postepenog nestajanja (fade effect):
 
     @keyframes fade {
       0%  
@@ -31,7 +31,7 @@ In the example the rainbow uses opacity for a fade effect:
     }
     
 
-The boat uses a negative starting position so that you can't see it for part of the animation:
+Za brod se koristi negativna početna pozicija, tako da se brod ne vidi u jednom dijelu animacije:
 
      @keyframes left-right {
       0%   
