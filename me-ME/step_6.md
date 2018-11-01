@@ -1,8 +1,8 @@
-## Animating the sky
+## Animacija neba
 
-Animation isn't just for movement. Let's animate the sky to turn dark at night.
+Animacija ne služi samo za kretanje. Animirajmo nebo tako da noću potamni.
 
-+ Add an animation called `sky` to your CSS:
++ Svom CSS-u dodaj animaciju pod nazivom `sky` (nebo):
     
         @keyframes sky {
             0%
@@ -10,13 +10,13 @@ Animation isn't just for movement. Let's animate the sky to turn dark at night.
         }
         
     
-    Notice that this time you're animating the colour of the sky, and not the position.
+    Imaj u vidu da ovaj put animiraš boju neba, a ne njegovu poziciju.
 
-+ Add code to your sky, to tell it to use your new animation:
++ Svom nebu dodaj kôd, kako bi moglo da koristi tvoju novu animaciju:
     
         animation: sky 10s;
         
     
     ![screenshot](images/sunrise-sky.png)
 
-+ Click **Autorun** to test your animation.
++ Klikni na **Autorun** da isprobaš svoju animaciju.
