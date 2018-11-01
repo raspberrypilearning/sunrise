@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: Improve the sky
+## 과제: 하늘 애니메이션 발전시키기
 
-Can you change the sky animation so that it matches the sun and stays blue during the day and returns to black as the sun sets. Make it loop forever too.
+하늘 애니메이션을 수정하여 해가 뜨면 하늘이 밝아지고 해가 지면 하늘이 어두워지도록 만들어 봅시다. 이 코드도 마찬가지로 무한번 돌도록 만들어 봅시다!
 
-![screenshot](images/sunrise-sky-challenge.png)
+![스크린샷](images/sunrise-sky-challenge.png)
 
 \--- /challenge \---
