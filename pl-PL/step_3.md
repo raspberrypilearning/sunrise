@@ -1,12 +1,12 @@
-## Animating the sunrise
+## Animacja wschodzącego słońca
 
-To animate your sunrise, you need to define how the sun moves and how long it takes to rise.
+Aby stworzyć animację słońca, musisz najpierw określić, jak słońce porusza się po niebie i ile czasu zajmuje jego wschód.
 
-To do this you define a list of **key frames**. Each key frame defines the CSS properties of an element at a particular point in an animation.
+Żeby to zrobić, musisz zdefiniować listę **key frames**. Każda klatka definiuje właściwości CSS danego elementu w konkretnym momencie animacji.
 
-+ First, you need to use `@keyframes` to create a new animation called sunrise.
++ Na początku musisz użyć `@keyframes`, by zdefiniować nową animację nazwaną “sunrise” (ang. wschód słońca).
     
-    Add this CSS code to the end of your `style.css` file:
+    Dodaj ten kod CSS na końcu swojego pliku `style.css`:
     
         @keyframes sunrise {
             0%
@@ -14,16 +14,16 @@ To do this you define a list of **key frames**. Each key frame defines the CSS p
         }
         
     
-    This code tells the sun where to position itself at the start (`0%`) and the end (`100%`) of the animation.
+    Ten kod mówi słońcu, w którym miejscu ma się znajdować na początku (`0%`) i przy końcu (`100%`) animacji.
     
-    Because the sun is inside the sky `div`, the `top` and `left` positions you give are within to the sky, with `top: 100%` being the bottom of the sky, and not the bottom of the webpage.
+    Ponieważ słońce jest wewnątrz `div` nieba, pozycje, które nadajesz (`top` i `left`) znajdują się w zakresie nieba, gdzie `top: 100%` to spód nieba, a nie strony internetowej.
 
-+ Now that you have created a `sunrise` animation, you just need to tell your sun to use it!
++ Teraz, skoro twoja animacja `sunrise` jest gotowa, musisz powiedzieć swojemu słońcu, aby z niej skorzystało!
     
-    Add the highlighted code to your sun's CSS:
+    Dodaj podkreślony fragment kodu do kodu CSS słońca:
     
-    ![screenshot](images/sunrise-sunrise.png)
+    ![zrzut ekranu](images/sunrise-sunrise.png)
     
-    This tells the sun to spend 10 seconds animating a sunrise.
+    Dzięki temu słońce wie, że animacja wschodu powinna trwać 10 sekund.
 
-+ To run the animation again in Trinket, just click **Autorun**.
++ Aby uruchomić animację po raz kolejny w edytorze, kliknij **Autorun**.
