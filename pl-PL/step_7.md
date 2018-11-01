@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: Improve the sky
+## Wyzwanie: Popraw niebo
 
-Can you change the sky animation so that it matches the sun and stays blue during the day and returns to black as the sun sets. Make it loop forever too.
+Czy jesteś w stanie zmienić animację nieba tak, aby pasowała do słońca i pozostawała niebieska za dnia, a przechodziła w czarny kiedy słońce zachodzi. Zapętl stworzoną animację w nieskończoność.
 
-![screenshot](images/sunrise-sky-challenge.png)
+![zrzut ekranu](images/sunrise-sky-challenge.png)
 
 \--- /challenge \---
