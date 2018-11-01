@@ -1,14 +1,14 @@
 \--- challenge \---
 
-## Challenge: Diagonal animation
+## Wyzwanie: Animacja po przekątnej
 
-Can you add code to your `sunrise` animation, to make your sun start at the bottom left of the sky and move diagonally to its position at roughly the top center?
+Czy jesteś wstanie dodać kod do swojej animacji `sunrise`, aby słońce zaczęło wschodzić w dolnej lewej części nieba i przesunęło się po przekątnej do swojej pozycji mniej więcej u góry pośrodku nieba?
 
-You can use the `left` property to do this, for example:
+Możesz użyć do tego właściwości `left`, na przykład:
 
     left: 40%;
     
 
-![screenshot](images/sunrise-left.png)
+![zrzut ekranu](images/sunrise-left.png)
 
 \--- /challenge \---
