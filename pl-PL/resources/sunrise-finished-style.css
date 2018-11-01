@@ -33,10 +33,10 @@ html {
 
 #sun {
   position: absolute;
+  position: absolute;
   left: 0;
   top: 120%;
   width: 100px;
-  height: 100px;
   animation: sunrise 10s infinite;
 }
 
