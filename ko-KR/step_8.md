@@ -1,27 +1,27 @@
 \--- challenge \---
 
-## Challenge: More animation
+## 과제: 더 많은 애니메이션 추가하기
 
-Can you animate another image? You can animate the position, colour, shape, size, opacity (seethroughness) or anything else you can think of. Also try changing the amount of time your animations run for.
+다른 이미지를 활용하여 애니메이션을 만들 수 있나요? 포지션, 색깔, 사이즈, 모양 등을 애니메이션화 할 수 있습니다. 그리고 애니메이션이 실행되는 시간도 변경해 보십시오.
 
-For each item you want to animate, you will need to:
+애니메이션을 적용하려는 각 항목에 대해 다음을 수행해야 합니다.
 
-+ Include it in your HTML with an id
-+ Add a style for the id
-+ Create an @keyframes rule
-+ Use `animation:` in the style to use the animation you defined with @keyframes 
++ HTML에 ID 부여
++ ID에 대한 Style 추가
++ @keyframes 규칙 추가
++ `animation` 코드: @keyframes 규칙으로 정의된 애니메이션 사용 
 
-Click on the image icon to see the images that are included in the project:
+이미지 아이콘을 클릭해 어떤 이미지들이 프로젝트에 포함되어 있는지 확인하십시오.
 
-![screenshot](images/sunrise-images.png)
+![스크린샷](images/sunrise-images.png)
 
-You can also upload your own images if you like.
+만약 사용하고자 하는 이미지가 있다면 업로드하셔도 좋습니다.
 
-Don't forget you can put items in the sea as well as the sky:
+하늘과 바다랑 어울리게 이미지 배치를 하도록 합니다.
 
-![screenshot](images/sunrise-boat.png)
+![스크린샷](images/sunrise-boat.png)
 
-In the example the rainbow uses opacity for a fade effect:
+무지개의 경우에는 페이드 효과를 아래와 같이 줄 수 있습니다.
 
     @keyframes fade {
       0%  
@@ -31,7 +31,7 @@ In the example the rainbow uses opacity for a fade effect:
     }
     
 
-The boat uses a negative starting position so that you can't see it for part of the animation:
+보트는 음의 시작 위치를 사용하여 애니메이션이 실행되기 전까지는 보트를 볼 수 없습니다.
 
      @keyframes left-right {
       0%   
