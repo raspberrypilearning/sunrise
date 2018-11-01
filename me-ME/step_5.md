@@ -1,8 +1,8 @@
-## Infinite animation
+## Neprekidna animacija
 
-Let's make the animation keep repeating forever.
+Napravimo da se animacija neprestano ponavlja.
 
-+ If you want the sun to rise and then set, just add more keyframes to your animation:
++ Ako želiš da sunce izađe, a zatim zađe, treba samo da dodaš još ključnih kadrova (keyframes) u svoju animaciju:
     
         @keyframes sunrise {
             0%  
@@ -12,10 +12,10 @@ Let's make the animation keep repeating forever.
         }
         
     
-    This means that the animation starts and ends with the sun at the bottom of the sky, and stays at the top from 33% until 66% of the animation.
+    To znači da animacija počinje i završava se sa suncem na dnu neba, a da sunce ostaje na vrhu neba od 33% do 66% animacije.
 
-+ Now you just need to add the word `infinite` to the `#sun` animation to make it loop forever:
++ Sada samo treba da animaciji `#sun` dodaš riječ `infinite` kako bi se neprestano ponavljala:
     
     ![screenshot](images/sunrise-infinite.png)
 
-+ Test out your animation. Does the sun keep rising and setting?
++ Isprobaj svoju animaciju. Da li sunce neprestano izlazi i zalazi?
