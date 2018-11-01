@@ -1,8 +1,8 @@
-## Infinite animation
+## Niekończąca się animacja
 
-Let's make the animation keep repeating forever.
+Sprawmy, aby animacja powtarzała się bez końca.
 
-+ If you want the sun to rise and then set, just add more keyframes to your animation:
++ Jeśli chcesz, żeby słońce wschodziło, a następnie zachodziło, dodaj więcej klatek kluczowych do swojej animacji:
     
         @keyframes sunrise {
             0%  
@@ -12,10 +12,10 @@ Let's make the animation keep repeating forever.
         }
         
     
-    This means that the animation starts and ends with the sun at the bottom of the sky, and stays at the top from 33% until 66% of the animation.
+    To oznacza, że na początku i na końcu animacji słońce znajduje się u dołu nieba, a na górze pomiędzy 33% a 66% czasu trwania animacji.
 
-+ Now you just need to add the word `infinite` to the `#sun` animation to make it loop forever:
++ Teraz musisz jedynie dodać słowo `infinite` do animacji słońca, aby animacja powtarzała się w kółko:
     
-    ![screenshot](images/sunrise-infinite.png)
+    ![zrzut ekranu](images/sunrise-infinite.png)
 
-+ Test out your animation. Does the sun keep rising and setting?
++ Przetestuj swoją animację. Czy słońce wznosi się i opada?
