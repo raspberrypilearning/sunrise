@@ -352,13 +352,13 @@ var self = window.PrefixFree = {
  **************************************/
 (function() {
 // Values that might need prefixing
-var functions = {
-	'linear-gradient': {
+// Values that might need prefixing
+	var functions = {
+		'linear-gradient': {
 		property: 'backgroundImage',
-		params: 'red, teal'
+	params: 'red, teal'
 	},
-	'calc': {
-		property: 'width',
+		'calc': {
 		params: '1px + 5%'
 	},
 	'element': {
