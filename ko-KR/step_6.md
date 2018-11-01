@@ -1,8 +1,8 @@
-## Animating the sky
+## 애니메이션을 하늘에 적용하기
 
-Animation isn't just for movement. Let's animate the sky to turn dark at night.
+애니메이션은 단순히 사물을 움직이는 것만이 아닙니다. 하늘을 어둡게 밤처럼 만들어 봅시다.
 
-+ Add an animation called `sky` to your CSS:
++ `sky` 라는 이름을 가진 애니메이션을 CSS 코드에 추가합니다.
     
         @keyframes sky {
             0%
@@ -10,13 +10,13 @@ Animation isn't just for movement. Let's animate the sky to turn dark at night.
         }
         
     
-    Notice that this time you're animating the colour of the sky, and not the position.
+    이번에는 하늘의 포지션을 움직이는 것이 아닌, 단순히 색깔을 바꾸는 것에 유의하십시오.
 
-+ Add code to your sky, to tell it to use your new animation:
++ 아래 코드를 sky에 추가하여 지금 만든 애니메이션을 사용하겠다고 정의하세요.
     
         animation: sky 10s;
         
     
-    ![screenshot](images/sunrise-sky.png)
+    ![스크린샷](images/sunrise-sky.png)
 
-+ Click **Autorun** to test your animation.
++ **Autorun**을 눌러 애니메이션을 테스트해 보세요.
