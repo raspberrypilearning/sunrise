@@ -1,8 +1,8 @@
-## Infinite animation
+## 애니메이션 무한 반복
 
-Let's make the animation keep repeating forever.
+이번에는 제작한 애니메이션을 한번만 실행되도록 하는 것이 아닌, 무한번 실행되도록 만들어 봅시다.
 
-+ If you want the sun to rise and then set, just add more keyframes to your animation:
++ 만약에 해가 뜨고, 지는 애니메이션을 만들고 싶다면, 아래와 같이 더 많은 keyframes를 추가하면 됩니다.
     
         @keyframes sunrise {
             0%  
@@ -12,10 +12,10 @@ Let's make the animation keep repeating forever.
         }
         
     
-    This means that the animation starts and ends with the sun at the bottom of the sky, and stays at the top from 33% until 66% of the animation.
+    이 코드는 해가 뜨고 지는 것을 반복한 것으로, 애니메이션을 동이 틈(0%), 한낮(33%, 66%), 해가 짐(100%)로 설정한 것입니다.
 
-+ Now you just need to add the word `infinite` to the `#sun` animation to make it loop forever:
++ 이제 아래와 같이 `#sun`의 animation 코드에 `infinite`만 추가하면 무한번 애니메이션이 반복됩니다.
     
-    ![screenshot](images/sunrise-infinite.png)
+    ![스크린샷](images/sunrise-infinite.png)
 
-+ Test out your animation. Does the sun keep rising and setting?
++ 애니메이션을 테스트해 보세요. 해가 계속 뜨고 지나요?
