@@ -1,14 +1,14 @@
-## Creating the sun
+## Stworzenie słońca
 
-Let's start by adding an image for the sun and positioning it with some CSS.
+Zacznijmy od dodania obrazka ze słońcem i ustawienia go w odpowiednim miejscu z pomocą CSS.
 
-+ Open this trinket: <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto.cc/web-sunrise</a>.
++ Otwórz edytor: <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto. cc/web-sunrise</a>.
     
-    The project should look like this:
+    Twój projekt powinien wyglądać następująco:
     
-    ![screenshot](images/sunrise-starter.png)
+    ![zrzut ekranu](images/sunrise-starter.png)
 
-+ Look inside the `body` of your `index.html` file and you'll find the the `div` elements for the sky and the sea.
++ W znaczniku `body` jest plik `index. html`, w którym znajdziesz dwa elementy `div`, które będą ci potrzebne: niebo (ang. sky) oraz morze (ang. sea).
     
         <div id="sky">
         </div>
@@ -17,18 +17,18 @@ Let's start by adding an image for the sun and positioning it with some CSS.
         </div>
         
 
-+ An image for the sun is already included in your project.
++ Obrazek słońca jest już dodany do projektu.
     
-    Add the image inside your sun `div` including an id so you can style it:
+    Dodaj do elementu `div` nazwanego <0>sun</0> kod, który wyświetli obrazek. Nadaj mu identyfikator, aby za chwilę móc go stylizować:
     
-    ![screenshot](images/sunrise-sun-image.png)
+    ![zrzut ekranu](images/sunrise-sun-image.png)
 
-+ Whoa, the image is huge. Go to `style.css` and add the CSS to set the image height:
++ Oho, twój obrazek jest ogromny. Zajrzyj do pliku `style. css` i dodaj kod CSS, aby ustawić wysokość obrazka:
     
-    ![screenshot](images/sunrise-sun-height.png)
+    ![zrzut ekranu](images/sunrise-sun-height.png)
     
-    Note that the width is updated automatically to keep the proportions the same.
+    Zauważ, że szerokość obrazka jest ustawiana automatycznie, aby proporcje zostały zachowane.
 
-+ Finally, let's add some code to position the sun:
++ Na koniec dodajmy kod, aby określić położenie słońca:
     
-    ![screenshot](images/sunrise-sun-position.png)
+    ![zrzut ekranu](images/sunrise-sun-position.png)
