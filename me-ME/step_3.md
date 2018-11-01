@@ -1,12 +1,12 @@
-## Animating the sunrise
+## Animacija izlaska sunca
 
-To animate your sunrise, you need to define how the sun moves and how long it takes to rise.
+Za animaciju izlaska sunca potrebno je da odrediš kako se sunce kreće i koliko vremena je potrebno da izađe.
 
-To do this you define a list of **key frames**. Each key frame defines the CSS properties of an element at a particular point in an animation.
+Da bismo to uradili, potrebno je da definišemo **key frames** listu (listu ključnih kadrova). Svaki key frame (ključni kadar) definiše CSS svojstva pojedinog elementa u određenom trenutku animacije.
 
-+ First, you need to use `@keyframes` to create a new animation called sunrise.
++ Prvo treba da upotrijebiš `@keyframes` za kreiranje nove animacije pod nazivom 'sunrise' (izlazak sunca).
     
-    Add this CSS code to the end of your `style.css` file:
+    Dodaj sljedeći CSS kôd na kraju svoje `style.css` datoteke:
     
         @keyframes sunrise {
             0%
@@ -14,16 +14,16 @@ To do this you define a list of **key frames**. Each key frame defines the CSS p
         }
         
     
-    This code tells the sun where to position itself at the start (`0%`) and the end (`100%`) of the animation.
+    Ovaj kôd određuje poziciju sunca na početku (`0%`) i na kraju (`100%`) animacije.
     
-    Because the sun is inside the sky `div`, the `top` and `left` positions you give are within to the sky, with `top: 100%` being the bottom of the sky, and not the bottom of the webpage.
+    Pošto se sunce nalazi unutar `div` za nebo (sky), pozicije `top` (gore) i `left` (lijevo) koje zadaješ su unutar neba, što znači da je `top: 100%` dno neba, a ne dno veb-stranice. 
 
-+ Now that you have created a `sunrise` animation, you just need to tell your sun to use it!
++ Sada kada smo kreirali animaciju `sunrise` (izlazak sunca), potrebno je samo da kažeš suncu da je koristi!
     
-    Add the highlighted code to your sun's CSS:
+    Dodaj označeni kôd CSS-u za sunce:
     
     ![screenshot](images/sunrise-sunrise.png)
     
-    This tells the sun to spend 10 seconds animating a sunrise.
+    Ovaj kôd govori suncu da animira svoj izlazak u trajanju od 10 sekundi.
 
-+ To run the animation again in Trinket, just click **Autorun**.
++ Da ponovo pokreneš animaciju u Trinketu, samo klikni na **Autorun**.
