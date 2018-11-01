@@ -1,14 +1,14 @@
-## Creating the sun
+## 해 만들기
 
-Let's start by adding an image for the sun and positioning it with some CSS.
+해 이미지를 삽입하고, CSS로 포지션을 잡아 보도록 하겠습니다.
 
-+ Open this trinket: <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto.cc/web-sunrise</a>.
++ 다음 Trinket 파일을 열어주세요. <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto.cc/web-sunrise</a>.
     
-    The project should look like this:
+    프로젝트는 아래와 같이 보일 것입니다:
     
-    ![screenshot](images/sunrise-starter.png)
+    ![스크린샷](images/sunrise-starter.png)
 
-+ Look inside the `body` of your `index.html` file and you'll find the the `div` elements for the sky and the sea.
++ `index.html`의 `body`에서 sky, sea에 대한 `div` 요소를 찾아 보세요.
     
         <div id="sky">
         </div>
@@ -17,18 +17,18 @@ Let's start by adding an image for the sun and positioning it with some CSS.
         </div>
         
 
-+ An image for the sun is already included in your project.
++ 해 이미지는 이미 프로젝트에 추가되어 있습니다.
     
-    Add the image inside your sun `div` including an id so you can style it:
+    `div` 내에 이미지를 삽입하고, 아래와 같이 이미지에 대한 id를 지정하여 스타일링할 수 있도록 합니다.
     
-    ![screenshot](images/sunrise-sun-image.png)
+    ![스크린샷](images/sunrise-sun-image.png)
 
-+ Whoa, the image is huge. Go to `style.css` and add the CSS to set the image height:
++ 헉, 이미지가 너무 크네요. `style.css` 파일에서 이미지 높이를 수정해 봅시다.
     
-    ![screenshot](images/sunrise-sun-height.png)
+    ![스크린샷](images/sunrise-sun-height.png)
     
-    Note that the width is updated automatically to keep the proportions the same.
+    너비는 자동으로 업데이트되어 비율이 동일하게 유지됩니다.
 
-+ Finally, let's add some code to position the sun:
++ 마지막으로, 해의 위치를 지정하는 코드를 추가해 봅시다.
     
-    ![screenshot](images/sunrise-sun-position.png)
+    ![스크린샷](images/sunrise-sun-position.png)
