@@ -1,8 +1,8 @@
 \--- challenge \---
 
-## Challenge: Improve the sky
+## Izazov: Poboljšaj nebo
 
-Can you change the sky animation so that it matches the sun and stays blue during the day and returns to black as the sun sets. Make it loop forever too.
+Da li možeš da izmijeniš animaciju neba tako da je prilagođeno suncu i da ostaje plavo tokom dana, a ponovo potamni kada sunce zađe. Napravi i da se animacija neprestano ponavlja.
 
 ![screenshot](images/sunrise-sky-challenge.png)
 
