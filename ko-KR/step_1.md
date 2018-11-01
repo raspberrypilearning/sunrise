@@ -1,6 +1,6 @@
-## Introduction
+## 소개
 
-In this project, you'll learn how to use CSS to create an animated sunrise.
+이 프로젝트에서는 CSS를 사용하여 해가 뜨고 지는 애니메이션을 만들어 볼 것입니다.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/html/abcc0284a3?outputOnly=true&start=result" width="600" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -8,33 +8,33 @@ In this project, you'll learn how to use CSS to create an animated sunrise.
   <img src="images/sunrise-final.png">
 </div>
 
-### Additional information for club leaders
+### 교육자들을 위한 추가 정보
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/sunrise/print).
+이 프로젝트를 인쇄하려면 [프린트용 문서](https://projects.raspberrypi.org/en/projects/sunrise/print)를 사용하십시오.
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: 교육자들을 위한 메모
 
-## Introduction:
+## 들어가며:
 
-In this project, children will to learn how to animate a simple scene using CSS. They will use the CSS @keyframes rule to animate various properties of images and divs.
+이 프로젝트에서 학생들은 CSS를 활용하여 간단한 장면을 애니메이션으로 만드는 방법을 익히게 됩니다. 학생들은 CSS의 @keyframes 규칙을 사용하여 다양한 옵션을 애니메이션에 부여하는 방법을 익히게 됩니다.
 
-## Online Resources
+## 온라인 자료
 
-We recommend using [trinket](https://trinket.io/) to write HTML & CSS online. This project contains the following trinkets:
+이 자료에서는 [Trinket](https://trinket.io/)을 사용하여 HTML & CSS를 온라인으로 편집할 것을 권장합니다. 이 프로젝트에 포함된 Trinket은 다음과 같습니다:
 
-+ ['Sunrise' starting point](https://trinket.io/html/web-sunrise)
++ ['썬라이즈' 시작](https://trinket.io/html/web-sunrise)
 
-Children can also make use of this blank trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) to write their own HTML & CSS, or alternatively they can use this template trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
+학생들은 새로운 Trinket을 사용할 수 있으며 [(jumpto.cc/html-black)](http://jumpto.cc/html-blank) 이를 통해 자신만의 HTML과 CSS 코드를 사용하는 방법을 배울 수 있습니다. 또한, 템플릿이 제공된 Trinket을 사용할 수 있습니다. [(jumpto.cc/html-template)](http://jumpto.cc/html-template)
 
-There is also a trinket containing a sample solution to the challenges:
+프로젝트의 샘플 정답이 다음 Trinket에 있습니다.
 
-+ ['Sunrise' Finished](https://trinket.io/html/abcc0284a3)
++ ['썬라이즈' 끝](https://trinket.io/html/abcc0284a3)
 
-## Offline Resources
+## 오프라인 자료
 
-This project can be [completed offline](../offline.html) if preferred. You can access the project resources by clicking the 'Download Project Materials' link for this project. This link contains a 'Project Resources' folder, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This folder includes the following files:
+여러분의 선호에 따라 프로젝트를 [오프라인에서 완성](../offline.html)할 수 있습니다. 'Download Project Materials' 라는 링크를 클릭하여 이 프로젝트의 자료를 확인해볼 수 있습니다. 이 링크에는 학생들이 프로젝트를 오프라인으로 완료하는 데 필요한 자료가 포함된 'Project Resource' 폴더가 있습니다. 학생들이 자료의 사본에 접근할 수 있는지 확인하십시오. 이 섹션에는 아래와 같은 파일들이 포함되어 있습니다.
 
 + template/index.html
 + template/prefix.js
@@ -48,7 +48,7 @@ This project can be [completed offline](../offline.html) if preferred. You can a
 + sunrise/rainbow.png
 + sunrise/sun.png
 
-You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
+이 프로젝트의 완성된 버전은 'Volunteer Resources' 섹션에서 찾을 수 있습니다. 다음 파일이 있습니다:
 
 + sunrise-finished/index.html
 + sunrise-finished/style.css
@@ -57,45 +57,45 @@ You can also find a completed version of this project's challenges in the 'Volun
 + sunrise-finished/sun.png
 + sunrise-finished/rainbow.png
 
-## Learning Objectives
+## 학습 목표
 
-+ Styling and animation with CSS: 
-    + Introducing `@keyframes` rule for defining steps in an animation.
-    + Reinforcing the use of properties to define the size, shape, position and colour of elements on a webpage.
++ CSS에서 애니메이션과 스타일링 구현 
+    + `@keyframes` 규칙 소개
+    + 웹 페이지의 요소 크기, 모양, 위치 및 색상을 정의
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+이 프로젝트는 [라즈베리파이 디지털 메이킹 커리큘럼](http://rpf.io/curriculum) 중 아래의 과정에 있는 요소들을 다룹니다.
 
-+ [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator).
++ [2D와 3D 디자인](https://www.raspberrypi.org/curriculum/design/creator)
 
-## Challenges
+## 도전과제
 
-+ "Diagonal animation" - editing animation `@keyframe` properties to use left:;
-+ "Improve the sky" - add more keyframes and setting background:.
-+ "More animation" - animate more images or elements using a variety of CSS properties. 
++ "각도를 반영한 애니메이션" - `@keyframe`을 사용해서 애니메이션 수정
++ "낮과 밤" - keyframes 규칙을 수정하여 배경을 수정
++ "더 많은 애니메이션" - 더 많은 이미지를 추가하여 애니메이션 구현 
 
-## Frequently Asked Questions
+## 자주 물어보는 질문
 
-+ This project makes use of the javascript `prefixfree.js` library, to allow animation compatibility between browsers. If this library isn't used, then children using older browsers will instead need to declare an animation for their browser, for example:
++ 이 프로젝트에서는 브라우저간 애니메이션이 호환되도록 하기 위해 자바스크립트 `prefixfree.js` 라이브러리를 사용합니다. 만약, 이 라이브러리를 사용하지 않는다면, 옛날 브라우저를 사용하는 학생들은 아래와 같이 어떤 브라우저를 사용하는지 명시해야 합니다.
 
-    animation: sky 10s infinite;            //for all newer browsers
-    -webkit-animation: sky 10s infinite;    // For Webkit browsers(Chrome, Safari...)
-    -moz-animation: sky 10s infinite;       // For Mozilla browsers
-    -o-animation: sky 10s infinite;         // For Opera browsers
-    -ms-animation: sky 10s infinite;        // For Microsoft browsers 
+    animation: sky 10s infinite;            // 최신 브라우저
+    -webkit-animation: sky 10s infinite;    // 웹킷 브라우저(크롬, 사파리 등)
+    -moz-animation: sky 10s infinite;       // 모질라 브라우저
+    -o-animation: sky 10s infinite;         // 오페라 브라우저
+    -ms-animation: sky 10s infinite;        // 마이크로소프트 브라우저 
     
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: 프로젝트 자료
 
-## Project resources
+## 프로젝트 리소스
 
-+ [.zip file containing all project resources](resources/sunrise-project-resources.zip)
-+ [Online Trinket containing all 'Sunrise' project resources](http://jumpto.cc/web-sunrise)
-+ [Online Trinket template](http://jumpto.cc/trinket-template)
-+ [Online blank Trinket](http://jumpto.cc/trinket-blank)
++ [프로젝트의 모든 리소스가 들어있는 .zip 파일](resources/sunrise-project-resources.zip)
++ [썬라이즈 프로젝트 자료가 포함된 온라인 Trinket](http://jumpto.cc/web-sunrise)
++ [온라인 Trinket 템플릿](http://jumpto.cc/trinket-template)
++ [빈 Trinket](http://jumpto.cc/trinket-blank)
 + [template/index.html](resources/template-index.html)
 + [template/style.css](resources/template-style.css)
 + [intro/index.html](resources/intro-index.html)
@@ -109,10 +109,10 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 + [sunrise/boat.png](resources/sunrise-boat.png)
 + [sunrise/helicopter.png](resources/sunrise-helicopter.png)
 
-## Club leader resources
+## 교육자를 위한 자료
 
-+ [.zip file containing all completed project resources](resources/sunrise-volunteer-resources.zip)
-+ [Online completed Trinket project](https://trinket.io/html/abcc0284a3)
++ [완료된 프로젝트 리소스가 담긴 .zip 파일](resources/sunrise-volunteer-resources.zip)
++ [완성된 온라인 Trinket 프로젝트](https://trinket.io/html/abcc0284a3)
 + [sunrise-finished/index.html](resources/sunrise-finished-index.html)
 + [sunrise-finished/style.css](resources/sunrise-finished-style.css)
 + [sunrise-finished/prefixfree.js](resources/sunrise-finished-prefixfree.js)
