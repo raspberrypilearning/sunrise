@@ -1,27 +1,27 @@
 \--- challenge \---
 
-## Challenge: More animation
+## Wyzwanie: Więcej animacji
 
-Can you animate another image? You can animate the position, colour, shape, size, opacity (seethroughness) or anything else you can think of. Also try changing the amount of time your animations run for.
+Czy potrafisz stworzyć animację kolejnego obrazka? Możesz wybrać, co chcesz animować, czy to pozycję, kolor, kształt, rozmiar, przezroczystość. Spróbuj zmieniać również czas trwania twoich animacji.
 
-For each item you want to animate, you will need to:
+W przypadku każdego elementu, który chcesz animować, musisz:
 
-+ Include it in your HTML with an id
-+ Add a style for the id
-+ Create an @keyframes rule
-+ Use `animation:` in the style to use the animation you defined with @keyframes 
++ Dodać w kodzie HTML identyfikator
++ Dodać styl CSS do elementu z identyfikatorem
++ Stworzyć definicję klatek przy wykorzystaniu zasady @keyframes
++ Użyć właściwości `animation: ` w stylu, który został przez ciebie zdefiniowany przy użyciu @keyframes 
 
-Click on the image icon to see the images that are included in the project:
+Kliknij na ikonę obrazka, żeby zobaczyć obrazki już dodane do projektu:
 
-![screenshot](images/sunrise-images.png)
+![zrzut ekranu](images/sunrise-images.png)
 
-You can also upload your own images if you like.
+Możesz dodać własne obrazki, jeśli chcesz.
 
-Don't forget you can put items in the sea as well as the sky:
+Nie zapomnij, że możesz dodawać elementy na morzu, jak i na niebie:
 
-![screenshot](images/sunrise-boat.png)
+![zrzut ekranu](images/sunrise-boat.png)
 
-In the example the rainbow uses opacity for a fade effect:
+W przypadku animacji tęczy, wykorzystamy przezroczystość, aby stworzyć efekt rozmycia:
 
     @keyframes fade {
       0%  
@@ -31,7 +31,7 @@ In the example the rainbow uses opacity for a fade effect:
     }
     
 
-The boat uses a negative starting position so that you can't see it for part of the animation:
+Łódka znajduje się w ujemnej pozycji początkowej, tak, aby nie była widoczna w pierwszej części animacji:
 
      @keyframes left-right {
       0%   
