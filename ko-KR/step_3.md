@@ -1,12 +1,12 @@
-## Animating the sunrise
+## 썬라이즈 애니메이션
 
-To animate your sunrise, you need to define how the sun moves and how long it takes to rise.
+해가 뜨는 것을 애니메이션으로 만들어 봅시다. 그러기 위해서는 해가 어디로 이동하는지, 뜨는 데 얼마나 걸리는 지 등을 지정해야 합니다.
 
-To do this you define a list of **key frames**. Each key frame defines the CSS properties of an element at a particular point in an animation.
+이러한 일을 할 때 **key frames** 리스트를 정의해야 합니다. 각 key frame은 애니메이션의 특정 지점에서 요소의 CSS 속성을 정의합니다.
 
-+ First, you need to use `@keyframes` to create a new animation called sunrise.
++ 먼저, `@keyframes`을 사용하여 sunrise 애니메이션을 정의합니다.
     
-    Add this CSS code to the end of your `style.css` file:
+    아래 CSS 코드를 `style.css` 끝 부분에 추가합니다.
     
         @keyframes sunrise {
             0%
@@ -14,16 +14,16 @@ To do this you define a list of **key frames**. Each key frame defines the CSS p
         }
         
     
-    This code tells the sun where to position itself at the start (`0%`) and the end (`100%`) of the animation.
+    이 코드는 해 애니메이션의 시작점(`0%`) 과 끝점(`100%`) 포지션을 지정하는 용도로 사용됩니다.
     
-    Because the sun is inside the sky `div`, the `top` and `left` positions you give are within to the sky, with `top: 100%` being the bottom of the sky, and not the bottom of the webpage.
+    해가 하늘에서 뜨지 않은 초기 상태에, `div` 내 `top`, `left` 포지션에는 해가 하늘 안에 있다라는 위치정보가 지정되어 있습니다. 애니메이션이 실행되면서 `top: 100%`까지 해가 올라가게 되어, 해가 눈에 보이게 되는 것입니다.
 
-+ Now that you have created a `sunrise` animation, you just need to tell your sun to use it!
++ 이제 `sunrise` 애니메이션을 만들었으니, 사용하라는 명령만 내리면 됩니다!
     
-    Add the highlighted code to your sun's CSS:
+    아래 강조된 코드를 sun에 추가합니다.
     
-    ![screenshot](images/sunrise-sunrise.png)
+    ![스크린샷](images/sunrise-sunrise.png)
     
-    This tells the sun to spend 10 seconds animating a sunrise.
+    이 코드는 애니메이션을 실행하는데 10초가 걸리도록 지정하는 코드입니다.
 
-+ To run the animation again in Trinket, just click **Autorun**.
++ 애니메이션을 다시 실행하고 싶다면 **Autorun**을 누릅니다.
