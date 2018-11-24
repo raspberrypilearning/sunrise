@@ -1,4 +1,4 @@
-## Animating the sunrise
+## Απεικόνιση της ανατολής του ήλιου
 
 To animate your sunrise, you need to define how the sun moves and how long it takes to rise.
 
