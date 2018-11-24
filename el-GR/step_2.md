@@ -23,12 +23,12 @@
     
     ![screenshot](images/sunrise-sun-image.png)
 
-+ Whoa, the image is huge. Go to `style.css` and add the CSS to set the image height:
++ Οοοο, η εικόνα είναι τεράστια. Πήγαινε στο `style.css` και πρόσθεσε κώδικα CSS για να ορίσεις το ύψος της εικόνας:
     
     ![screenshot](images/sunrise-sun-height.png)
     
-    Note that the width is updated automatically to keep the proportions the same.
+    Παρατήρησε ότι το μήκος ενημερώνεται αυτόματα ώστε να διατηρηθεί η αναλογία της εικόνας.
 
-+ Finally, let's add some code to position the sun:
++ Τέλος, ας προσθέσουμε κώδικα για να τοποθετήσουμε τον ήλιο:
     
     ![screenshot](images/sunrise-sun-position.png)
