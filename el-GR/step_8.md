@@ -15,13 +15,13 @@
 
 ![screenshot](images/sunrise-images.png)
 
-You can also upload your own images if you like.
+Μπορείς επίσης να ανεβάσεις δικές σου εικόνες αν προτιμάς.
 
-Don't forget you can put items in the sea as well as the sky:
+Μη ξεχνάς ότι μπορείς να τοποθετήσεις αντικείμενα και στη θάλασσα εκτός του ουρανού:
 
 ![screenshot](images/sunrise-boat.png)
 
-In the example the rainbow uses opacity for a fade effect:
+Στο παράδειγμα το ουράνιο τόξο χρησιμοποιεί την ιδιότητα της διαφάνειας για ένα εφέ ξεθωριάσματος:
 
     @keyframes fade {
       0%  
@@ -31,7 +31,7 @@ In the example the rainbow uses opacity for a fade effect:
     }
     
 
-The boat uses a negative starting position so that you can't see it for part of the animation:
+Η βάρκα χρησιμοποιεί αρνητικές συντεταγμένες ως σημείο εκκίνησης έτσι ώστε να μην είναι ορατό για ένα διάστημα της απεικόνισης:
 
      @keyframes left-right {
       0%   
