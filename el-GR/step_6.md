@@ -1,8 +1,8 @@
-## Animating the sky
+## Απεικόνιση του ουρανού
 
-Animation isn't just for movement. Let's animate the sky to turn dark at night.
+Η απεικόνιση (animation) δεν αφορά μόνο κίνηση. Ας απεικονίσουμε τον ουρανό ώστε να σκοτεινιάζει τη νύχτα.
 
-+ Add an animation called `sky` to your CSS:
++ Πρόσθεσε μια απεικόνιση με όνομα `sky` στον κώδικα CSS:
     
         @keyframes sky {
             0%
@@ -10,13 +10,13 @@ Animation isn't just for movement. Let's animate the sky to turn dark at night.
         }
         
     
-    Notice that this time you're animating the colour of the sky, and not the position.
+    Παρατήρησε ότι αυτή τη φορά απεικονίζεις το χρώμα του ουρανού, και όχι τη θέση.
 
-+ Add code to your sky, to tell it to use your new animation:
++ Πρόσθεσε κώδικα στον ουρανό σου, για να χρησιμοποιήσει την απεικόνιση:
     
         animation: sky 10s;
         
     
     ![screenshot](images/sunrise-sky.png)
 
-+ Click **Autorun** to test your animation.
++ Πάτησε **Autorun** για να δοκιμάσεις.
