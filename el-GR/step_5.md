@@ -1,8 +1,8 @@
-## Infinite animation
+## Αέναη απεικόνιση
 
-Let's make the animation keep repeating forever.
+Ας κάνουμε την απεικόνιση να επαναλαμβάνεται για πάντα.
 
-+ If you want the sun to rise and then set, just add more keyframes to your animation:
++ Αν θέλεις ο ήλιος να ανατέλλει και μετά να δύει, πρόσθεσε απλά περισσότερα keyframes στην απεικόνισή σου:
     
         @keyframes sunrise {
             0%  
