@@ -8,7 +8,7 @@
     
     ![screenshot](images/sunrise-starter.png)
 
-+ Look inside the `body` of your `index.html` file and you'll find the the `div` elements for the sky and the sea.
++ Δες μέσα στο `body` του αρχείου `index.html` και θα βρεις τις ετικέτες `div` για τον ουρανό και τη θάλασσα.
     
         <div id="sky">
         </div>
@@ -17,9 +17,9 @@
         </div>
         
 
-+ An image for the sun is already included in your project.
++ Στο έργο περιλαμβάνεται μια εικόνα για τον ήλιο.
     
-    Add the image inside your sun `div` including an id so you can style it:
+    Πρόσθεσε την εικόνα ανάμεσα στην ετικέτα `div` για τον ήλιο συμπεριλαμβάνοντας και μια id ώστε να ρυθμίσεις το στυλ της:
     
     ![screenshot](images/sunrise-sun-image.png)
 
