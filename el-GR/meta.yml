@@ -7,7 +7,7 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-1, programming-0, phys-comp-0, manufacture-0, community-0
-description: Δημιουργία ανατολής του ηλίου με κίνηση.
+description: Απεικόνιση της ανατολής του ηλίου.
 original_url: https://codeclubprojects.org/en-GB/webdev/sunrise
 interests: ''
 technologies: html-css-javascript
@@ -22,14 +22,14 @@ steps:
   - 
     title: Δημιουργία του ήλιου
   - 
-    title: Δημιουργία κίνησης της ανατολής του ήλιου
+    title: Απεικόνιση της ανατολής του ήλιου
   - 
-    title: 'Πρόκληση: Διαγώνια κίνηση'
+    title: 'Πρόκληση: Διαγώνια απεικόνιση'
   - 
-    title: Infinite animation
+    title: Αέναη απεικόνιση
   - 
-    title: Animating the sky
+    title: Απεικόνιση του ουρανού
   - 
-    title: 'Challenge: Improve the sky'
+    title: 'Πρόκληση: Βελτίωση του ουρανού'
   - 
-    title: 'Challenge: More animation'
+    title: 'Πρόκληση: Περισσότερη απεικόνιση'
