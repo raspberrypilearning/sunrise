@@ -2,7 +2,7 @@
 
 ## Πρόκληση: Βελτίωση του ουρανού
 
-Can you change the sky animation so that it matches the sun and stays blue during the day and returns to black as the sun sets. Make it loop forever too.
+Μπορείς να αλλάξεις την απεικόνιση του ουρανού ώστε να συγχρονίζεται με την απεικόνιση του ήλιου και να είναι μπλε την ημέρα και να γίνεται μαύρος καθώς ο ήλιος δύει. Κάνε να επαναλαμβάνεται συνέχεια.
 
 ![screenshot](images/sunrise-sky-challenge.png)
 
