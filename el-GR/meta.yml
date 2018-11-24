@@ -1,13 +1,13 @@
 ---
 hero_image: images/banner.png
-title: Sunrise
+title: Ανατολή ηλίου
 theme: yellow
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-1, programming-0, phys-comp-0, manufacture-0, community-0
-description: Create an animated sunrise.
+description: Δημιουργία ανατολής του ηλίου με κίνηση.
 original_url: https://codeclubprojects.org/en-GB/webdev/sunrise
 interests: ''
 technologies: html-css-javascript
@@ -18,13 +18,13 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: Εισαγωγή
   - 
-    title: Creating the sun
+    title: Δημιουργία του ήλιου
   - 
-    title: Animating the sunrise
+    title: Δημιουργία κίνησης της ανατολής του ήλιου
   - 
-    title: 'Challenge: Diagonal animation'
+    title: 'Πρόκληση: Διαγώνια κίνηση'
   - 
     title: Infinite animation
   - 
