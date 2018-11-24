@@ -1,10 +1,10 @@
-## Creating the sun
+## Δημιουργία του ήλιου
 
-Let's start by adding an image for the sun and positioning it with some CSS.
+Ας ξεκινήσουμε προσθέτοντας μια εικόνα για τον ήλιο και τοποθετώντας τη με χρήση κώδικα CSS.
 
-+ Open this trinket: <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto.cc/web-sunrise</a>.
++ Άνοιξε αυτό το trinket: <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto.cc/web-sunrise</a>.
     
-    The project should look like this:
+    Το έργο πρέπει να μοιάζει έτσι:
     
     ![screenshot](images/sunrise-starter.png)
 
