@@ -1,6 +1,6 @@
 ## Εισαγωγή
 
-In this project, you'll learn how to use CSS to create an animated sunrise.
+Σε αυτό το έργο, θα μάθεις να χρησιμοποιείς CSS για να δημιουργήσεις μια απεικόνιση της ανατολής του ήλιου.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/html/abcc0284a3?outputOnly=true&start=result" width="600" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -10,7 +10,7 @@ In this project, you'll learn how to use CSS to create an animated sunrise.
 
 ### Πρόσθετες πληροφορίες για τους συντονιστές των ομάδων
 
-Αν χρειαστεί να εκτυπώσεις αυτό το έργο, χρησιμοποίησε την [φιλική προς εκτυπώση έκδοση](https://projects.raspberrypi.org/en/projects/sunrise/print).
+Αν χρειαστεί να εκτυπώσεις αυτό το έργο, χρησιμοποίησε την [εκτυπώσιμη έκδοση](https://projects.raspberrypi.org/en/projects/sunrise/print).
 
 ## \--- collapse \---
 
@@ -18,13 +18,13 @@ In this project, you'll learn how to use CSS to create an animated sunrise.
 
 ## Εισαγωγή:
 
-In this project, children will to learn how to animate a simple scene using CSS. They will use the CSS @keyframes rule to animate various properties of images and divs.
+Σε αυτό το έργο, τα παιδιά θα μάθουν να απεικονίζουν μια απλή σκηνή χρησιμοποιώντας κώδικα CSS. Θα χρησιμοποιήσουν τον CSS @keyframes rule για να απεικονίσουν διάφορες ιδιότητες των εικόνων και ενοτήτων (divs).
 
-## Online Resources
+## Online Πόροι
 
-We recommend using [trinket](https://trinket.io/) to write HTML & CSS online. This project contains the following trinkets:
+Συνιστούμε να χρησιμοποιήσετε την εφαρμογή [trinket](https://trinket.io/) για να γράψετε HTML & CSS online. Το έργο αυτό περιλαμβάνει τα ακόλουθα Trinkets:
 
-+ ['Sunrise' starting point](https://trinket.io/html/web-sunrise)
++ ['Ανατολή του ήλιου' αρχικό](https://trinket.io/html/web-sunrise)
 
 Children can also make use of this blank trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) to write their own HTML & CSS, or alternatively they can use this template trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
