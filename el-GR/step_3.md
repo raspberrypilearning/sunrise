@@ -1,12 +1,12 @@
 ## Απεικόνιση της ανατολής του ήλιου
 
-To animate your sunrise, you need to define how the sun moves and how long it takes to rise.
+Για να απεικονίσεις την ανατολή του ηλίου, πρέπει να καθορίσεις πως κινείται ο ήλιος και πόσο χρόνο χρειάζεται για να ανατείλει.
 
-To do this you define a list of **key frames**. Each key frame defines the CSS properties of an element at a particular point in an animation.
+Για αυτό πρέπει να ορίσεις μια λίστα από **key frames**. Κάθε key frame ορίζει τις CSS ιδιότητες ενός στοιχείου σε ένα συγκεκριμένο σημείο της απεικόνισης.
 
-+ First, you need to use `@keyframes` to create a new animation called sunrise.
++ Πρώτα, πρέπει να χρησιμοποιήσεις το `@keyframes` για να δημιουργήσεις μια νέα απεικόνιση με όνομα sunrise.
     
-    Add this CSS code to the end of your `style.css` file:
+    Πρόσθεσε αυτόν τον κώδικα CSS στο τέλος του αρχείου `style.css`:
     
         @keyframes sunrise {
             0%
@@ -14,7 +14,7 @@ To do this you define a list of **key frames**. Each key frame defines the CSS p
         }
         
     
-    This code tells the sun where to position itself at the start (`0%`) and the end (`100%`) of the animation.
+    Αυτός ο κώδικας ορίζει σε ποια θέση θα εμφανιστεί ο ήλιος στην αρχή (`0%`) και στο τέλος (`100%`) της απεικόνισης.
     
     Because the sun is inside the sky `div`, the `top` and `left` positions you give are within to the sky, with `top: 100%` being the bottom of the sky, and not the bottom of the webpage.
 
