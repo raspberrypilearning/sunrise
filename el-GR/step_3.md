@@ -16,14 +16,14 @@
     
     Αυτός ο κώδικας ορίζει σε ποια θέση θα εμφανιστεί ο ήλιος στην αρχή (`0%`) και στο τέλος (`100%`) της απεικόνισης.
     
-    Because the sun is inside the sky `div`, the `top` and `left` positions you give are within to the sky, with `top: 100%` being the bottom of the sky, and not the bottom of the webpage.
+    Επειδή ο ήλιος είναι ανάμεσα στις ετικέτες `div` sky, οι θέσεις `top` και `left` που δίνεις είναι μέσα στον ουρανό, με `top: 100%` να είναι το κατώτερο σημείο του ουρανού, και όχι της ιστοσελίδας.
 
-+ Now that you have created a `sunrise` animation, you just need to tell your sun to use it!
++ Τώρα που έχεις δημιουργήσει την απεικόνιση `sunrise`, πρέπει απλά να πεις στον ήλιο να τη χρησιμοποιήσει!
     
-    Add the highlighted code to your sun's CSS:
+    Πρόσθεσε τον τονισμένο κώδικα στον CSS κώδικα του ήλιου:
     
     ![screenshot](images/sunrise-sunrise.png)
     
-    This tells the sun to spend 10 seconds animating a sunrise.
+    Ορίζεται έτσι η συνολική διάρκεια της ανατολής του ήλιου να διαρκεί 10 δευτερόλεπτα.
 
-+ To run the animation again in Trinket, just click **Autorun**.
++ Για να "τρέξεις" ξανά την απεικόνιση στο Trinket, πάτησε το **Autorun**.
