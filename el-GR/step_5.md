@@ -12,10 +12,10 @@
         }
         
     
-    This means that the animation starts and ends with the sun at the bottom of the sky, and stays at the top from 33% until 66% of the animation.
+    Αυτό σημαίνει ότι η απεικόνιση ξεκινά και ολοκληρώνεται με τον ήλιο στο κάτω μέρος του ουρανού, και ότι μένει ψηλά στον ουρανό από 33% μέχρι 66% της διάρκειας της απεικόνισης.
 
-+ Now you just need to add the word `infinite` to the `#sun` animation to make it loop forever:
++ Τώρα χρειάζεται απλά να προσθέσεις τη λέξη `infinite` στην απεικόνιση του ήλιου `#sun` για να επαναλαμβάνεται συνέχεια:
     
     ![screenshot](images/sunrise-infinite.png)
 
-+ Test out your animation. Does the sun keep rising and setting?
++ Δοκίμασε την απεικόνισή σου. Ανατέλλει και δύει συνεχώς ο ήλιος;
