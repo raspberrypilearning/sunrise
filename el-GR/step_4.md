@@ -1,12 +1,12 @@
 \--- challenge \---
 
-## Challenge: Diagonal animation
+## Πρόκληση: Διαγώνια απεικόνιση
 
-Can you add code to your `sunrise` animation, to make your sun start at the bottom left of the sky and move diagonally to its position at roughly the top center?
+Μπορείς να προσθέσεις κώδικα στην απεικόνιση `sunrise`, ώστε ο ήλιος να ξεκινά στην κάτω αριστερή γωνία του ουρανού και να κινείται διαγώνια προς το κέντρο της πάνω πλευράς;
 
-You can use the `left` property to do this, for example:
+Μπορείς να χρησιμοποιήσεις την ιδιότητα `left`, για παράδειγμα:
 
-    left: 40%;
+    left: 40%˙
     
 
 ![screenshot](images/sunrise-left.png)
