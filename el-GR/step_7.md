@@ -1,6 +1,6 @@
 \--- challenge \---
 
-## Challenge: Improve the sky
+## Πρόκληση: Βελτίωση του ουρανού
 
 Can you change the sky animation so that it matches the sun and stays blue during the day and returns to black as the sun sets. Make it loop forever too.
 
