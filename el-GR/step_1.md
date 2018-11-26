@@ -28,7 +28,7 @@
 
 Τα παιδιά μπορούν επίσης να χρησιμοποιήσουν το κενό trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) για να γράψουν δικό τους κώδικα HTML & CSS, ή να βασιστούν σε αυτό το πρότυπο trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
-Υπάρχει επίσης ένα trinket που περιέχει μια υποδειγματική λύση στις προκλήσεις:
+Υπάρχει επίσης ένα trinket που περιέχει μια υποδειγματική λύση για τις προκλήσεις:
 
 + ['Ανατολή του ήλιου' ολοκληρωμένο](https://trinket.io/html/abcc0284a3)
 
