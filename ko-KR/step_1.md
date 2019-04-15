@@ -1,6 +1,6 @@
 ## 소개
 
-이 프로젝트에서는 CSS를 사용하여 해가 뜨고 지는 애니메이션을 만들어 볼 것입니다.
+이 프로젝트에서 일출 애니메이션을 만들기 위해 CSS를 사용하는 방법을 배울 것 입니다.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/html/abcc0284a3?outputOnly=true&start=result" width="600" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -18,19 +18,19 @@
 
 ## 들어가며:
 
-이 프로젝트에서 학생들은 CSS를 활용하여 간단한 장면을 애니메이션으로 만드는 방법을 익히게 됩니다. 학생들은 CSS의 @keyframes 규칙을 사용하여 다양한 옵션을 애니메이션에 부여하는 방법을 익히게 됩니다.
+이 프로젝트에서 학생들은 CSS를 활용하여 간단한 장면을 애니메이션화 하는 방법을 익히게 됩니다. 학생들은 CSS의 @keyframes 규칙을 사용하여 이미지와 div의 다양한 속성을 애니메이션화할 것 입니다.
 
 ## 온라인 자료
 
 이 자료에서는 [Trinket](https://trinket.io/)을 사용하여 HTML & CSS를 온라인으로 편집할 것을 권장합니다. 이 프로젝트에 포함된 Trinket은 다음과 같습니다:
 
-+ ['썬라이즈' 시작](https://trinket.io/html/web-sunrise)
++ ['일출' 시작](https://trinket.io/html/web-sunrise)
 
 학생들은 새로운 Trinket을 사용할 수 있으며 [(jumpto.cc/html-black)](http://jumpto.cc/html-blank) 이를 통해 자신만의 HTML과 CSS 코드를 사용하는 방법을 배울 수 있습니다. 또한, 템플릿이 제공된 Trinket을 사용할 수 있습니다. [(jumpto.cc/html-template)](http://jumpto.cc/html-template)
 
 프로젝트의 샘플 정답이 다음 Trinket에 있습니다.
 
-+ ['썬라이즈' 끝](https://trinket.io/html/abcc0284a3)
++ ['일출' 끝](https://trinket.io/html/abcc0284a3)
 
 ## 오프라인 자료
 
@@ -59,9 +59,9 @@
 
 ## 학습 목표
 
-+ CSS에서 애니메이션과 스타일링 구현 
-    + `@keyframes` 규칙 소개
-    + 웹 페이지의 요소 크기, 모양, 위치 및 색상을 정의
++ CSS에서 애니메이션과 스타일링 
+    + 애니메이션의 단계 정의를 위한 `@keyframes ` 규칙 소개.
+    + 웹 페이지의 요소 크기, 모양, 위치 및 색상을 정의하기 위한 속성 사용 강화
 
 이 프로젝트는 [라즈베리파이 디지털 메이킹 커리큘럼](http://rpf.io/curriculum) 중 아래의 과정에 있는 요소들을 다룹니다.
 
@@ -69,13 +69,13 @@
 
 ## 도전과제
 
-+ "각도를 반영한 애니메이션" - `@keyframe`을 사용해서 애니메이션 수정
-+ "낮과 밤" - keyframes 규칙을 수정하여 배경을 수정
-+ "더 많은 애니메이션" - 더 많은 이미지를 추가하여 애니메이션 구현 
++ "대각선 애니메이션" - `@keyframe`특성을 왼쪽에서 사용할 수 있도록 애니메이션 편집
++ "하늘을 개선하라" - keyframes추가하고 배경을 설정하라.
++ "더 많은 애니메이션" - 다양한 CSS속성을 이용하여 더 많은 이미지나 요소를 애니메이션으로 구현 
 
 ## 자주 물어보는 질문
 
-+ 이 프로젝트에서는 브라우저간 애니메이션이 호환되도록 하기 위해 자바스크립트 `prefixfree.js` 라이브러리를 사용합니다. 만약, 이 라이브러리를 사용하지 않는다면, 옛날 브라우저를 사용하는 학생들은 아래와 같이 어떤 브라우저를 사용하는지 명시해야 합니다.
++ 이 프로젝트에서는 브라우저간 애니메이션이 호환되도록 하기 위해 자바스크립트 `prefixfree.js` 라이브러리를 사용합니다. 만약, 이 라이브러리를 사용하지 않는다면, 옛날 브라우저를 사용하는 학생들은 아래와 같이 어떤 브라우저에 대한 애니메이션을 선언해야 합니다.
 
     animation: sky 10s infinite;            // 최신 브라우저
     -webkit-animation: sky 10s infinite;    // 웹킷 브라우저(크롬, 사파리 등)
