@@ -1,4 +1,4 @@
-## Introduction
+## Einleitung
 
 In this project, you'll learn how to use CSS to create an animated sunrise.
 
@@ -8,33 +8,33 @@ In this project, you'll learn how to use CSS to create an animated sunrise.
   <img src="images/sunrise-final.png">
 </div>
 
-### Additional information for club leaders
+### Zusätzliche Information für Clubleiter
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/sunrise/print).
+Falls du dieses Projekt ausdrucken musst, verwende bitte die [druckfreundliche Version](https://projects.raspberrypi.org/en/projects/sunrise/print).
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: Anmerkungen für Clubleiter
 
-## Introduction:
+## Einleitung:
 
 In this project, children will to learn how to animate a simple scene using CSS. They will use the CSS @keyframes rule to animate various properties of images and divs.
 
-## Online Resources
+## Online-Ressourcen
 
 We recommend using [trinket](https://trinket.io/) to write HTML & CSS online. This project contains the following trinkets:
 
 + ['Sunrise' starting point](https://trinket.io/html/web-sunrise)
 
-Children can also make use of this blank trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) to write their own HTML & CSS, or alternatively they can use this template trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
+Die Kinder können auch dieses leere Trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) verwenden um ihr eigenes HTML & CSS zu schreiben, oder sie können als Alternative dazu dieses Trinket als Vorlage verwenden [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
-There is also a trinket containing a sample solution to the challenges:
+Es gibt auch ein Trinket mit einem Lösungsbeispiel für die Herausforderungen:
 
 + ['Sunrise' Finished](https://trinket.io/html/abcc0284a3)
 
-## Offline Resources
+## Offline-Ressourcen
 
-This project can be [completed offline](../offline.html) if preferred. You can access the project resources by clicking the 'Download Project Materials' link for this project. This link contains a 'Project Resources' folder, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This folder includes the following files:
+Dieses Projekt kann, falls gewünscht, auch [offline bearbeitet](../offline.html) werden. You can access the project resources by clicking the 'Download Project Materials' link for this project. This link contains a 'Project Resources' folder, which includes resources that children will need to complete this project offline. Stellen sie sicher, dass jedes Kind Zugriff auf eine Kopie dieser Ressourcen hat. This folder includes the following files:
 
 + template/index.html
 + template/prefix.js
@@ -48,7 +48,7 @@ This project can be [completed offline](../offline.html) if preferred. You can a
 + sunrise/rainbow.png
 + sunrise/sun.png
 
-You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
+Eine vollständige Version dieses Projekts mit den Herausforderungen finden Sie auch im Abschnitt "Ressourcen für Freiwillige Mitarbeiter" mit diesem Inhalt:
 
 + sunrise-finished/index.html
 + sunrise-finished/style.css
@@ -57,23 +57,23 @@ You can also find a completed version of this project's challenges in the 'Volun
 + sunrise-finished/sun.png
 + sunrise-finished/rainbow.png
 
-## Learning Objectives
+## Lernziele
 
 + Styling and animation with CSS: 
     + Introducing `@keyframes` rule for defining steps in an animation.
     + Reinforcing the use of properties to define the size, shape, position and colour of elements on a webpage.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Dieses Projekt umfasst Elemente aus den folgenden Strängen des [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator).
++ [Entwurf von grundlegenden 2D- and 3D-Konstruktionen](https://www.raspberrypi.org/curriculum/design/creator).
 
-## Challenges
+## Herausforderungen
 
 + "Diagonal animation" - editing animation `@keyframe` properties to use left:;
 + "Improve the sky" - add more keyframes and setting background:.
 + "More animation" - animate more images or elements using a variety of CSS properties. 
 
-## Frequently Asked Questions
+## Häufig Gestellte Fragen
 
 + This project makes use of the javascript `prefixfree.js` library, to allow animation compatibility between browsers. If this library isn't used, then children using older browsers will instead need to declare an animation for their browser, for example:
 
@@ -88,14 +88,14 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: Projektmaterial
 
-## Project resources
+## Projektressourcen
 
-+ [.zip file containing all project resources](resources/sunrise-project-resources.zip)
++ [.zip-Datei, die alle Projektressourcen enthält](resources/sunrise-project-resources.zip)
 + [Online Trinket containing all 'Sunrise' project resources](http://jumpto.cc/web-sunrise)
-+ [Online Trinket template](http://jumpto.cc/trinket-template)
-+ [Online blank Trinket](http://jumpto.cc/trinket-blank)
++ [Online Trinket-Vorlage](http://jumpto.cc/trinket-template)
++ [Leeres online-Trinket](http://jumpto.cc/trinket-blank)
 + [template/index.html](resources/template-index.html)
 + [template/style.css](resources/template-style.css)
 + [intro/index.html](resources/intro-index.html)
@@ -109,10 +109,10 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 + [sunrise/boat.png](resources/sunrise-boat.png)
 + [sunrise/helicopter.png](resources/sunrise-helicopter.png)
 
-## Club leader resources
+## Ressourcen für Clubleiter
 
-+ [.zip file containing all completed project resources](resources/sunrise-volunteer-resources.zip)
-+ [Online completed Trinket project](https://trinket.io/html/abcc0284a3)
++ [.zip-Datei, die alle fertig gestellten Projektressourcen enthält](resources/sunrise-volunteer-resources.zip)
++ [Vollständiges Trinket-Projekt (online)](https://trinket.io/html/abcc0284a3)
 + [sunrise-finished/index.html](resources/sunrise-finished-index.html)
 + [sunrise-finished/style.css](resources/sunrise-finished-style.css)
 + [sunrise-finished/prefixfree.js](resources/sunrise-finished-prefixfree.js)
