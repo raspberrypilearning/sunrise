@@ -1,4 +1,4 @@
-## Introduction
+## はじめに
 
 In this project, you'll learn how to use CSS to create an animated sunrise.
 
@@ -8,19 +8,19 @@ In this project, you'll learn how to use CSS to create an animated sunrise.
   <img src="images/sunrise-final.png">
 </div>
 
-### Additional information for club leaders
+### クラブリーダーのための追加情報
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/sunrise/print).
+このプロジェクトを印刷する必要がある場合は、 [印刷用バージョン](https://projects.raspberrypi.org/en/projects/sunrise/print)を使用してください。
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title：クラブリーダー・ノート
 
-## Introduction:
+## はじめに
 
 In this project, children will to learn how to animate a simple scene using CSS. They will use the CSS @keyframes rule to animate various properties of images and divs.
 
-## Online Resources
+## オンライン・リソース
 
 We recommend using [trinket](https://trinket.io/) to write HTML & CSS online. This project contains the following trinkets:
 
@@ -28,13 +28,13 @@ We recommend using [trinket](https://trinket.io/) to write HTML & CSS online. Th
 
 Children can also make use of this blank trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) to write their own HTML & CSS, or alternatively they can use this template trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
-There is also a trinket containing a sample solution to the challenges:
+また、チャレンジ(課題)に対しての回答例を含むtrinketもあります(以下参照)。
 
 + ['Sunrise' Finished](https://trinket.io/html/abcc0284a3)
 
-## Offline Resources
+## オフライン・リソース
 
-This project can be [completed offline](../offline.html) if preferred. You can access the project resources by clicking the 'Download Project Materials' link for this project. This link contains a 'Project Resources' folder, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This folder includes the following files:
+このプロジェクトは[オフライン](../offline.html)で完成することが可能です。 You can access the project resources by clicking the 'Download Project Materials' link for this project. This link contains a 'Project Resources' folder, which includes resources that children will need to complete this project offline. 、必ず子供達各自が必要資料を全て持っているようにしてください。 This folder includes the following files:
 
 + template/index.html
 + template/prefix.js
@@ -48,7 +48,7 @@ This project can be [completed offline](../offline.html) if preferred. You can a
 + sunrise/rainbow.png
 + sunrise/sun.png
 
-You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
+なお、プロジェクト課題の完成版をボランティア・リソースのセクションに含まれています。
 
 + sunrise-finished/index.html
 + sunrise-finished/style.css
@@ -57,23 +57,23 @@ You can also find a completed version of this project's challenges in the 'Volun
 + sunrise-finished/sun.png
 + sunrise-finished/rainbow.png
 
-## Learning Objectives
+## 学習目標
 
 + Styling and animation with CSS: 
     + Introducing `@keyframes` rule for defining steps in an animation.
     + Reinforcing the use of properties to define the size, shape, position and colour of elements on a webpage.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+このプロジェクトでは [Raspberry Pi デジタル・メイキング・カリキュラム](http://rpf.io/curriculum)（英語）の柱の一つである、プログラミングの以下の要素を学びます。
 
 + [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator).
 
-## Challenges
+## チャレンジ
 
 + "Diagonal animation" - editing animation `@keyframe` properties to use left:;
 + "Improve the sky" - add more keyframes and setting background:.
 + "More animation" - animate more images or elements using a variety of CSS properties. 
 
-## Frequently Asked Questions
+## よくある質問
 
 + This project makes use of the javascript `prefixfree.js` library, to allow animation compatibility between browsers. If this library isn't used, then children using older browsers will instead need to declare an animation for their browser, for example:
 
@@ -88,11 +88,11 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 
 ## \--- collapse \---
 
-## title: Project materials
+## title：プロジェクト資料
 
-## Project resources
+## プロジェクト資料
 
-+ [.zip file containing all project resources](resources/sunrise-project-resources.zip)
++ [全プロジェクト・リソースの入った.zipファイル](resources/sunrise-project-resources.zip)
 + [Online Trinket containing all 'Sunrise' project resources](http://jumpto.cc/web-sunrise)
 + [Online Trinket template](http://jumpto.cc/trinket-template)
 + [Online blank Trinket](http://jumpto.cc/trinket-blank)
@@ -109,10 +109,10 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 + [sunrise/boat.png](resources/sunrise-boat.png)
 + [sunrise/helicopter.png](resources/sunrise-helicopter.png)
 
-## Club leader resources
+## クラブ・リーダー向けリソース
 
-+ [.zip file containing all completed project resources](resources/sunrise-volunteer-resources.zip)
-+ [Online completed Trinket project](https://trinket.io/html/abcc0284a3)
++ [全プロジェクトの完成版リソースの入った.zipファイル](resources/sunrise-volunteer-resources.zip)
++ [完成版プロジェクトのオンラインtrinket](https://trinket.io/html/abcc0284a3)
 + [sunrise-finished/index.html](resources/sunrise-finished-index.html)
 + [sunrise-finished/style.css](resources/sunrise-finished-style.css)
 + [sunrise-finished/prefixfree.js](resources/sunrise-finished-prefixfree.js)
