@@ -22,7 +22,7 @@ To do this you define a list of **key frames**. Each key frame defines the CSS p
     
     Add the highlighted code to your sun's CSS:
     
-    ![screenshot](images/sunrise-sunrise.png)
+    ![captura de pantalla](images/sunrise-sunrise.png)
     
     This tells the sun to spend 10 seconds animating a sunrise.
 
