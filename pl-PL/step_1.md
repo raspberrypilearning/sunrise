@@ -10,11 +10,11 @@ Wykonując ten projekt dowiesz się, jak z pomocą CSS stworzyć animację wscho
 
 ### Dodatkowe informacje dla prowadzących klub
 
-Jeśli chcesz wydrukować projekt, skorzystaj z wcześniej przygotowanej [wersji do druku](https://projects.raspberrypi.org/en/projects/sunrise/print).
+Jeśli chcesz wydrukować ten projekt, użyj [wersji do druku](https://projects.raspberrypi.org/en/projects/sunrise/print).
 
 ## \--- collapse \---
 
-## title: Dla prowadzącego klub
+## title: Notatki dla liderów klubów
 
 ## Wprowadzenie:
 
@@ -26,9 +26,9 @@ Do pisania kodu HTML i CSS online rekomendujemy użytkowanie edytora [trinket](h
 
 + [Punkt startowy wschodu słońca](https://trinket.io/html/web-sunrise)
 
-Dzieci mogą też używać pustego edytora [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) do pisania swojego kodu HTML i CSS lub skorzystać z tego szablonu [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
+Dzieci mogą również skorzystać z tego pustego wzorca [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank), aby napisać własny kod HTML i CSS, lub mogą skorzystać z wcześniej przygotowanego wzorca [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
-Dostępny jest również szablon zawierający przykładowe rozwiązania wyzwań:
+Dostępny jest także projekt zawierający przykładowe rozwiązania wyzwań:
 
 + [Skończony wschód słońca](https://trinket.io/html/abcc0284a3)
 
@@ -63,17 +63,17 @@ Pełną wersję tego projektu można również znaleźć w sekcji "Zasoby dla wo
     + Wprowadzenie reguły `@keyframes` do definiowania kroków w animacji.
     + Wzmocnienie wykorzystania właściwości do określenia rozmiaru, kształtu, położenia i koloru elementów na stronie internetowej.
 
-Projekt ten obejmuje następujące elementy [Cyfrowego programu nauczania Raspberry Pi](http://rpf.io/curriculum):
+Ten projekt obejmuje elementy z następujących wątków z [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Projektowanie podstawowych zasobów 2D i 3D](https://www.raspberrypi.org/curriculum/design/creator).
++ [ Projektuj podstawowe zasoby 2D i 3D](https://www.raspberrypi.org/curriculum/design/creator).
 
-## Wyzwania
+## Zadania
 
 + "Animacja po przekątnej" - edycja pozostałych właściwości animacji `@keyframes`:;
 + "Popraw niebo" - dodaj więcej klatek kluczowych i ustaw tło:.
 + "Więcej animacji" - animuj więcej obrazów lub elementów przy użyciu różnych właściwości CSS. 
 
-## Często zadawane pytania (FAQ)
+## Najczęściej Zadawane Pytania
 
 + Ten projekt korzysta z biblioteki javascript `prefixfree.js`, aby umożliwić kompatybilność animacji między przeglądarkami. Jeśli ta biblioteka nie jest używana, wówczas dzieci korzystające ze starszych przeglądarek będą musiały zadeklarować animację dla swojej przeglądarki, na przykład:
 
@@ -92,10 +92,10 @@ Projekt ten obejmuje następujące elementy [Cyfrowego programu nauczania Raspbe
 
 ## Zasoby
 
-+ [Plik.zip zawierający wszystkie zasoby potrzebne do wykonania projektu](resources/sunrise-project-resources.zip)
++ [Plik .zip zawierający wszystkie zasoby potrzebne do wykonania projektu](resources/sunrise-project-resources.zip)
 + [Szablon startowy zawierający wszystkie zasoby potrzebne do realizacji projektu "Wschód słońca"](http://jumpto.cc/web-sunrise)
-+ [Pusty szablon](http://jumpto.cc/trinket-template)
-+ [Pusty szablon Trinket](http://jumpto.cc/trinket-blank)
++ [Pusty szablon Trinket](http://jumpto.cc/trinket-template)
++ [Pusty Trinket](http://jumpto.cc/trinket-blank)
 + [template/index.html](resources/template-index.html)
 + [template/style.css](resources/template-style.css)
 + [intro/index.html](resources/intro-index.html)
@@ -109,10 +109,10 @@ Projekt ten obejmuje następujące elementy [Cyfrowego programu nauczania Raspbe
 + [sunrise/boat.png](resources/sunrise-boat.png)
 + [sunrise/helicopter.png](resources/sunrise-helicopter.png)
 
-## Zasoby dla prowadzącego klub
+## Zasoby dla lidera klubu
 
-+ [Plik.zip zawierający zasoby z ukończonym projektem](resources/sunrise-volunteer-resources.zip)
-+ [Ukończony projekt "Wschód słońca"](https://trinket.io/html/abcc0284a3)
++ [Plik .zip zawierający zasoby z ukończonym projektem](resources/sunrise-volunteer-resources.zip)
++ [Ukończony projekt "Kolorowe Kreacje"](https://trinket.io/html/abcc0284a3)
 + [sunrise-finished/index.html](resources/sunrise-finished-index.html)
 + [sunrise-finished/style.css](resources/sunrise-finished-style.css)
 + [sunrise-finished/prefixfree.js](resources/sunrise-finished-prefixfree.js)
