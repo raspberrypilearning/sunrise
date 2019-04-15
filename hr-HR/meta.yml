@@ -1,7 +1,7 @@
 ---
-hero_image: slike / banner.png
+hero_image: images/banner.png
 title: Izlazak sunca
-theme: žuta boja
+theme: žuta
 duration: 2
 listed: true
 ingredient: false
@@ -11,14 +11,14 @@ description: Stvorite animirani izlazak sunca.
 original_url: https://codeclubprojects.org/en-GB/webdev/sunrise
 interests: ''
 technologies: html-css-javascript
-site_areas: projects
+site_areas: projekti
 hardware: ''
 software: html-css-javascript
 version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Uvod
+    title: Sretan rođendan
   - 
     title: Stvaranje sunca
   - 
