@@ -1,6 +1,6 @@
 \--- challenge \---
 
-## Challenge: Diagonal animation
+## Aufgabe: Diagonale Animation
 
 Can you add code to your `sunrise` animation, to make your sun start at the bottom left of the sky and move diagonally to its position at roughly the top center?
 
