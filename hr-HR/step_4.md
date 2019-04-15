@@ -1,4 +1,4 @@
-\--- izazov \---
+\--- challenge \---
 
 ## Izazov: dijagonalna animacija
 
@@ -9,6 +9,6 @@ Da biste to učinili, možete upotrijebiti `lijevu` entitet, na primjer:
     lijevo: 40%;
     
 
-![zaslona](images/sunrise-left.png)
+![screenshot](images/sunrise-left.png)
 
-\--- / izazov \---
+\--- challenge \---
