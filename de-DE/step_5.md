@@ -1,4 +1,4 @@
-## Infinite animation
+## Unendliche Animation
 
 Let's make the animation keep repeating forever.
 
