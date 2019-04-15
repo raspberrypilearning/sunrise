@@ -6,7 +6,7 @@ Let's start by adding an image for the sun and positioning it with some CSS.
     
     The project should look like this:
     
-    ![screenshot](images/sunrise-starter.png)
+    ![captura de pantalla](images/sunrise-starter.png)
 
 + Look inside the `body` of your `index.html` file and you'll find the the `div` elements for the sky and the sea.
     
@@ -21,14 +21,14 @@ Let's start by adding an image for the sun and positioning it with some CSS.
     
     Add the image inside your sun `div` including an id so you can style it:
     
-    ![screenshot](images/sunrise-sun-image.png)
+    ![captura de pantalla](images/sunrise-sun-image.png)
 
 + Whoa, the image is huge. Go to `style.css` and add the CSS to set the image height:
     
-    ![screenshot](images/sunrise-sun-height.png)
+    ![captura de pantalla](images/sunrise-sun-height.png)
     
     Note that the width is updated automatically to keep the proportions the same.
 
 + Finally, let's add some code to position the sun:
     
-    ![screenshot](images/sunrise-sun-position.png)
+    ![captura de pantalla](images/sunrise-sun-position.png)
