@@ -1,12 +1,12 @@
-## Animating the sunrise
+## Animando el amanecer
 
-To animate your sunrise, you need to define how the sun moves and how long it takes to rise.
+Para animar tu amanecer, necesitas definir cómo se mueve el sol y cuánto tarda en subir.
 
-To do this you define a list of **key frames**. Each key frame defines the CSS properties of an element at a particular point in an animation.
+Para hacer esto tienes que definir una lista de **key frames**. Cada key frame define las propiedades CSS de un elemento en un punto particular de la animación.
 
-+ First, you need to use `@keyframes` to create a new animation called sunrise.
++ Primero, necesitas usar `@keyframes` para crear una nueva animación llamada amanecer.
     
-    Add this CSS code to the end of your `style.css` file:
+    Añade este código CSS al final de tu archivo `style.css`:
     
         @keyframes sunrise {
             0%
@@ -14,16 +14,16 @@ To do this you define a list of **key frames**. Each key frame defines the CSS p
         }
         
     
-    This code tells the sun where to position itself at the start (`0%`) and the end (`100%`) of the animation.
+    Este código le dice al sol dónde colocarse al comienzo (`0%`) y al final (`100%`) de la animación.
     
-    Because the sun is inside the sky `div`, the `top` and `left` positions you give are within to the sky, with `top: 100%` being the bottom of the sky, and not the bottom of the webpage.
+    Como el sol está dentro del `div` del cielo, las posiciones `top` y `left` que le das son relativas al cielo, con `top: 100%` siendo el final del cielo y no de la página web.
 
-+ Now that you have created a `sunrise` animation, you just need to tell your sun to use it!
++ Ahora que has creado una animación de un `amanecer`, ¡solo necesitas decirle a tu sol que la use!
     
-    Add the highlighted code to your sun's CSS:
+    Añade el código resaltado al CSS de tu sol:
     
-    ![screenshot](images/sunrise-sunrise.png)
+    ![captura de pantalla](images/sunrise-sunrise.png)
     
-    This tells the sun to spend 10 seconds animating a sunrise.
+    Esto le dice al sol que pase 10 segundos animando un amanecer.
 
-+ To run the animation again in Trinket, just click **Autorun**.
++ Para volver a ejecutar la animación en Trinket, solo tienes que hacer clic en **Autorun**.
