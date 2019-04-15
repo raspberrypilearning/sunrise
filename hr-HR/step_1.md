@@ -10,35 +10,35 @@ U ovom ćete projektu saznati kako koristiti CSS za stvaranje animiranog izlaska
 
 ### Dodatne informacije za voditelje kluba
 
-Ako trebate ispisati ovaj projekt, molimo koristite [Verzija za ispis](https://projects.raspberrypi.org/en/projects/sunrise/print).
+Ako želite ispisati ovaj projekt, molimo Vas da koristite [verziju koja je prilagođena za ispis](https://projects.raspberrypi.org/en/projects/sunrise/print).
 
-## \--- kolaps \---
+## \--- collapse \---
 
-## naslov: Bilješke voditelja kluba
+## title: Bilješke za voditelja kluba
 
 ## Uvod:
 
 U ovom projektu djeca će naučiti kako animirati jednostavnu scenu pomoću CSS-a. Oni će koristiti pravilo CSS @keyframes za animiranje različitih svojstava slika i divova.
 
-## Online resursi
+## Online izvori
 
-Preporučujemo upotrebu [triketa](https://trinket.io/) za pisanje HTML & CSS-a na mreži. Ovaj projekt sadrži sljedeće trikove:
+Preporučamo korištenje [trinket](https://trinket.io/) za pisanje HTML & CSS online. Ovaj projekt sadrži sljedeće trikove:
 
 + [Polazna točka "Sunrise"](https://trinket.io/html/web-sunrise)
 
-Djeca također mogu koristiti ovu praznu nakit [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) da napišu vlastiti HTML & CSS ili alternativno mogu koristiti ovaj predložak nakita [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
+Djeca također mogu koristiti ovu praznu trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) napisati vlastiti HTML & CSS ili alternativno mogu upotrijebiti ovaj predložak trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
-Tu je i trikota s rješenjem uzorka izazovima:
+Također je uključen i trinket koji sadrži prijedlog rješenja izazova:
 
 + ['Sunrise' Završeno](https://trinket.io/html/abcc0284a3)
 
-## Offline resursi
+## Offline izvori
 
-Ovaj projekt može biti [završen offline](../offline.html) ako je željena. Možete pristupiti resursima projekta klikom na vezu "Preuzimanje projektnih materijala" za ovaj projekt. Ova veza sadrži mapu "Project Resources", koja uključuje resurse koje će djeca morati dovršiti ovaj projekt izvan mreže. Pazite da svako dijete ima pristup kopiji tih resursa. Ova mapa sadrži sljedeće datoteke:
+Ako želite, ovaj projekt može bit [završen offline](../offline.html). Možete pristupiti resursima projekta klikom na vezu "Preuzimanje projektnih materijala" za ovaj projekt. Ova veza sadrži mapu "Project Resources", koja uključuje resurse koje će djeca morati dovršiti ovaj projekt izvan mreže. Pobrinite se da svako dijete ima pristup kopiji ovih materijala. Ova mapa sadrži sljedeće datoteke:
 
-+ predložak / index.html
-+ predložak / prefix.js
-+ predložak / style.css
++ template/index.html
++ template/prefix.js
++ template/style.css
 + izlazak / index.html
 + izlazak / style.css
 + izlazak / prefixfree.js
@@ -48,7 +48,7 @@ Ovaj projekt može biti [završen offline](../offline.html) ako je željena. Mo�
 + izlazak / rainbow.png
 + izlazak / sun.png
 
-Također možete naći dovršenu verziju izazova ovog projekta u odjeljku "Volonterski resursi", koji sadrži:
+Dovršenu verziju projekta challenges možete pronaći i u odjeljku 'Volunteer Resources' koji sadrži:
 
 + izlazak dovršenim / index.html
 + izlazak dovršenim / style.css
@@ -57,15 +57,15 @@ Također možete naći dovršenu verziju izazova ovog projekta u odjeljku "Volon
 + izlazak dovršenim / sun.png
 + izlazak dovršenim / rainbow.png
 
-## ciljevi učenja
+## Ishodi učenja
 
 + Stiliranje i animacija s CSS-om: 
     + Predstavljamo pravilo `@ keyframes` za definiranje koraka u animaciji.
     + Pojačavanje upotrebe svojstava za određivanje veličine, oblika, položaja i boje elemenata na web stranici.
 
-Ovaj projekt pokriva elemente iz sljedećih niza [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Ovaj projekt pokriva elemente iz sljedećih dijelova plana i programa [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Oblikujte osnovne 2D i 3D snimke](https://www.raspberrypi.org/curriculum/design/creator).
++ [Dizajnirajte osnovna 2D i 3D sredstva](https://www.raspberrypi.org/curriculum/design/creator).
 
 ## Izazovi
 
@@ -80,20 +80,20 @@ Ovaj projekt pokriva elemente iz sljedećih niza [Raspberry Pi Digital Making Cu
     animacija: nebo 10s beskonačno; // za sve novije preglednike -webkit-animacija: nebo 10s beskonačno; // Za web preglednike (Chrome, Safari ...) -moz-animacija: nebo 10s beskonačno; // Za Mozilla preglednike -o-animacija: nebo 10s beskonačno; // Za Opera preglednike -ms-animacija: nebo 10s beskonačno; // Za Microsoftove preglednike 
     
 
-\--- /kolaps \---
+\--- /collapse \---
 
-## \--- kolaps \---
+## \--- collapse \---
 
-## Naslov: Projektni materijali
+## title: Materijali projekta
 
 ## Resursi projekta
 
-+ [.zip datoteku koja sadrži sve resurse projekta](resources/sunrise-project-resources.zip)
++ [.zip datoteka koja sadrži sve materijale projekta](resources/sunrise-project-resources.zip)
 + [Online Trinket koji sadrži sve resurse projekta 'Sunrise'](http://jumpto.cc/web-sunrise)
-+ [Predložak Online Trinket](http://jumpto.cc/trinket-template)
-+ [Online prazno trinket](http://jumpto.cc/trinket-blank)
-+ [predložak / index.html](resources/template-index.html)
-+ [predložak / style.css](resources/template-style.css)
++ [Online Trinket predložak](http://jumpto.cc/trinket-template)
++ [Online prazan Trinket](http://jumpto.cc/trinket-blank)
++ [template/index.html](resources/template-index.html)
++ [template/style.css](resources/template-style.css)
 + [Uvod / index.html](resources/intro-index.html)
 + [Uvod / style.css](resources/intro-style.css)
 + [izlazak / index.html](resources/sunrise-index.html)
@@ -105,10 +105,10 @@ Ovaj projekt pokriva elemente iz sljedećih niza [Raspberry Pi Digital Making Cu
 + [izlazak / boat.png](resources/sunrise-boat.png)
 + [izlazak / helicopter.png](resources/sunrise-helicopter.png)
 
-## Resursi za vođe kluba
+## Materijali za voditelja Kluba
 
-+ [.zip datoteku koja sadrži sve dovršene resurse projekta](resources/sunrise-volunteer-resources.zip)
-+ [Online završio projekt Trinket](https://trinket.io/html/abcc0284a3)
++ [.zip datoteka koja sadrži sve dovršene materijale projekta](resources/sunrise-volunteer-resources.zip)
++ [Dovršeni Online Trinket projekt](https://trinket.io/html/abcc0284a3)
 + [izlazak dovršenim / index.html](resources/sunrise-finished-index.html)
 + [izlazak dovršenim / style.css](resources/sunrise-finished-style.css)
 + [izlaska dovršenim / prefixfree.js](resources/sunrise-finished-prefixfree.js)
@@ -116,4 +116,4 @@ Ovaj projekt pokriva elemente iz sljedećih niza [Raspberry Pi Digital Making Cu
 + [izlazak dovršenim / boat.png](resources/sunrise-finished-boat.png)
 + [izlazak dovršenim / rainbow.png](resources/sunrise-finished-rainbow.png)
 
-\--- /kolaps \---
+\--- /collapse \---
