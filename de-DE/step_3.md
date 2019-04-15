@@ -1,4 +1,4 @@
-## Animating the sunrise
+## Den Sonnenaufgang animieren
 
 To animate your sunrise, you need to define how the sun moves and how long it takes to rise.
 
@@ -22,7 +22,7 @@ To do this you define a list of **key frames**. Each key frame defines the CSS p
     
     Add the highlighted code to your sun's CSS:
     
-    ![screenshot](images/sunrise-sunrise.png)
+    ![Screenshot](images/sunrise-sunrise.png)
     
     This tells the sun to spend 10 seconds animating a sunrise.
 
