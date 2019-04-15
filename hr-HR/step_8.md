@@ -1,4 +1,4 @@
-\--- izazov \---
+\--- challenge \---
 
 ## Izazov: Više animacije
 
@@ -13,13 +13,13 @@ Za svaku stavku koju želite animirati morat ćete:
 
 Kliknite ikonu slike da biste vidjeli slike koje su uključene u projekt:
 
-![zaslona](images/sunrise-images.png)
+![screenshot](images/sunrise-images.png)
 
 Također možete prenijeti vlastite slike ako želite.
 
 Nemojte zaboraviti da možete staviti predmete u more i nebo:
 
-![zaslona](images/sunrise-boat.png)
+![screenshot](images/sunrise-boat.png)
 
 U primjeru duga koristi neprozirnost za efekt izblijeđivanja:
 
@@ -31,4 +31,4 @@ Brod koristi negativnu polaznu poziciju tako da ga ne možete vidjeti za dio ani
      @ ključne okvire lijevo-desno {0% 100%}
     
 
-\--- / izazov \---
+\--- /challenge \---
