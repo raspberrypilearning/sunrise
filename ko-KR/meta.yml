@@ -1,13 +1,13 @@
 ---
 hero_image: images/banner.png
-title: 썬라이즈
+title: 일출
 theme: yellow
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-1, programming-0, phys-comp-0, manufacture-0, community-0
-description: CSS를 사용하여 해가 뜨고 지는 애니메이션을 만들어 봅시다!
+description: 일출 애니메이션을 만들어 봅시다.
 original_url: https://codeclubprojects.org/en-GB/webdev/sunrise
 interests: ''
 technologies: html-css-javascript
@@ -22,7 +22,7 @@ steps:
   - 
     title: 해 만들기
   - 
-    title: 썬라이즈 애니메이션
+    title: 일출 애니메이션
   - 
     title: '과제: 각도를 반영한 애니메이션'
   - 
@@ -30,6 +30,6 @@ steps:
   - 
     title: 애니메이션을 하늘에 적용하기
   - 
-    title: '과제: 하늘 애니메이션 발전시키기'
+    title: '도전과제: 하늘 애니메이션 발전시키기'
   - 
-    title: '과제: 더 많은 애니메이션 추가하기'
+    title: '도전과제: 더 많은 애니메이션 추가하기'
