@@ -11,6 +11,6 @@ Učinimo da se animacija ponavlja zauvijek.
 
 + Now you just need to add the word `infinite` to the `#sun` animation to make it loop forever:
     
-    ![zaslona](images/sunrise-infinite.png)
+    ![screenshot](images/sunrise-infinite.png)
 
 + Isprobajte svoju animaciju. Sunce se diže i postavlja?
