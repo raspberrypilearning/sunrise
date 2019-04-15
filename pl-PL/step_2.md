@@ -1,10 +1,10 @@
-## Stworzenie słońca
+## Tworzenie animacji słońca
 
 Zacznijmy od dodania obrazka ze słońcem i ustawienia go w odpowiednim miejscu z pomocą CSS.
 
-+ Otwórz edytor: <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto. cc/web-sunrise</a>.
++ Otwórz edytor: <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto.cc/web-sunrise</a>.
     
-    Twój projekt powinien wyglądać następująco:
+    Projekt powinien wyglądać następująco:
     
     ![zrzut ekranu](images/sunrise-starter.png)
 
@@ -25,10 +25,10 @@ Zacznijmy od dodania obrazka ze słońcem i ustawienia go w odpowiednim miejscu 
 
 + Oho, twój obrazek jest ogromny. Zajrzyj do pliku `style. css` i dodaj kod CSS, aby ustawić wysokość obrazka:
     
-    ![zrzut ekranu](images/sunrise-sun-height.png)
+    ![screenshot](images/sunrise-sun-height.png)
     
     Zauważ, że szerokość obrazka jest ustawiana automatycznie, aby proporcje zostały zachowane.
 
 + Na koniec dodajmy kod, aby określić położenie słońca:
     
-    ![zrzut ekranu](images/sunrise-sun-position.png)
+    ![screenshot](images/sunrise-sun-position.png)
