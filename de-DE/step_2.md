@@ -1,12 +1,12 @@
-## Creating the sun
+## Die Sonne herstellen
 
 Let's start by adding an image for the sun and positioning it with some CSS.
 
-+ Open this trinket: <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto.cc/web-sunrise</a>.
++ Öffne diesen Trinket: <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto.cc/web-sunrise</a>.
     
-    The project should look like this:
+    Das Projekt sollte so aussehen:
     
-    ![screenshot](images/sunrise-starter.png)
+    ![Screenshot](images/sunrise-starter.png)
 
 + Look inside the `body` of your `index.html` file and you'll find the the `div` elements for the sky and the sea.
     
@@ -21,7 +21,7 @@ Let's start by adding an image for the sun and positioning it with some CSS.
     
     Add the image inside your sun `div` including an id so you can style it:
     
-    ![screenshot](images/sunrise-sun-image.png)
+    ![Screenshot](images/sunrise-sun-image.png)
 
 + Whoa, the image is huge. Go to `style.css` and add the CSS to set the image height:
     
