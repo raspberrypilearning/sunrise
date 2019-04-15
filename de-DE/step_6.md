@@ -1,4 +1,4 @@
-## Animating the sky
+## Den Himmel animieren
 
 Animation isn't just for movement. Let's animate the sky to turn dark at night.
 
