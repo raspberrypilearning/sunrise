@@ -14,6 +14,6 @@ Animacija nije samo za kretanje. Animažimo nebo da se noću okrene mrakom.
         animacija: nebo 10s;
         
     
-    ![zaslona](images/sunrise-sky.png)
+    ![screenshot](images/sunrise-sky.png)
 
 + Kliknite **Autorun** da biste testirali svoju animaciju.
