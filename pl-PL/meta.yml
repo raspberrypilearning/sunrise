@@ -1,12 +1,12 @@
 ---
-hero_image: images/banner.png
-title: Wschód słońca
-theme: żółty
+hero_image: images / banner.png
+title: Sunrise
+theme: yellow
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
-curriculum: 1, projekt-1, programowanie-0, obliczenia-fizyczne-0, produkcja-0, społeczność-0
+curriculum: 1, design-1, programming-0, phys-comp-0, manufacture-0, community-0
 description: Stwórz animację ze wschodem słońca.
 original_url: https://codeclubprojects.org/en-GB/webdev/sunrise
 interests: ''
@@ -20,7 +20,7 @@ steps:
   - 
     title: Wprowadzenie
   - 
-    title: Tworzenie animacji słońca
+    title: Stworzenie słońca
   - 
     title: Animacja wschodzącego słońca
   - 
