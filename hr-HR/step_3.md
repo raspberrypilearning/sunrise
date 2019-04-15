@@ -19,7 +19,7 @@ Da biste to učinili, definirate popis **ključnih okvira**. Svaki ključni okvi
     
     Dodajte označeni kôd na svoj Sunčev CSS:
     
-    ![zaslona](images/sunrise-sunrise.png)
+    ![screenshot](images/sunrise-sunrise.png)
     
     Ovo govori suncu da provede 10 sekundi animiranje izlaska sunca.
 
