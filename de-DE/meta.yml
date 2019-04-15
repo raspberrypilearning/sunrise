@@ -1,7 +1,7 @@
 ---
 hero_image: images/banner.png
 title: Sonnenaufgang
-theme: yellow
+theme: gelb
 duration: 2
 listed: true
 ingredient: false
@@ -18,7 +18,7 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Einführung
+    title: Einleitung
   - 
     title: Die Sonne herstellen
   - 
