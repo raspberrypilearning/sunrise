@@ -1,0 +1,27 @@
+---
+hero_image: images/banner.png
+title: 일출
+theme: yellow
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-1, programming-0, phys-comp-0, manufacture-0, community-0
+description: 일출 애니메이션을 만들어 봅시다.
+original_url: https://codeclubprojects.org/en-GB/webdev/sunrise
+interests: ''
+technologies: html-css-javascript
+site_areas: projects
+hardware: ''
+software: html-css-javascript
+version: 3
+last_tested: 2017-01-01
+steps:
+  - title: 소개
+  - title: 해 만들기
+  - title: 일출 애니메이션
+  - title: '과제: 각도를 반영한 애니메이션'
+  - title: 애니메이션 무한 반복
+  - title: 애니메이션을 하늘에 적용하기
+  - title: '도전과제: 하늘 애니메이션 발전시키기'
+  - title: '도전과제: 더 많은 애니메이션 추가하기'
