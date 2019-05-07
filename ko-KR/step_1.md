@@ -29,7 +29,7 @@ title: 교육자들을 위한 메모
 
 학생들은 새로운 Trinket을 사용할 수 있으며 [(jumpto.cc/html-black)](http://jumpto.cc/html-blank) 이를 통해 자신만의 HTML 과 CSS 코드를 사용하는 방법을 배울 수 있습니다. 또한, 템플릿이 제공된 Trinket을 사용할 수 있습니다. [(jumpto.cc/html-template)](http://jumpto.cc/html-template)
 
-프로젝트의 샘플 정답이 다음 Trinket에 있습니다.
+프로젝트의 샘플 정답이 다음 Trinket 에 있습니다.
 
 + ['일출' 끝](https://trinket.io/html/abcc0284a3)
 
@@ -61,7 +61,7 @@ title: 교육자들을 위한 메모
 ## 학습 목표
 
 + CSS에서 애니메이션과 스타일링 
-    + 애니메이션의 단계 정의를 위한 `@keyframes ` 규칙 소개.
+    + 애니메이션의 단계 정의를 위한 `@keyframes` 규칙 소개.
     + 웹 페이지의 요소 크기, 모양, 위치 및 색상을 정의하기 위한 속성 사용 강화
 
 이 프로젝트는 [라즈베리파이 디지털 메이킹 커리큘럼](http://rpf.io/curriculum) 중 아래의 과정에 있는 요소들을 다룹니다.
