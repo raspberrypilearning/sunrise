@@ -4,7 +4,7 @@ Let's start by adding an image for the sun and positioning it with some CSS.
 
 + Trinketをひらく: <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto.cc/web-sunrise</a>.
     
-    プロジェクトはこのようになります。
+    リンクを開くと、このような画面が表示されます。
     
     ![スクリーンショット](images/sunrise-starter.png)
 
