@@ -5,7 +5,7 @@
 <div class="trinket">
   <iframe src="https://trinket.io/embed/html/abcc0284a3?outputOnly=true&start=result" width="600" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
-  <img src="images / sunrise-final.png">
+  <img src="images/sunrise-final.png">
 </div>
 
 ### Додаткова інформація для керівників гуртка
@@ -16,6 +16,7 @@
 ---
 title: Нотатки керівника гуртка
 ---
+
 ## Вступ:
 
 У цьому проекті діти зможуть навчитися створювати просту сцену за допомогою CSS Вони використовуватимуть правило CSS @keyframes, щоб анімувати різні властивості зображень та divs.
@@ -90,6 +91,7 @@ title: Нотатки керівника гуртка
 ---
 title: Матеріали проекту
 ---
+
 ## Проектні ресурси
 
 + [.zip файли, що містять всі проектні ресурси](resources/sunrise-project-resources.zip)
