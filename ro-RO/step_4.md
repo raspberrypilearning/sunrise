@@ -1,14 +1,14 @@
 \--- challenge \---
 
-## Challenge: Diagonal animation
+## Provocare: Animație în diagonală
 
-Can you add code to your `sunrise` animation, to make your sun start at the bottom left of the sky and move diagonally to its position at roughly the top center?
+Poți să adaugi cod animației `sunrise`, pentru a face soarele să răsară din colțul din stânga jos al cerului și să se deplaseze pe diagonală până în poziția centru-sus?
 
-You can use the `left` property to do this, for example:
+Poți utiliza proprietatea `left` pentru a face acest lucru, de exemplu:
 
     left: 40%;
     
 
-![screenshot](images/sunrise-left.png)
+![captură de ecran](images/sunrise-left.png)
 
 \--- /challenge \---
