@@ -1,8 +1,8 @@
-## Infinite animation
+## Animație infinită
 
-Let's make the animation keep repeating forever.
+Hai să facem această animație să se repete la infinit.
 
-+ If you want the sun to rise and then set, just add more keyframes to your animation:
++ Dacă vrei ca soarele să răsară și apoi să apună, trebuie să adaugi mai multe keyframe la animația ta:
     
         @keyframes sunrise {
             0%  
@@ -12,10 +12,10 @@ Let's make the animation keep repeating forever.
         }
         
     
-    This means that the animation starts and ends with the sun at the bottom of the sky, and stays at the top from 33% until 66% of the animation.
+    Asta înseamnă că animația începe și se termină cu soarele în partea inferioară a cerului, și rămâne în partea de sus a cerului de la 33% până 66% din timpul de execuție al animației.
 
-+ Now you just need to add the word `infinite` to the `#sun` animation to make it loop forever:
++ Acum doar trebuie să adaugi cuvântul `infinite` la animația `#sun` pentru a o face să ruleze continuu:
     
-    ![screenshot](images/sunrise-infinite.png)
+    ![captură de ecran](images/sunrise-infinite.png)
 
-+ Test out your animation. Does the sun keep rising and setting?
++ Testează animația. Soarele tău răsare și apune?
