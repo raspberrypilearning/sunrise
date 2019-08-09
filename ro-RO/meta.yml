@@ -1,13 +1,13 @@
 ---
 hero_image: images/banner.png
-title: Sunrise
+title: Răsărit de soare
 theme: yellow
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-1, programming-0, phys-comp-0, manufacture-0, community-0
-description: Create an animated sunrise.
+description: Creează un răsărit de soare animat.
 original_url: https://codeclubprojects.org/en-GB/webdev/sunrise
 interests: ''
 technologies: html-css-javascript
@@ -18,18 +18,18 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: Introducere
   - 
-    title: Creating the sun
+    title: Creează soarele
   - 
-    title: Animating the sunrise
+    title: Animează răsăritul de soare
   - 
-    title: 'Challenge: Diagonal animation'
+    title: 'Provocare: Animație în diagonală'
   - 
-    title: Infinite animation
+    title: Animație infinită
   - 
-    title: Animating the sky
+    title: Animează cerul
   - 
-    title: 'Challenge: Improve the sky'
+    title: 'Provocare: Perfecționează cerul'
   - 
-    title: 'Challenge: More animation'
+    title: 'Provocare: Mai multă animație'
