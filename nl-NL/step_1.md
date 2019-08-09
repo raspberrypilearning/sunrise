@@ -10,7 +10,7 @@ In dit project leer je CSS te gebruiken om een ​​geanimeerde zonsopgang te c
 
 ### Aanvullende informatie voor clubleiders
 
-Als je dit project wilt afdrukken, gebruik dan de [Printervriendelijke versie](https://projects.raspberrypi.org/en/projects/sunrise/print).
+Als je dit project wilt afdrukken, gebruik dan de [printervriendelijke versie](https://projects.raspberrypi.org/en/projects/sunrise/print).
 
 ## \--- collapse \---
 
@@ -109,7 +109,7 @@ Dit project behandelt elementen uit de volgende onderdelen van het [Raspberry Pi
 + [sunrise/boat.png](resources/sunrise-boat.png)
 + [sunrise/helicopter.png](resources/sunrise-helicopter.png)
 
-## Clubleider bronnen
+## Clubleiderbronnen
 
 + [.zip-bestand met alle voltooide projectresources](resources/sunrise-volunteer-resources.zip)
 + [Online voltooid Trinket-project](https://trinket.io/html/abcc0284a3)
