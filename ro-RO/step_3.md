@@ -1,12 +1,12 @@
-## Animating the sunrise
+## Animează răsăritul de soare
 
-To animate your sunrise, you need to define how the sun moves and how long it takes to rise.
+Pentru a anima răsăritul de soare, trebuie sa îți definești cum să se miște soarele și cât timp să îi ia până răsare.
 
-To do this you define a list of **key frames**. Each key frame defines the CSS properties of an element at a particular point in an animation.
+Pentru a face acest lucru trebuie să definești o listă de **key frames**. Fiecare key frame definește proprietățile CSS ale unui element la un anumit moment dintr-o animație.
 
-+ First, you need to use `@keyframes` to create a new animation called sunrise.
++ Mai întâi, trebuie să utilizezi `@keyframes` pentru a crea o nouă animație numită sunrise.
     
-    Add this CSS code to the end of your `style.css` file:
+    Adaugă acest cod CSS la finalul fișierului `style.css`:
     
         @keyframes sunrise {
             0%
@@ -14,16 +14,16 @@ To do this you define a list of **key frames**. Each key frame defines the CSS p
         }
         
     
-    This code tells the sun where to position itself at the start (`0%`) and the end (`100%`) of the animation.
+    Acest cod ii spune soarelui unde să se poziționeze la începutul (`0%`) și la sfârșitul (`100%`) animației.
     
-    Because the sun is inside the sky `div`, the `top` and `left` positions you give are within to the sky, with `top: 100%` being the bottom of the sky, and not the bottom of the webpage.
+    Deoarece soarele este în inclus în elementul `div` al cerului, pozițiile `top` și `left` pe care le atribuim fac referire la dimensiunile cerului, adică `top: 100%` reprezintă partea inferioară a cerului, nu partea inferioară a paginii Web.
 
-+ Now that you have created a `sunrise` animation, you just need to tell your sun to use it!
++ Acum că ai creat o animație `sunrise`, trebuie doar să îi spui soarelui să o utilizeze!
     
-    Add the highlighted code to your sun's CSS:
+    Adaugă codul evidențiat la codul CSS al soarelui:
     
-    ![screenshot](images/sunrise-sunrise.png)
+    ![captură de ecran](images/sunrise-sunrise.png)
     
-    This tells the sun to spend 10 seconds animating a sunrise.
+    Acesta ii spune soarelui să fie animat timp de 10 secunde.
 
-+ To run the animation again in Trinket, just click **Autorun**.
++ Pentru a rula din noua animația în Trinket, apasă **Autorun**.
