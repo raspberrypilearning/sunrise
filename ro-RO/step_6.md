@@ -1,8 +1,8 @@
-## Animating the sky
+## Animează cerul
 
-Animation isn't just for movement. Let's animate the sky to turn dark at night.
+O animație nu se referă doar la mișcare. Hai să animăm și cerul pe care se întunecă pe timpul nopții.
 
-+ Add an animation called `sky` to your CSS:
++ Adaugă o animație numită `sky` în codul CSS:
     
         @keyframes sky {
             0%
@@ -10,13 +10,13 @@ Animation isn't just for movement. Let's animate the sky to turn dark at night.
         }
         
     
-    Notice that this time you're animating the colour of the sky, and not the position.
+    Ține minte faptul că acum animăm culoarea cerului, nu poziția acestuia.
 
-+ Add code to your sky, to tell it to use your new animation:
++ Adaugă cod cerului, pentru a-i spune să utilizeze animația:
     
         animation: sky 10s;
         
     
-    ![screenshot](images/sunrise-sky.png)
+    ![captură de ecran](images/sunrise-sky.png)
 
-+ Click **Autorun** to test your animation.
++ Apasă **Autorun** pentru a testa animația.
