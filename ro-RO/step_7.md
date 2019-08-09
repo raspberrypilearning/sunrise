@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: Improve the sky
+## Provocare: Perfecționează cerul
 
-Can you change the sky animation so that it matches the sun and stays blue during the day and returns to black as the sun sets. Make it loop forever too.
+Poți modifica animația cerului astfel încât să se potrivească cu soarele, să fie albastru pe perioada zilei și să se întunece când soarele apune. Fă-l să ruleze continuu.
 
-![screenshot](images/sunrise-sky-challenge.png)
+![captură de ecran](images/sunrise-sky-challenge.png)
 
 \--- /challenge \---
