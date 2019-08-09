@@ -1,14 +1,14 @@
-## Creating the sun
+## Creează soarele
 
-Let's start by adding an image for the sun and positioning it with some CSS.
+Hai să începem prin adăugarea imaginii soarelui și poziționarea acestuia utilizând CSS.
 
-+ Open this trinket: <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto.cc/web-sunrise</a>.
++ Deschide acest trinket: <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto.cc/web-sunrise</a>.
     
-    The project should look like this:
+    Proiectul ar trebui să arate astfel:
     
-    ![screenshot](images/sunrise-starter.png)
+    ![captură de ecran](images/sunrise-starter.png)
 
-+ Look inside the `body` of your `index.html` file and you'll find the the `div` elements for the sky and the sea.
++ Uită-te în componenta `body` din fișierul `index.html` și vei găsi elementele `div` pentru cer și mare.
     
         <div id="sky">
         </div>
@@ -17,18 +17,18 @@ Let's start by adding an image for the sun and positioning it with some CSS.
         </div>
         
 
-+ An image for the sun is already included in your project.
++ Imaginea pentru soare este deja inclusă în proiect.
     
-    Add the image inside your sun `div` including an id so you can style it:
+    Adaugă imaginea în interiorul elementului `div` și setează-i un id pentru a o putea stiliza:
     
-    ![screenshot](images/sunrise-sun-image.png)
+    ![captură de ecran](images/sunrise-sun-image.png)
 
-+ Whoa, the image is huge. Go to `style.css` and add the CSS to set the image height:
++ Uau, imaginea este imensă. Deschide fișierul `style.css` și adaugă codul CSS pentru a seta înălțimea imaginii:
     
-    ![screenshot](images/sunrise-sun-height.png)
+    ![captură de ecran](images/sunrise-sun-height.png)
     
-    Note that the width is updated automatically to keep the proportions the same.
+    Observă faptul că lățimea a fost actualizată în mod automat pentru a păstra proporția cu înălțimea imaginii.
 
-+ Finally, let's add some code to position the sun:
++ În final, hai să adăugăm niște cod pentru a poziționa soarele:
     
-    ![screenshot](images/sunrise-sun-position.png)
+    ![captură de ecran](images/sunrise-sun-position.png)
