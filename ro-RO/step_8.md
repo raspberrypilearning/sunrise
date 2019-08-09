@@ -1,27 +1,27 @@
 \--- challenge \---
 
-## Challenge: More animation
+## Provocare: Mai multă animație
 
-Can you animate another image? You can animate the position, colour, shape, size, opacity (seethroughness) or anything else you can think of. Also try changing the amount of time your animations run for.
+Poți anima altă imagine? Poți anima poziția, culoarea, forma, dimensiunea, nivelul de opacitate (să poți vedea prin acea imagine) sau orice altceva la care te poți gândi. De asemenea, încearcă să modifici timpul de rulare al animațiilor.
 
-For each item you want to animate, you will need to:
+Pentru fiecare obiect pe care vrei să îl faci animat, trebuie să:
 
-+ Include it in your HTML with an id
-+ Add a style for the id
-+ Create an @keyframes rule
-+ Use `animation:` in the style to use the animation you defined with @keyframes 
++ Îl incluzi în HTML cu un id
++ Adaugi un stil pentru fiecare id
++ Creezi reguli @keyframes
++ Utilizezi `animation:` în stilul elementului pentru a-i atribui animația definită cu @keyframes 
 
-Click on the image icon to see the images that are included in the project:
+Apasă pe iconița imaginilor pentru a vedea ce imagini au fost incluse in proiect:
 
-![screenshot](images/sunrise-images.png)
+![captură de ecran](images/sunrise-images.png)
 
-You can also upload your own images if you like.
+De asemenea, poți încărca propriile tale imagini dacă dorești.
 
-Don't forget you can put items in the sea as well as the sky:
+Nu uita că poți să adaugi obiecte pe mare, la fel cum ai făcut și pe cer:
 
-![screenshot](images/sunrise-boat.png)
+![captură de ecran](images/sunrise-boat.png)
 
-In the example the rainbow uses opacity for a fade effect:
+În exemplu, curcubeul folosește opacitatea pentru un efect de apariție treptată:
 
     @keyframes fade {
       0%  
@@ -31,7 +31,7 @@ In the example the rainbow uses opacity for a fade effect:
     }
     
 
-The boat uses a negative starting position so that you can't see it for part of the animation:
+Barca utilizează o valoare negativă de pornire pentru a intra în animație mai târziu:
 
      @keyframes left-right {
       0%   
