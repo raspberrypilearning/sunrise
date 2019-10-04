@@ -1,8 +1,8 @@
-\--- challenge \---
+\--- تحدي \---
 
-## Challenge: Improve the sky
+## تحدي: تحسين السماء
 
-Can you change the sky animation so that it matches the sun and stays blue during the day and returns to black as the sun sets. Make it loop forever too.
+هل يمكنك تغيير الرسم المتحرك للسماء بحيث تناسب الشمس وتكون زرقاء طيلة النهار و ترجع سوداء عند غروب الشمس. كذلك اجعلها تتكرر الى الابد.
 
 ![لقطة شاشة](images/sunrise-sky-challenge.png)
 
