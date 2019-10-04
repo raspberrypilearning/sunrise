@@ -4,11 +4,11 @@
 
 Možete li dodati kôd animaciji `izlaska sunca` , kako bi vaše sunce započelo na donjem lijevom dijelu neba i kretanje dijagonalno na njegov položaj pri približno gornjem centru?
 
-Da biste to učinili, možete upotrijebiti `lijevu` entitet, na primjer:
+To možeš napraviti koristeći svojstvo `left (lijevo)`, na primjer:
 
-    lijevo: 40%;
+    left: 40px%;
     
 
-![screenshot](images/sunrise-left.png)
+![snimka zaslona](images/sunrise-left.png)
 
 \--- challenge \---
