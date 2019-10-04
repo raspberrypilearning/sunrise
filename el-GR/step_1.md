@@ -24,7 +24,7 @@
 
 Συνιστούμε να χρησιμοποιήσετε την εφαρμογή [trinket](https://trinket.io/) για να γράψετε HTML & CSS online. Το έργο αυτό περιλαμβάνει τα ακόλουθα Trinkets:
 
-+ ['Ανατολή του ήλιου' αρχικό](https://trinket.io/html/web-sunrise)
++ ['Ανατολή του ήλιου' αρχικό](http://jumpto.cc/web-sunrise)
 
 Τα παιδιά μπορούν επίσης να χρησιμοποιήσουν το κενό trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) για να γράψουν δικό τους κώδικα HTML & CSS, ή να βασιστούν σε αυτό το πρότυπο trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
@@ -92,32 +92,32 @@
 
 ## Πόροι έργου
 
-+ [αρχείο .zip που περιέχει όλους τους πόρους του έργου](resources/sunrise-project-resources.zip)
++ [αρχείο .zip που περιέχει όλους τους πόρους του έργου](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-project-resources.zip)
 + [Online Trinket που περιέχει όλους τους πόρους του έργου 'Ανατολή του ήλιου'](http://jumpto.cc/web-sunrise)
 + [Online πρότυπο Trinket](http://jumpto.cc/trinket-template)
 + [Online κενό Trinket](http://jumpto.cc/trinket-blank)
-+ [template/index.html](resources/template-index.html)
-+ [template/style.css](resources/template-style.css)
-+ [intro/index.html](resources/intro-index.html)
-+ [intro/style.css](resources/intro-style.css)
-+ [sunrise/index.html](resources/sunrise-index.html)
-+ [sunrise/style.css](resources/sunrise-style.css)
-+ [sunrise/prefixfree.js](resources/sunrise-prefixfree.js)
-+ [sunrise/sun.png](resources/sunrise-sun.png)
-+ [sunrise/rainbow.png](resources/sunrise-rainbow.png)
-+ [sunrise/cloud.png](resources/sunrise-cloud.png)
-+ [sunrise/boat.png](resources/sunrise-boat.png)
-+ [sunrise/helicopter.png](resources/sunrise-helicopter.png)
++ [template/index.html](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/template-index.html)
++ [template/style.css](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/template-style.css)
++ [intro/index.html](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/intro-index.html)
++ [intro/style.css](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/intro-style.css)
++ [sunrise/index.html](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-index.html)
++ [sunrise/style.css](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-style.css)
++ [sunrise/prefixfree.js](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-prefixfree.js)
++ [sunrise/sun.png](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-sun.png)
++ [sunrise/rainbow.png](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-rainbow.png)
++ [sunrise/cloud.png](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-cloud.png)
++ [sunrise/boat.png](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-boat.png)
++ [sunrise/helicopter.png](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-helicopter.png)
 
 ## Πόροι συντονιστή ομάδας
 
-+ [Αρχείο .zip που περιέχει όλους τους ολοκληρωμένους πόρους του έργου](resources/sunrise-volunteer-resources.zip)
++ [Αρχείο .zip που περιέχει όλους τους ολοκληρωμένους πόρους του έργου](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-volunteer-resources.zip)
 + [Online ολοκληρωμένο έργο Trinket](https://trinket.io/html/abcc0284a3)
-+ [sunrise-finished/index.html](resources/sunrise-finished-index.html)
-+ [sunrise-finished/style.css](resources/sunrise-finished-style.css)
-+ [sunrise-finished/prefixfree.js](resources/sunrise-finished-prefixfree.js)
-+ [sunrise-finished/sun.png](resources/sunrise-finished-sun.png)
-+ [sunrise-finished/boat.png](resources/sunrise-finished-boat.png)
-+ [sunrise-finished/rainbow.png](resources/sunrise-finished-rainbow.png)
++ [sunrise-finished/index.html](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-index.html)
++ [sunrise-finished/style.css](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-style.css)
++ [sunrise-finished/prefixfree.js](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-prefixfree.js)
++ [sunrise-finished/sun.png](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-sun.png)
++ [sunrise-finished/boat.png](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-boat.png)
++ [sunrise-finished/rainbow.png](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-rainbow.png)
 
 \--- /collapse \---
