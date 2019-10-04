@@ -1,8 +1,8 @@
-## Infinite animation
+## رسوم متحركة لا نهائية
 
-Let's make the animation keep repeating forever.
+لنعمل رسوم متحركة تبقى تتكرر الى الابد.
 
-+ If you want the sun to rise and then set, just add more keyframes to your animation:
++ اذا كنت تريد الشمس ان تشرق ثم تغرب, فقط قم بأضافة المزيد من الاطارات لرسمك المتحرك:
     
         @keyframes sunrise {
             0%  
@@ -12,10 +12,10 @@ Let's make the animation keep repeating forever.
         }
         
     
-    This means that the animation starts and ends with the sun at the bottom of the sky, and stays at the top from 33% until 66% of the animation.
+    هذا يجعل الرسم المتحرك يبدأ و ينتهي عمدما تكون الشمس اسفل السماء, وتبقى في الاعلى من 33% حتى 66% من الرسم المتحرك.
 
-+ Now you just need to add the word `infinite` to the `#sun` animation to make it loop forever:
++ الآن انت تحناج فقط الى اضافة كلمة ال`infinite`الى رسم ال`#sun` المتحرك لجعلها تدور الى الابد:
     
     ![لقطة الشاشة](images/sunrise-infinite.png)
 
-+ Test out your animation. Does the sun keep rising and setting?
++ قم باختبار الرسم المتحرك الخاص بك. هل تقوم الشمس بلشروق والغروب بأستمرار؟
