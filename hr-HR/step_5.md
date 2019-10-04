@@ -1,16 +1,16 @@
 ## Beskonačna animacija
 
-Učinimo da se animacija ponavlja zauvijek.
+Napravi da se animacija ponavlja beskonačno mnogo puta.
 
-+ Ako želite da se sunce diže, a zatim postavite, dodajte više ključnih okvira u svoju animaciju:
++ Ako želiš da sunce izlazi, a zatim zalazi, dodaj više ključnih okvira (keyframes) u svoju animaciju:
     
         @keyframes sunrise {0% 33% 66% 100%}
         
     
-    To znači da se animacija počinje i završava suncem na dnu neba i ostaje na vrhu od 33% do 66% animacije.
+    To znači da će sunce biti na dnu neba na početku i na kraju animacije te na vrhu neba od 33% do 66% animacije.
 
 + Now you just need to add the word `infinite` to the `#sun` animation to make it loop forever:
     
     ![screenshot](images/sunrise-infinite.png)
 
-+ Isprobajte svoju animaciju. Sunce se diže i postavlja?
++ Isprobaj svoju animaciju. Sunce se diže i postavlja?
