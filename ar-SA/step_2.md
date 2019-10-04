@@ -1,6 +1,6 @@
-## Creating the sun
+## أنشاء الشمس
 
-Let's start by adding an image for the sun and positioning it with some CSS.
+لنبدأ باضافة صورة للشمس ووضعها في مكانها باستخدام بعض ال CSS.
 
 + افتح مشروع trinket هذا: <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto.cc/web-sunrise</a>.
     
@@ -8,7 +8,7 @@ Let's start by adding an image for the sun and positioning it with some CSS.
     
     ![لقطة الشاشة](images/sunrise-starter.png)
 
-+ Look inside the `body` of your `index.html` file and you'll find the the `div` elements for the sky and the sea.
++ بداخل `body` التابع لملفك ال`index.html` ستجد عناصر ال`div` التابعة للسماء والبحر.
     
         <div id="sky">
         </div>
@@ -17,18 +17,18 @@ Let's start by adding an image for the sun and positioning it with some CSS.
         </div>
         
 
-+ An image for the sun is already included in your project.
++ هناك صورة للشمس موجودة مسبقاً في مشروعك.
     
-    Add the image inside your sun `div` including an id so you can style it:
+    اضف الصورة داخل شمسك `div` وباحتواء ايضاُ على تعريف لترتيبها:
     
     ![لقطة الشاشة](images/sunrise-sun-image.png)
 
-+ Whoa, the image is huge. Go to `style.css` and add the CSS to set the image height:
++ يا الهي, الصورة هائلة. اذهب الى `style.css` وقم بأضافة الCSS لظبط ارتفاع الصورة:
     
     ![لقطة الشاشة](images/sunrise-sun-height.png)
     
-    Note that the width is updated automatically to keep the proportions the same.
+    لاحظ أن العرض سيحدث تلقائياً للحفاظ على نسب الحجم نفسها.
 
-+ Finally, let's add some code to position the sun:
++ وأخيراً, لنضف بعض الكود البرمجي لوضع الشمس في مكانها:
     
     ![لقطة الشاشة](images/sunrise-sun-position.png)
