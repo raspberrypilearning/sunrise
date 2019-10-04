@@ -24,7 +24,7 @@
 
 オンライン上でHTMLとCSSを書くために、 [trinket](https://trinket.io/) を使うことをおすすめします。 以下のtrinketが利用できます。
 
-+ ['Sunrise' starting point](https://trinket.io/html/web-sunrise)
++ ['Sunrise' starting point](http://jumpto.cc/web-sunrise)
 
 また、子供たちが１からHTMLとCSSを記述できるように、何も書かれていない状態のtrinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank)を使うことができます。それに加え、trinketのテンプレート [(jumpto.cc/html-template)](http://jumpto.cc/html-template)も利用できます。
 
@@ -92,32 +92,32 @@
 
 ## プロジェクト資料
 
-+ [全プロジェクトの資料が入った.zipファイル](resources/sunrise-project-resources.zip)
++ [全プロジェクトの資料が入った.zipファイル](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-project-resources.zip)
 + [全プロジェクトの資料](http://jumpto.cc/web-sunrise)
 + [Online Trinket template](http://jumpto.cc/trinket-template)
 + [Online blank Trinket](http://jumpto.cc/trinket-blank)
-+ [template/index.html](resources/template-index.html)
-+ [template/style.css](resources/template-style.css)
-+ [intro/index.html](resources/intro-index.html)
-+ [intro/style.css](resources/intro-style.css)
-+ [sunrise/index.html](resources/sunrise-index.html)
-+ [sunrise/style.css](resources/sunrise-style.css)
-+ [sunrise/prefixfree.js](resources/sunrise-prefixfree.js)
-+ [sunrise/sun.png](resources/sunrise-sun.png)
-+ [sunrise/rainbow.png](resources/sunrise-rainbow.png)
-+ [sunrise/cloud.png](resources/sunrise-cloud.png)
-+ [sunrise/boat.png](resources/sunrise-boat.png)
-+ [sunrise/helicopter.png](resources/sunrise-helicopter.png)
++ [template/index.html](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/template-index.html)
++ [template/style.css](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/template-style.css)
++ [intro/index.html](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/intro-index.html)
++ [intro/style.css](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/intro-style.css)
++ [sunrise/index.html](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-index.html)
++ [sunrise/style.css](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-style.css)
++ [sunrise/prefixfree.js](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-prefixfree.js)
++ [sunrise/sun.png](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-sun.png)
++ [sunrise/rainbow.png](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-rainbow.png)
++ [sunrise/cloud.png](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-cloud.png)
++ [sunrise/boat.png](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-boat.png)
++ [sunrise/helicopter.png](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-helicopter.png)
 
 ## 指導者用資料
 
-+ [全プロジェクトの完成版の資料が入った.zipファイル](resources/sunrise-volunteer-resources.zip)
++ [全プロジェクトの完成版の資料が入った.zipファイル](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-volunteer-resources.zip)
 + [完成版Trinketプロジェクト(オンライン)](https://trinket.io/html/abcc0284a3)
-+ [完成版のHTMLファイル](resources/sunrise-finished-index.html)
-+ [完成版のCSSファイル](resources/sunrise-finished-style.css)
-+ [完成版のJavaScriptソース](resources/sunrise-finished-prefixfree.js)
-+ [完成版プロジェクトで使う太陽の画像](resources/sunrise-finished-sun.png)
-+ [完成版プロジェクトで使うボートの画像](resources/sunrise-finished-boat.png)
-+ [完成版プロジェクトで使う虹の画像](resources/sunrise-finished-rainbow.png)
++ [完成版のHTMLファイル](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-index.html)
++ [完成版のCSSファイル](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-style.css)
++ [完成版のJavaScriptソース](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-prefixfree.js)
++ [完成版プロジェクトで使う太陽の画像](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-sun.png)
++ [完成版プロジェクトで使うボートの画像](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-boat.png)
++ [完成版プロジェクトで使う虹の画像](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-rainbow.png)
 
 \--- /collapse \---
