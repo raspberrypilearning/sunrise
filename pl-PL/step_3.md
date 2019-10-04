@@ -1,4 +1,4 @@
-## Animacja wschodzącego słońca
+## Animacja wschodu Słońca
 
 Aby stworzyć animację słońca, musisz najpierw określić, jak słońce porusza się po niebie i ile czasu zajmuje jego wschód.
 
@@ -14,11 +14,11 @@ Aby stworzyć animację słońca, musisz najpierw określić, jak słońce porus
         }
         
     
-    Ten kod mówi słońcu, w którym miejscu ma się znajdować na początku (`0%`) i przy końcu (`100%`) animacji.
+    Ten kod mówi Słońcu, w którym miejscu ma się znajdować na początku (`0%`) i przy końcu (`100%`) animacji.
     
-    Ponieważ słońce jest wewnątrz `div` nieba, pozycje, które nadajesz (`top` i `left`) znajdują się w zakresie nieba, gdzie `top: 100%` to spód nieba, a nie strony internetowej.
+    Ponieważ Słońce jest wewnątrz `div` nieba, pozycje, które nadajesz `top` i `left` znajdują się w zakresie nieba, gdzie `top: 100%` to spód nieba, a nie strony internetowej.
 
-+ Teraz, skoro twoja animacja `sunrise` jest gotowa, musisz powiedzieć swojemu słońcu, aby z niej skorzystało!
++ Teraz, skoro twoja animacja `sunrise` jest gotowa, musisz powiedzieć swojemu Słońcu, aby z niej skorzystało!
     
     Dodaj podkreślony fragment kodu do kodu CSS słońca:
     
