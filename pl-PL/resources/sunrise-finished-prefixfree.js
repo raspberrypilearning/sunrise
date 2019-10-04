@@ -13,7 +13,7 @@ if(!window.addEventListener) {
 var self = window.StyleFix = {
 	link: function(link) {
 		try {
-			// Ignore stylesheets with data-noprefix attribute as well as alternate stylesheets
+			// Ignoruj ​​arkusze stylów z atrybutem data-noprefix oraz alternatywnymi arkuszami stylów
 			if(link.rel !== 'stylesheet' || link.hasAttribute('data-noprefix')) {
 				return;
 			}
@@ -43,17 +43,17 @@ var self = window.StyleFix = {
 				if(css && link.parentNode && (!xhr.status || xhr.status < 400 || xhr.status > 600)) {
 					css = self.fix(css, true, link);
 					
-					// Convert relative URLs to absolute, if needed
+					// Przekonwertuj względny adres URL na bezwzględny, jeśli jest potrzebny
 					if(base) {
 						css = css.replace(/url\(\s*?((?:"|')?)(.+?)\1\s*?\)/gi, function($0, quote, url) {
 							if(/^([a-z]{3,10}:|#)/i.test(url)) { // Absolute & or hash-relative
 								return $0;
 							}
 							else if(/^\/\//.test(url)) { // Scheme-relative
-								// May contain sequences like /../ and /./ but those DO work
+								// Może zawierać sekwencjejak /../ i /./ ale one działają
 								return 'url("' + base_scheme + url + '")';
 							}
-							else if(/^\//.test(url)) { // Domain-relative
+							else if(/^\//.test(url)) { // Względny w domenie
 								return 'url("' + base_domain + url + '")';
 							}
 							else if(/^\?/.test(url)) { // Query-relative
@@ -121,13 +121,13 @@ var self = window.StyleFix = {
 	},
 	
 	process: function() {
-		// Linked stylesheets
+		// Szablon stylów odnośników
 		$('link[rel="stylesheet"]:not([data-inprogress])').forEach(StyleFix.link);
 		
-		// Inline stylesheets
+		// Szblon stylów linków
 		$('style').forEach(StyleFix.styleElement);
 		
-		// Inline styles
+		// style inline
 		$('[style]').forEach(StyleFix.styleAttribute);
 	},
 	
@@ -154,7 +154,7 @@ var self = window.StyleFix = {
 };
 
 /**************************************
- * Process styles
+ * Style procesów
  **************************************/
 (function(){
 	setTimeout(function(){
@@ -179,7 +179,7 @@ if(!window.StyleFix || !window.getComputedStyle) {
 	return;
 }
 
-// Private helper
+// Prywatny pomocnik
 function fix(what, before, after, replacement, css) {
 	what = self[what];
 	
@@ -352,13 +352,13 @@ var self = window.PrefixFree = {
  **************************************/
 (function() {
 // Values that might need prefixing
-// Values that might need prefixing
-	var functions = {
-		'linear-gradient': {
+var functions = {
+	'linear-gradient': {
 		property: 'backgroundImage',
-	params: 'red, teal'
+		params: 'red, teal'
 	},
-		'calc': {
+	'calc': {
+		property: 'width',
 		params: '1px + 5%'
 	},
 	'element': {
