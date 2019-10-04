@@ -1,6 +1,6 @@
---- wyzwanie ---
+--- challenge ---
 
-## Wyzwanie: Animacja po przekątnej
+## Wyzwanie: animacja po przekątnej
 
 Czy jesteś wstanie dodać kod do swojej animacji `sunrise`, aby Słońce zaczęło wschodzić w dolnej lewej części nieba i przesunęło się po przekątnej do swojej pozycji mniej więcej u góry pośrodku nieba?
 

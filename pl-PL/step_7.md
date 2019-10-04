@@ -1,6 +1,6 @@
---- wyzwanie ---
+--- challenge ---
 
-## Wyzwanie: Popraw niebo
+## Wyzwanie: popraw niebo
 
 Czy jesteś w stanie zmienić animację nieba tak, aby pasowała do słońca i pozostawała niebieska za dnia, a przechodziła w czarny kiedy słońce zachodzi. Zapętl stworzoną animację w nieskończoność.
 

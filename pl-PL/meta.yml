@@ -18,10 +18,10 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - title: Wprowadzenie
-  - title: Stworzenie Słońca
-  - title: Animacja wschodu Słońca
-  - title: 'Wyzwanie: Animacja po przekątnej'
+  - title: Tworzenie animacji słońca
+  - title: Animacja wschodu słońca
+  - title: 'Wyzwanie: animacja po przekątnej'
   - title: Niekończąca się animacja
   - title: Tworzenie animacji nieba
-  - title: 'Wyzwanie: Popraw niebo'
-  - title: 'Wyzwanie: Więcej animacji'
+  - title: 'Wyzwanie: popraw niebo'
+  - title: 'Wyzwanie: więcej animacji'

@@ -1,4 +1,4 @@
-## Animacja wschodu Słońca
+## Animacja wschodu słońca
 
 Aby stworzyć animację słońca, musisz najpierw określić, jak słońce porusza się po niebie i ile czasu zajmuje jego wschód.
 

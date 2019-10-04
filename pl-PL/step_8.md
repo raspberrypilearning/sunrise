@@ -1,6 +1,6 @@
 --- challenge ---
 
-## Wyzwanie: Więcej animacji
+## Wyzwanie: więcej animacji
 
 Czy potrafisz stworzyć animację kolejnego obrazka? Możesz wybrać, co chcesz animować, czy to pozycję, kolor, kształt, rozmiar, przezroczystość. Spróbuj zmieniać również czas trwania twoich animacji.
 

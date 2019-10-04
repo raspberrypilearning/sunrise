@@ -1,4 +1,4 @@
-## Tworzenie animacji Słońca
+## Tworzenie animacji słońca
 
 Zacznijmy od dodania obrazka ze Słońcem i ustawienia go w odpowiednim miejscu z pomocą CSS.
 
