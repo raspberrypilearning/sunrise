@@ -1,6 +1,6 @@
 ## Wprowadzenie
 
-Wykonując ten projekt dowiesz się, jak z pomocą CSS stworzyć animację wschodzącego słońca.
+Wykonując ten projekt dowiesz się, jak z pomocą CSS stworzyć animację wschodu Słońca.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/html/abcc0284a3?outputOnly=true&start=result" width="600" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -24,13 +24,13 @@ Wykonując ten projekt, dzieci nauczą się animować prostą scenkę przy użyc
 
 Do pisania kodu HTML i CSS online rekomendujemy użytkowanie edytora [trinket](https://trinket.io/). Ten projekt zawiera następujące szablony:
 
-+ [Punkt startowy wschodu słońca](https://trinket.io/html/web-sunrise)
++ [Punkt początkowy wschodu Słońca](http://jumpto.cc/web-sunrise)
 
 Dzieci mogą również skorzystać z tego pustego wzorca [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank), aby napisać własny kod HTML i CSS, lub mogą skorzystać z wcześniej przygotowanego wzorca [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
 Dostępny jest także projekt zawierający przykładowe rozwiązania wyzwań:
 
-+ [Skończony wschód słońca](https://trinket.io/html/abcc0284a3)
++ [Ukończony wschód Słońca](https://trinket.io/html/abcc0284a3)
 
 ## Zasoby Offline
 
@@ -63,11 +63,11 @@ Pełną wersję tego projektu można również znaleźć w sekcji "Zasoby dla wo
     + Wprowadzenie reguły `@keyframes` do definiowania kroków w animacji.
     + Wzmocnienie wykorzystania właściwości do określenia rozmiaru, kształtu, położenia i koloru elementów na stronie internetowej.
 
-Ten projekt obejmuje elementy z następujących wątków z [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Projekt ten obejmuje następujące elementy [Cyfrowego programu nauczania Raspberry Pi](http://rpf.io/curriculum):
 
 + [ Projektuj podstawowe zasoby 2D i 3D](https://www.raspberrypi.org/curriculum/design/creator).
 
-## Zadania
+## Wyzwania
 
 + "Animacja po przekątnej" - edycja pozostałych właściwości animacji `@keyframes`:;
 + "Popraw niebo" - dodaj więcej klatek kluczowych i ustaw tło:.
@@ -92,32 +92,32 @@ Ten projekt obejmuje elementy z następujących wątków z [Raspberry Pi Digital
 
 ## Zasoby
 
-+ [Plik .zip zawierający wszystkie zasoby potrzebne do wykonania projektu](resources/sunrise-project-resources.zip)
-+ [Szablon startowy zawierający wszystkie zasoby potrzebne do realizacji projektu "Wschód słońca"](http://jumpto.cc/web-sunrise)
++ [Plik .zip zawierający wszystkie zasoby potrzebne do wykonania projektu](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-project-resources.zip)
++ [Szablon startowy zawierający wszystkie zasoby potrzebne do realizacji projektu "Wschód Słońca"](http://jumpto.cc/web-sunrise)
 + [Pusty szablon Trinket](http://jumpto.cc/trinket-template)
 + [Pusty Trinket](http://jumpto.cc/trinket-blank)
-+ [template/index.html](resources/template-index.html)
-+ [template/style.css](resources/template-style.css)
-+ [intro/index.html](resources/intro-index.html)
-+ [intro/style.css](resources/intro-style.css)
-+ [sunrise/index.html](resources/sunrise-index.html)
-+ [sunrise/style.css](resources/sunrise-style.css)
-+ [sunrise/prefixfree.js](resources/sunrise-prefixfree.js)
-+ [sunrise/sun.png](resources/sunrise-sun.png)
-+ [sunrise/rainbow.png](resources/sunrise-rainbow.png)
-+ [sunrise/cloud.png](resources/sunrise-cloud.png)
-+ [sunrise/boat.png](resources/sunrise-boat.png)
-+ [sunrise/helicopter.png](resources/sunrise-helicopter.png)
++ [template/index.html](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/template-index.html)
++ [template/style.css](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/template-style.css)
++ [intro/index.html](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/intro-index.html)
++ [intro/style.css](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/intro-style.css)
++ [sunrise/index.html](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-index.html)
++ [sunrise/style.css](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-style.css)
++ [sunrise/prefixfree.js](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-prefixfree.js)
++ [sunrise/sun.png](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-sun.png)
++ [sunrise/rainbow.png](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-rainbow.png)
++ [sunrise/cloud.png](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-cloud.png)
++ [sunrise/boat.png](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-boat.png)
++ [sunrise/helicopter.png](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-helicopter.png)
 
 ## Zasoby dla lidera klubu
 
-+ [Plik .zip zawierający zasoby z ukończonym projektem](resources/sunrise-volunteer-resources.zip)
-+ [Ukończony projekt "Kolorowe Kreacje"](https://trinket.io/html/abcc0284a3)
-+ [sunrise-finished/index.html](resources/sunrise-finished-index.html)
-+ [sunrise-finished/style.css](resources/sunrise-finished-style.css)
-+ [sunrise-finished/prefixfree.js](resources/sunrise-finished-prefixfree.js)
-+ [sunrise-finished/sun.png](resources/sunrise-finished-sun.png)
-+ [sunrise-finished/boat.png](resources/sunrise-finished-boat.png)
-+ [sunrise-finished/rainbow.png](resources/sunrise-finished-rainbow.png)
++ [Plik .zip zawierający zasoby z ukończonym projektem](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-volunteer-resources.zip)
++ [Ukończony projekt "Wschód Słońca"](https://trinket.io/html/abcc0284a3)
++ [sunrise-finished/index.html](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-index.html)
++ [sunrise-finished/style.css](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-style.css)
++ [sunrise-finished/prefixfree.js](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-prefixfree.js)
++ [sunrise-finished/sun.png](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-sun.png)
++ [sunrise-finished/boat.png](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-boat.png)
++ [sunrise-finished/rainbow.png](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-rainbow.png)
 
 \--- /collapse \---
