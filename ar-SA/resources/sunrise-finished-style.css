@@ -7,7 +7,7 @@ html {
 }
 
 
-#sky {
+#سماء{
   position: absolute;
   top: 0;
   width: 100%;
@@ -23,7 +23,7 @@ html {
   100%  {background:black;}
 }
 
-#sea {
+#بحر{
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -31,7 +31,7 @@ html {
   background: blue;
 }
 
-#sun {
+#شمس{
   position: absolute;
   left: 0;
   top: 120%;
@@ -47,7 +47,7 @@ html {
   100%  {left:80%; top:120%;}
 }
 
-#boat {
+#قارب{
   position: absolute;
   left: -50%;
   top: 30%;
@@ -61,7 +61,7 @@ html {
   100%  {left:200%;}
 }
 
-#rainbow {
+#قوس قزح{
   position: absolute;
   left: 0;
   width: 200px;
