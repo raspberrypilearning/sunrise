@@ -1,3 +1,4 @@
+---
 hero_image: images/banner.png
 title: Wschód słońca
 theme: yellow
@@ -6,7 +7,7 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-1, programming-0, phys-comp-0, manufacture-0, community-0
-description: Stwórz animację ze wschodem słońca.
+description: Stwórz animowany wschód Słońca.
 original_url: https://codeclubprojects.org/en-GB/webdev/sunrise
 interests: ''
 technologies: html-css-javascript
@@ -15,5 +16,12 @@ hardware: ''
 software: html-css-javascript
 version: 3
 last_tested: 2017-01-01
-steps: 
-- title: Wschód słońca
+steps:
+  - title: Wprowadzenie
+  - title: Stworzenie Słońca
+  - title: Animacja wschodu Słońca
+  - title: 'Wyzwanie: Animacja po przekątnej'
+  - title: Niekończąca się animacja
+  - title: Tworzenie animacji nieba
+  - title: 'Wyzwanie: Popraw niebo'
+  - title: 'Wyzwanie: Więcej animacji'

@@ -291,7 +291,7 @@ var self = window.PrefixFree = {
 				}
 			}
 		}
-	},
+	}
 	supported = function(property) {
 		return StyleFix.camelCase(property) in dummy;
 	}
@@ -302,7 +302,7 @@ var self = window.PrefixFree = {
 			iterate(style[i])
 		}
 	}
-	else {
+	}
 		for(var property in style) {
 			iterate(StyleFix.deCamelCase(property));
 		}
@@ -336,7 +336,7 @@ var self = window.PrefixFree = {
 		}
 	}
 	
-	// IE fix
+	}
 	if(self.Prefix == 'Ms' 
 	  && !('transform' in dummy) 
 	  && !('MsTransform' in dummy) 
@@ -410,7 +410,7 @@ function supported(value, property) {
 
 for (var func in functions) {
 	var test = functions[func],
-		property = test.property,
+		var test = functions[func],
 		value = func + '(' + test.params + ')';
 	
 	if (!supported(value, property)
@@ -447,12 +447,12 @@ selectors = {
 
 atrules = {
 	'keyframes': 'name',
-	'viewport': null,
+	'keyframes': 'name',
 	'document': 'regexp(".")'
 };
 
+};
 self.selectors = [];
-self.atrules = [];
 
 var style = root.appendChild(document.createElement('style'));
 
