@@ -1,12 +1,12 @@
-## Animating the sunrise
+## صنع صورة متحركة لشروق الشمس
 
-To animate your sunrise, you need to define how the sun moves and how long it takes to rise.
+لصنع صورة متحركة لشروق الشمس, انت تحتاج لتعريف كيف ستتحرك الشمس وكم من الوقت ستحتاج لتشرق.
 
-To do this you define a list of **key frames**. Each key frame defines the CSS properties of an element at a particular point in an animation.
+لفعل هذا سوف تعرف لائحة من**key frames**. كل واحد من الأطارات يعرف خصائص الCSS للعنصر في نقطة محددة في الصورة المتحركة.
 
-+ First, you need to use `@keyframes` to create a new animation called sunrise.
++ أولاً, ستحتاج الى استعمال`key frames` لأنشاء صورة متحركة جديدة اسمها شروق الشمس.
     
-    Add this CSS code to the end of your `style.css` file:
+    أضف كود الCSS البرمجي هذا في نهاية ملف`key frames` الخاص بك:
     
         @keyframes sunrise {
             0%
@@ -14,16 +14,16 @@ To do this you define a list of **key frames**. Each key frame defines the CSS p
         }
         
     
-    This code tells the sun where to position itself at the start (`0%`) and the end (`100%`) of the animation.
+    هذا الكود البرمجي يخبر الشمس أين تضع نفسها في بداية(`0%`) وفي نهاية (`100%`) الصورة المتحركة.
     
-    Because the sun is inside the sky `div`, the `top` and `left` positions you give are within to the sky, with `top: 100%` being the bottom of the sky, and not the bottom of the webpage.
+    لأن الشمس هي داخل السماء `div`, مواقع ال `top` و`left` التي ستعطيها ستكون ضمن السماء, مع `top: 100%` سيكون قاع السماء, وليس قاع الصفحة.
 
-+ Now that you have created a `sunrise` animation, you just need to tell your sun to use it!
++ الان بعدما قمت بصناعة صورة `sunrise` المتحركة, انت فقط ستحتاج الى اخبار الشمس باستخدامه!
     
-    Add the highlighted code to your sun's CSS:
+    اضف الكود البرمجي المؤشر الى الCSS التابع للشمس:
     
     ![لقطة الشاشة](images/sunrise-sunrise.png)
     
-    This tells the sun to spend 10 seconds animating a sunrise.
+    هذا سيخبر الشمس ان تقضي 10 ثوان تقوم بتحريك شروق الشمس.
 
-+ To run the animation again in Trinket, just click **Autorun**.
++ لتشغيل الصورة المتحركة مرة اخرى في Trinket, فقط انقر على **Autorun**.
