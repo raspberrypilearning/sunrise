@@ -1,32 +1,29 @@
 ## Animando el amanecer
 
-Para animar el amanecer, necesitas definir como se mueve el sol y el tiempo que se necesita para levantarse.
+Para animar tu amanecer, necesitas definir cómo se mueve el sol y cuánto tarda en subir.
 
-Para hacer esto define una lista de __key frames__. Cada key frame define las propiedades CSS de un elemento en un punto particular de la animación. 
+Para hacer esto tienes que definir una lista de **key frames**. Cada key frame define las propiedades CSS de un elemento en un punto particular de la animación.
 
-+ Primer, necesitas usar `@keyframes` para crear una animación llamada amanecer (sunrise). 
-
-    Agregar este codigo CSS al final de tu archivo `style.css`:
-
++ Primero, necesitas usar `@keyframes` para crear una nueva animación llamada sunrise.
+    
+    Añade este código CSS al final de tu archivo `style.css`:
     ```
-    @keyframes sunrise {
-        0% {top: 90%;}
-        100% {top: 0;}
-    }
-    ```
+        @keyframes sunrise {
+            0%
+            100%
+        }
+    ```    
+    
+    Este código le dice al sol dónde colocarse al comienzo (`0%`) y al final (`100%`) de la animación.
+    
+    Como el sol está dentro del `div` del cielo, las posiciones `top` y `left` que le das son relativas al cielo, con `top: 100%` siendo el final del cielo y no de la página web.
 
-	Este código le dice al sol donde posicionarse al inicio (`0%`) y al final (`100%`) de la animación.
-
-	Proque el sol está dentro del `div` sky, las posiciones `top`(arriba) y `left`(izquierda) estan dentro del sky(cielo), con `top: 100%` siendo el fondo del cielo, no de la página.
-
-+ Ahora que has creado una animación de amancer `sunrise`, solo necesitas decierle al solo que la use! 
-
-    Agregar el código destacado al CSS de tu sol:
-
++ Ahora que has creado una animación de un `amanecer`, ¡solo necesitas decirle a tu sol que la use!
+    
+    Añade el código resaltado al CSS de tu sol:
+    
     ![screenshot](images/sunrise-sunrise.png)
+    
+    Esto le dice al sol que pase 10 segundos animando un amanecer.
 
-    Esto le dice al sol que tarde 10 segundos en animar el amancer.
-	
-+ Para volver a correr de nuevo el Trinket, has click en **Autorun**. 
-
-
++ Para volver a ejecutar la animación en Trinket, solo tienes que hacer clic en **Autorun**.

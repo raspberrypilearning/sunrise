@@ -1,3 +1,4 @@
+---
 hero_image: images/banner.png
 title: Amanecer
 theme: yellow
@@ -15,12 +16,12 @@ hardware: ''
 software: html-css-javascript
 version: 3
 last_tested: 2017-01-01
-steps: 
-- title: Introducción
-- title: Creando el Sol
-- title: Animando el amanecer
-- title: 'Reto: Animació Diagonal'
-- title: Animación infinita
-- title: Animando el Cielo
-- title: 'Reto: Mejora el cielo'
-- title: 'Reto: Mas animación'
+steps:
+  - title: Introducción
+  - title: Creando el Sol
+  - title: Animando el amanecer
+  - title: 'Desafío: Animación diagonal'
+  - title: Animación infinita
+  - title: Animando el cielo
+  - title: 'Desafío: Mejora el cielo'
+  - title: 'Desafío: Más animación'
