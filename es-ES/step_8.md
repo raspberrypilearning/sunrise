@@ -13,13 +13,13 @@ Para cada objeto que quieras animar, necesitarás:
 
 Haz clic en el icono de la imagen para ver las imágenes que están incluidas en el proyecto:
 
-![captura de pantalla](images/sunrise-images.png)
+![screenshot](images/sunrise-images.png)
 
 También puedes subir tus propias imágenes si así lo prefieres.
 
 No olvides que puedes poner objetos tanto en el mar como en el cielo:
 
-![captura de pantalla](images/sunrise-boat.png)
+![screenshot](images/sunrise-boat.png)
 
 En el ejemplo el arco iris usa la opacidad para un efecto de desvanecimiento:
 
