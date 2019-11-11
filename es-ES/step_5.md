@@ -16,6 +16,6 @@ Hagamos que la animación se siga repitiendo para siempre.
 
 + Ahora solo necesitas añadir la palabra `infinite` a la animación `#sun` para hacer un bucle infinito:
     
-    ![captura de pantalla](images/sunrise-infinite.png)
+    ![screenshot](images/sunrise-infinite.png)
 
 + Prueba tu animación. ¿Sigue el sol saliendo y poniéndose?
