@@ -4,7 +4,7 @@ Para animar tu amanecer, necesitas definir cómo se mueve el sol y cuánto tarda
 
 Para hacer esto tienes que definir una lista de **key frames**. Cada key frame define las propiedades CSS de un elemento en un punto particular de la animación.
 
-+ Primero, necesitas usar `@keyframes` para crear una nueva animación llamada amanecer.
++ Primero, necesitas usar `@keyframes` para crear una nueva animación llamada sunrise.
     
     Añade este código CSS al final de tu archivo `style.css`:
     
@@ -22,7 +22,7 @@ Para hacer esto tienes que definir una lista de **key frames**. Cada key frame d
     
     Añade el código resaltado al CSS de tu sol:
     
-    ![captura de pantalla](images/sunrise-sunrise.png)
+    ![screenshot](images/sunrise-sunrise.png)
     
     Esto le dice al sol que pase 10 segundos animando un amanecer.
 
