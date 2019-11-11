@@ -4,6 +4,6 @@
 
 ¿Puedes cambiar la animación del cielo de manera que haga juego con el sol y sea azul durante el día y vuelva a negro cuando el sol se ponga? Además haz que sea un bucle infinito.
 
-![captura de pantalla](images/sunrise-sky-challenge.png)
+![screenshot](images/sunrise-sky-challenge.png)
 
 \--- /challenge \---
