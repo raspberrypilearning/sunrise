@@ -6,7 +6,7 @@ Empecemos añadiendo una imagen para el sol y colocándola con CSS.
     
     El proyecto debería parecerse a esto:
     
-    ![captura de pantalla](images/sunrise-starter.png)
+    ![screenshot](images/sunrise-starter.png)
 
 + Mira dentro de `body` en tu archivo `index.html` y encontrarás los elementos `div` para el cielo y el mar.
     
@@ -21,14 +21,14 @@ Empecemos añadiendo una imagen para el sol y colocándola con CSS.
     
     Añade la imagen dentro del `div` de tu sol incluyendo un id de manera que puedas darle diferentes estilos:
     
-    ![captura de pantalla](images/sunrise-sun-image.png)
+    ![screenshot](images/sunrise-sun-image.png)
 
 + ¡Hala!, la imagen es gigante. Ve a `style.css` y añade el código CSS para establecer la altura de la imagen:
     
-    ![captura de pantalla](images/sunrise-sun-height.png)
+    ![screenshot](images/sunrise-sun-height.png)
     
     Date cuenta de que la anchura se actualiza automáticamente para mantener iguales las proporciones.
 
-+ Finalmente, añadamos algo de código para colocar el sol:
++ Finalmente, vamos a añadir algo de código para colocar el sol:
     
-    ![captura de pantalla](images/sunrise-sun-position.png)
+    ![screenshot](images/sunrise-sun-position.png)
