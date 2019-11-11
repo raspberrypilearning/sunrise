@@ -1,46 +1,49 @@
 --- challenge ---
-## Reto: Mas animación
 
-Puedes animar otra imágen? Puedes animar su posición, color, forma, tamaño y opacidad(ver atravez de ella) o  cualquier otra cosa que se te ocurra, Prueba también cambiar la duración de tus animaciones.
+## Desafío: Más animación
 
-Para cada elemento que quieras animar, necesitaras:
+¿Puedes animar otra imagen? Puedes animar la posición, color, forma, tamaño, opacidad o cualquier otra cosa en la que puedas pensar. También intenta cambiar el tiempo que duran tus animaciones.
 
-+ Incluirlo en tu HTML con un Id
-+ Agregar un estilo (style) para ese ID
-+ crear una regla @keyframes
-+ Usar `animation:` en el stilo para usar la animaci que definiste con @keyframes 
+Para cada objeto que quieras animar, necesitarás:
 
-Dar click en ícono para ver las imagenes que son incluidas en tu proyecto:
++ Incluirlo en tu HTML con un id
++ Añade un estilo para el id
++ Crea una regla @keyframes
++ Usa `animation:` en el estilo para usar la animación que definiste con @keyframes 
+
+Haz clic en el icono de la imagen para ver las imágenes que están incluidas en el proyecto:
 
 ![screenshot](images/sunrise-images.png)
 
-Puedes también subir tus propias imágenes si gustas.
+También puedes subir tus propias imágenes si así lo prefieres.
 
-No olvides que puedes poner elementos en el mar asi como en el cielo:
+No olvides que puedes poner objetos tanto en el mar como en el cielo:
 
 ![screenshot](images/sunrise-boat.png)
 
-
-En el ejemplo el arcoiris usa opacity(opacidad) para dar un efecto de desvanecimiento:
-
+En el ejemplo el arco iris usa la opacidad para un efecto de desvanecimiento:
 ```
-@keyframes fade {
-  0%   {opacity: 0;}
-  50%  {opacity: 100;}
-  66%  {opacity: 0;}
-  100%   {opacity: 0;}
-}
+    @keyframes fade {
+      0%  
+      50% 
+      66% 
+      100%  
+    }
+```    
+
+El barco usa un punto de partida negativo de manera que puedas verlo durante una parte de la animación:
 ```
-
-El bote usa una posición de inicion negativa para que no lo puedas ver por una parate de la animación:
-
-```
- @keyframes left-right {
-  0%    {left:-50%;}
-  100%  {left:200%;}
-}
-```
-
-
+     @keyframes left-right {
+      0%   
+      100% 
+    }
+```    
 
 --- /challenge ---
+
+
+**Traducción aportada por la comunidad**
+
+Este proyecto fue traducido por **Asun Alsina** y revisado por **Juan Biondi**.
+
+Nuestros increíbles voluntarios de traducción nos ayudan a dar a los niños de todo el mundo la oportunidad de aprender a programar. Puedes ayudarnos a llegar a más niños traduciendo nuestros proyectos. Consigue más información en [rpf.io/translate](https://rpf.io/translate).

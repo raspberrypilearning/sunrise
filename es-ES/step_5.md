@@ -1,25 +1,21 @@
 ## Animación infinita
 
-Hagamos una animación que se repita parasiempre.
+Hagamos que la animación se siga repitiendo para siempre.
 
-+ Si quieres que el sol salga y luego se ponga,  solo necesitas agregar mas keyframes a tu animación:
-
++ Si quieres que el sol salga y luego se ponga, añade más keyframes a tu animación:
     ```
-    @keyframes sunrise {
-        0%   {top:90%; left:0;}
-        33%  {top:0; left:40%; }
-        66%  {top:0; left:40%; }
-        100% {top:90%; left:80%; }
-    }
-    ```
-	Esto significa que la animación empieza y termina con el sol al fondo del cielo, y se queda en la parte superior desde el 33% hasta el 66% de la animación.
-  
-+ Ahora solo tienes que agregar la palabra `infinito` a la animación para hacerla un ciclo parasiempre:
+        @keyframes sunrise {
+            0%  
+            33% 
+            66% 
+            100%
+        }
+    ```    
+    
+    Esto significa que la animación empieza y acaba con el sol al final del cielo y se queda en lo más alto desde el 33% hasta el 66% de la animación.
 
++ Ahora solo necesitas añadir la palabra `infinite` a la animación `#sun` para hacer un bucle infinito:
+    
     ![screenshot](images/sunrise-infinite.png)
-  
-+ Prueba tu animación. El sol se mantiene saliendo y se poniéndose? 
 
-
-
-
++ Prueba tu animación. ¿Sigue el sol saliendo y poniéndose?
