@@ -1,4 +1,4 @@
-## Animando el Cielo
+## Animando el cielo
 
 La animación no es solo para movimiento. Animemos el cielo para que se oscurezca por la noche.
 
@@ -17,6 +17,6 @@ La animación no es solo para movimiento. Animemos el cielo para que se oscurezc
         animation: sky 10s;
         
     
-    ![captura de pantalla](images/sunrise-sky.png)
+    ![screenshot](images/sunrise-sky.png)
 
 + Haz clic en **Autorun** para probar tu animación.
