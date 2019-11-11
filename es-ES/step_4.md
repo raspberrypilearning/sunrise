@@ -9,6 +9,6 @@ Puedes usar la propiedad `left` para hacer esto, por ejemplo:
     left: 40%;
     
 
-![captura de pantalla](images/sunrise-left.png)
+![screenshot](images/sunrise-left.png)
 
 \--- /challenge \---
