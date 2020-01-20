@@ -13,7 +13,7 @@ if(!window.addEventListener) {
 var self = window.StyleFix = {
 	link: function(link) {
 		try {
-			// Ignore stylesheets with data-noprefix attribute as well as alternate stylesheets
+			// Zanemarite stilske listove sa data-noprefix atributom, kao i alternativnim stilskim listovima
 			if(link.rel !== 'stylesheet' || link.hasAttribute('data-noprefix')) {
 				return;
 			}
@@ -43,14 +43,14 @@ var self = window.StyleFix = {
 				if(css && link.parentNode && (!xhr.status || xhr.status < 400 || xhr.status > 600)) {
 					css = self.fix(css, true, link);
 					
-					// Convert relative URLs to absolute, if needed
+					// Pretvoriti relativne URL-ove u apsolutne, ako je potrebno
 					if(base) {
 						css = css.replace(/url\(\s*?((?:"|')?)(.+?)\1\s*?\)/gi, function($0, quote, url) {
 							if(/^([a-z]{3,10}:|#)/i.test(url)) { // Absolute & or hash-relative
 								return $0;
 							}
 							else if(/^\/\//.test(url)) { // Scheme-relative
-								// May contain sequences like /../ and /./ but those DO work
+								// Može sadržavati sekvence poput /../ i /./ ali one rade
 								return 'url("' + base_scheme + url + '")';
 							}
 							else if(/^\//.test(url)) { // Domain-relative
@@ -65,8 +65,8 @@ var self = window.StyleFix = {
 							}
 						});
 
-						// behavior URLs shoudn’t be converted (Issue #19)
-						// base should be escaped before added to RegExp (Issue #81)
+						// ponašanje URL-ova ne bi se trebali pretvarati (izdanje #19)
+						// Baza se mora izbjeći prije dodavanja u RegExp (izdanje # 81)
 						var escaped_base = base.replace(/([\\\^\$*+[\]?{}.=!:(|)])/g,"\\$1");
 						css = css.replace(RegExp('\\b(behavior:\\s*?url\\(\'?"?)' + escaped_base, 'gi'), '$1');
 						}
@@ -80,7 +80,7 @@ var self = window.StyleFix = {
 					parent.insertBefore(style, link);
 					parent.removeChild(link);
 					
-					style.media = link.media; // Duplicate is intentional. See issue #31
+					style.media = link.media; // Duplikat je namjerano napravljen. Pogledajte izdanje #31
 				}
 		};
 
@@ -88,7 +88,7 @@ var self = window.StyleFix = {
 			xhr.open('GET', url);
 			xhr.send(null);
 		} catch (e) {
-			// Fallback to XDomainRequest if available
+			// Povratak na XDomainRequest ako je dostupan
 			if (typeof XDomainRequest != "undefined") {
 				xhr = new XDomainRequest();
 				xhr.onerror = xhr.onprogress = function() {};
@@ -121,13 +121,13 @@ var self = window.StyleFix = {
 	},
 	
 	process: function() {
-		// Linked stylesheets
+		// Linkane liste stilova
 		$('link[rel="stylesheet"]:not([data-inprogress])').forEach(StyleFix.link);
 		
-		// Inline stylesheets
+		// Inline liste stilova
 		$('style').forEach(StyleFix.styleElement);
 		
-		// Inline styles
+		// Inline stilovi
 		$('[style]').forEach(StyleFix.styleAttribute);
 	},
 	
@@ -154,7 +154,7 @@ var self = window.StyleFix = {
 };
 
 /**************************************
- * Process styles
+ * Procesni stilovi
  **************************************/
 (function(){
 	setTimeout(function(){
@@ -179,7 +179,7 @@ if(!window.StyleFix || !window.getComputedStyle) {
 	return;
 }
 
-// Private helper
+// Privatni pomagač
 function fix(what, before, after, replacement, css) {
 	what = self[what];
 	
@@ -196,9 +196,9 @@ var self = window.PrefixFree = {
 	prefixCSS: function(css, raw, element) {
 		var prefix = self.prefix;
 		
-		// Gradient angles hotfix
+		// Hotfix gradijentnog kuta
 		if(self.functions.indexOf('linear-gradient') > -1) {
-			// Gradients are supported with a prefix, convert angles to legacy
+			// Gradijenti su podržani prefiksom, pretvaraju kutove u naslijeđe
 			css = css.replace(/(\s|:|,)(repeating-)?linear-gradient\(\s*(-?\d*\.?\d*)deg/ig, function ($0, delim, repeating, deg) {
 				return delim + (repeating || '') + 'linear-gradient(' + (90-deg) + 'deg';
 			});
@@ -208,7 +208,7 @@ var self = window.PrefixFree = {
 		css = fix('keywords', '(\\s|:)', '(\\s|;|\\}|$)', '$1' + prefix + '$2$3', css);
 		css = fix('properties', '(^|\\{|\\s|;)', '\\s*:', '$1' + prefix + '$2:', css);
 		
-		// Prefix properties *inside* values (issue #8)
+		// Prefix svojstva *unutar* vrijednosti (izdanje #8)
 		if (self.properties.length) {
 			var regex = RegExp('\\b(' + self.properties.join('|') + ')(?!:)', 'gi');
 			
@@ -222,10 +222,10 @@ var self = window.PrefixFree = {
 			css = fix('atrules', '@', '\\b', '@' + prefix + '$1', css);
 		}
 		
-		// Fix double prefixing
+		// Ispravak dvostrukih prefiksa
 		css = css.replace(RegExp('-' + prefix, 'g'), '-');
 		
-		// Prefix wildcard
+		// Prefiks zamjenski znak
 		css = css.replace(/-\*-(?=[a-z]+)/gi, self.prefix);
 		
 		return css;
@@ -246,12 +246,12 @@ var self = window.PrefixFree = {
 		return value;
 	},
 	
-	// Warning: Prefixes no matter what, even if the selector is supported prefix-less
+	// Upozorenje: Prefiks bez obzira na sve, čak i ako je selektor podržan bez prefiksa
 	prefixSelector: function(selector) {
 		return selector.replace(/^:{1,2}/, function($0) { return $0 + self.prefix })
 	},
 	
-	// Warning: Prefixes no matter what, even if the property is supported prefix-less
+	// Upozorenje: Prefiks bez obzira na sve, čak i ako je selektor podržan bez prefiksa
 	prefixProperty: function(property, camelCase) {
 		var prefixed = self.prefix + property;
 		
@@ -260,7 +260,7 @@ var self = window.PrefixFree = {
 };
 
 /**************************************
- * Properties
+ * Svojstva
  **************************************/
 (function() {
 	var prefixes = {},
@@ -269,7 +269,7 @@ var self = window.PrefixFree = {
 		style = getComputedStyle(document.documentElement, null),
 		dummy = document.createElement('div').style;
 	
-	// Why are we doing this instead of iterating over properties in a .style object? Cause Webkit won't iterate over those.
+	// Zašto to radimo umjesto da ponavljamo svojstva u objektu .style? Jer Webkit se neće nad tim ponavljati.
 	var iterate = function(property) {
 		if(property.charAt(0) === '-') {
 			properties.push(property);
@@ -277,10 +277,10 @@ var self = window.PrefixFree = {
 			var parts = property.split('-'),
 				prefix = parts[1];
 				
-			// Count prefix uses
+			// Brojač korištenja pefiksa
 			prefixes[prefix] = ++prefixes[prefix] || 1;
 			
-			// This helps determining shorthands
+			// Ovo pomaže u određivanju skraćivanja
 			while(parts.length > 3) {
 				parts.pop();
 				
@@ -296,7 +296,7 @@ var self = window.PrefixFree = {
 		return StyleFix.camelCase(property) in dummy;
 	}
 	
-	// Some browsers have numerical indices for the properties, some don't
+	// Neki preglednici imaju numeričke indekse za svojstva, neki ne
 	if(style.length > 0) {
 		for(var i=0; i<style.length; i++) {
 			iterate(style[i])
@@ -308,7 +308,7 @@ var self = window.PrefixFree = {
 		}
 	}
 
-	// Find most frequently used prefix
+	// Pronađite najčešće korišteni prefiks
 	var highest = {uses:0};
 	for(var prefix in prefixes) {
 		var uses = prefixes[prefix];
@@ -323,7 +323,7 @@ var self = window.PrefixFree = {
 	
 	self.properties = [];
 
-	// Get properties ONLY supported with a prefix
+	// Nabavite SAMO svojstva podržana prefiksom
 	for(var i=0; i<properties.length; i++) {
 		var property = properties[i];
 		
@@ -336,7 +336,7 @@ var self = window.PrefixFree = {
 		}
 	}
 	
-	// IE fix
+	// IE ispravak
 	if(self.Prefix == 'Ms' 
 	  && !('transform' in dummy) 
 	  && !('MsTransform' in dummy) 
@@ -348,10 +348,10 @@ var self = window.PrefixFree = {
 })();
 
 /**************************************
- * Values
+ * Vrijednosti
  **************************************/
 (function() {
-// Values that might need prefixing
+// Vrijednosti koje možda trebaju prefiksiranje
 var functions = {
 	'linear-gradient': {
 		property: 'backgroundImage',
@@ -377,8 +377,8 @@ functions['repeating-radial-gradient'] =
 functions['radial-gradient'] =
 functions['linear-gradient'];
 
-// Note: The properties assigned are just to *test* support. 
-// The keywords will be prefixed everywhere.
+// Napomena: Dodijeljene svojstva su samo za *test* podršku. 
+// Ključne riječi bit će prefiksane posvuda.
 var keywords = {
 	'initial': 'color',
 	'zoom-in': 'cursor',
@@ -415,7 +415,7 @@ for (var func in functions) {
 	
 	if (!supported(value, property)
 	  && supported(self.prefix + value, property)) {
-		// It's supported, but with a prefix
+		// Podržano je, ali s prefiksom
 		self.functions.push(func);
 	}
 }
@@ -425,7 +425,7 @@ for (var keyword in keywords) {
 
 	if (!supported(keyword, property)
 	  && supported(self.prefix + keyword, property)) {
-		// It's supported, but with a prefix
+		// Podržano je, ali s prefiksom
 		self.keywords.push(keyword);
 	}
 }
@@ -482,13 +482,13 @@ root.removeChild(style);
 
 })();
 
-// Properties that accept properties as their value
+// Svojstva koja prihvaćaju svojstva kao svoju vrijednost
 self.valueProperties = [
 	'transition',
 	'transition-property'
 ]
 
-// Add class for current prefix
+// Dodajte klasu za trenutni prefiks
 root.className += ' ' + self.prefix;
 
 StyleFix.register(self.prefixCSS);
