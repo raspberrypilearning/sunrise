@@ -1,27 +1,27 @@
 \--- challenge \---
 
-## Challenge: More animation
+## Défi : D'autres animations
 
-Can you animate another image? You can animate the position, colour, shape, size, opacity (seethroughness) or anything else you can think of. Also try changing the amount of time your animations run for.
+Peux-tu animer une autre image? Tu peux animer la position, la couleur, la forme, la taille, l'opacité (la transparence) ou toute autre chose à laquelle tu peux penser. Essaye également de modifier la durée d'exécution de tes animations.
 
-For each item you want to animate, you will need to:
+Pour chaque élément que tu souhaites animer, il faut:
 
-+ Include it in your HTML with an id
-+ Add a style for the id
-+ Create an @keyframes rule
-+ Use `animation:` in the style to use the animation you defined with @keyframes 
++ L'inclure dans votre ton HTML avec un identifiant
++ Ajouter un style pour l'identifiant
++ Créer une règle @keyframes
++ Utiliser `animation:` dans le style pour employer l'animation définie avec @keyframes 
 
-Click on the image icon to see the images that are included in the project:
+Clique sur l'icône de l'image pour voir les images incluses dans le projet:
 
-![screenshot](images/sunrise-images.png)
+![capture d'écran](images/sunrise-images.png)
 
-You can also upload your own images if you like.
+Tu peux également télécharger tes propres images si tu le souhaites.
 
-Don't forget you can put items in the sea as well as the sky:
+N'oublie pas que tu peux ajouter des objets dans la mer et dans le ciel:
 
-![screenshot](images/sunrise-boat.png)
+![capture d'écran](images/sunrise-boat.png)
 
-In the example the rainbow uses opacity for a fade effect:
+Dans l'exemple, l'arc-en-ciel utilise l'opacité pour un effet de fondu:
 
     @keyframes fade {
       0%  
@@ -31,7 +31,7 @@ In the example the rainbow uses opacity for a fade effect:
     }
     
 
-The boat uses a negative starting position so that you can't see it for part of the animation:
+Le bateau utilise une position de départ négative afin que tu ne puisses pas le voir pendant une partie de l'animation:
 
      @keyframes left-right {
       0%   
