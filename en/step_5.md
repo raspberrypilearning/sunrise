@@ -2,8 +2,6 @@
 
 Let's make the animation keep repeating forever.
 
-
-
 + If you want the sun to rise and then set, just add more keyframes to your animation:
 
     ```
@@ -22,7 +20,3 @@ Let's make the animation keep repeating forever.
     ![screenshot](images/sunrise-infinite.png)
 
 + Test out your animation. Does the sun keep rising and setting? 
-
-
-
-

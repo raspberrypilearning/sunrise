@@ -2,8 +2,6 @@
 
 Animation isn't just for movement. Let's animate the sky to turn dark at night.
 
-
-
 + Add an animation called `sky` to your CSS:
 
     ```
@@ -24,6 +22,3 @@ Animation isn't just for movement. Let's animate the sky to turn dark at night.
     ![screenshot](images/sunrise-sky.png)
 
 + Click **Autorun** to test your animation. 
-
-
-

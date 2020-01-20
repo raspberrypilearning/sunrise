@@ -12,14 +12,13 @@ In this project, you'll learn how to use CSS to create an animated sunrise.
 
 If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/sunrise/print).
 
-
 --- collapse ---
 ---
 title: Club leader notes
 ---
 
-
 ## Introduction:
+
 In this project, children will to learn how to animate a simple scene using CSS. They will use the CSS @keyframes rule to animate various properties of images and divs.
 
 ## Online Resources
@@ -35,6 +34,7 @@ There is also a trinket containing a sample solution to the challenges:
 + ['Sunrise' Finished](https://trinket.io/html/abcc0284a3)
 
 ## Offline Resources
+
 This project can be [completed offline](../offline.html) if preferred. You can access the project resources by clicking the 'Download Project Materials' link for this project. This link contains a 'Project Resources' folder, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This folder includes the following files:
 
 + template/index.html
@@ -59,6 +59,7 @@ You can also find a completed version of this project's challenges in the 'Volun
 + sunrise-finished/rainbow.png
 
 ## Learning Objectives
+
 + Styling and animation with CSS:
 	+ Introducing `@keyframes` rule for defining steps in an animation.
 	+ Reinforcing the use of properties to define the size, shape, position and colour of elements on a webpage.
@@ -68,6 +69,7 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 + [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator).
 
 ## Challenges
+
 + "Diagonal animation" - editing animation `@keyframe` properties to use left:;
 + "Improve the sky" - add more keyframes and setting background:.
 + "More animation" - animate more images or elements using a variety of CSS properties. 
@@ -84,15 +86,15 @@ animation: sky 10s infinite; 		  	//for all newer browsers
 -ms-animation: sky 10s infinite;		// For Microsoft browsers 
 ```
 
-
 --- /collapse ---
-
 
 --- collapse ---
 ---
 title: Project materials
 ---
+
 ## Project resources
+
 * [.zip file containing all project resources](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-project-resources.zip)
 * [Online Trinket containing all 'Sunrise' project resources](http://jumpto.cc/web-sunrise)
 * [Online Trinket template](http://jumpto.cc/trinket-template)
@@ -111,6 +113,7 @@ title: Project materials
 * [sunrise/helicopter.png](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-helicopter.png)
 
 ## Club leader resources
+
 * [.zip file containing all completed project resources](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-volunteer-resources.zip)
 * [Online completed Trinket project](https://trinket.io/html/abcc0284a3)
 * [sunrise-finished/index.html](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-index.html)
