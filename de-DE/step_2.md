@@ -1,6 +1,6 @@
 ## Die Sonne herstellen
 
-Let's start by adding an image for the sun and positioning it with some CSS.
+Beginnen wir damit, ein Bild für die Sonne hinzuzufügen und es mit etwas CSS zu positionieren.
 
 + Öffne diesen Trinket: <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto.cc/web-sunrise</a>.
     
@@ -8,7 +8,7 @@ Let's start by adding an image for the sun and positioning it with some CSS.
     
     ![Screenshot](images/sunrise-starter.png)
 
-+ Look inside the `body` of your `index.html` file and you'll find the the `div` elements for the sky and the sea.
++ Schauen Sie in die `body` Ihrer `index.html` Datei und Sie finden die `div` -Elemente für den Himmel und das Meer.
     
         <div id="sky">
         </div>
@@ -17,18 +17,18 @@ Let's start by adding an image for the sun and positioning it with some CSS.
         </div>
         
 
-+ An image for the sun is already included in your project.
++ Ein Bild für die Sonne ist bereits in Ihrem Projekt enthalten.
     
-    Add the image inside your sun `div` including an id so you can style it:
+    Fügen Sie das Bild in Ihre Sonne `div` einschließlich einer ID, damit Sie es stylen können:
     
     ![Screenshot](images/sunrise-sun-image.png)
 
-+ Whoa, the image is huge. Go to `style.css` and add the CSS to set the image height:
++ Whoa, das Bild ist riesig. Gehen Sie zu `style.css` und fügen Sie das CSS hinzu, um die Bildhöhe festzulegen:
     
     ![screenshot](images/sunrise-sun-height.png)
     
-    Note that the width is updated automatically to keep the proportions the same.
+    Beachten Sie, dass die Breite automatisch aktualisiert wird, um die Proportionen gleich zu halten.
 
-+ Finally, let's add some code to position the sun:
++ Zuletzt fügen wir einen Code hinzu, um die Sonne zu positionieren:
     
     ![screenshot](images/sunrise-sun-position.png)
