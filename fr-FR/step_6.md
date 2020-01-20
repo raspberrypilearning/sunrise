@@ -1,22 +1,22 @@
-## Animating the sky
+## Animer le ciel
 
-Animation isn't just for movement. Let's animate the sky to turn dark at night.
+L'animation ne concerne pas seulement le mouvement. Animons le ciel pour qu'il s'assombrisse la nuit.
 
-+ Add an animation called `sky` to your CSS:
++ Ajoute une animation appelée `ciel` à ton CSS:
     
-        @keyframes sky {
+        @keyframes ciel {
             0%
             100%
         }
         
     
-    Notice that this time you're animating the colour of the sky, and not the position.
+    Note que cette fois, tu animes la couleur du ciel et non sa position.
 
-+ Add code to your sky, to tell it to use your new animation:
++ Ajoute du code à ton ciel, pour lui dire d’utiliser ta nouvelle animation:
     
-        animation: sky 10s;
+        animation: ciel 10s;
         
     
-    ![screenshot](images/sunrise-sky.png)
+    ![captures d'écran](images/sunrise-sky.png)
 
-+ Click **Autorun** to test your animation.
++ Clique sur **Autorun** pour tester ton animation.
