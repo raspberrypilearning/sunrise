@@ -2,8 +2,6 @@
 
 Let's start by adding an image for the sun and positioning it with some CSS.
 
-
-
 + Open this trinket: <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto.cc/web-sunrise</a>. 
 
     The project should look like this:

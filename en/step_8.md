@@ -1,4 +1,5 @@
 --- challenge ---
+
 ## Challenge: More animation
 
 Can you animate another image? You can animate the position, colour, shape, size, opacity (seethroughness) or anything else you can think of. Also try changing the amount of time your animations run for. 
@@ -39,8 +40,5 @@ The boat uses a negative starting position so that you can't see it for part of 
   100% 
 }
 ```
-
-
-
 
 --- /challenge ---
