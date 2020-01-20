@@ -1,14 +1,14 @@
-## Creating the sun
+## Créer le soleil
 
-Let's start by adding an image for the sun and positioning it with some CSS.
+Commençons par ajouter une image pour le soleil et la positionner avec du CSS.
 
-+ Open this trinket: <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto.cc/web-sunrise</a>.
++ Ouvre ce trinket: <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto.cc/web-sunrise</a>.
     
-    The project should look like this:
+    Le projet devrait ressembler à ceci:
     
-    ![screenshot](images/sunrise-starter.png)
+    ![capture d'écran](images/sunrise-starter.png)
 
-+ Look inside the `body` of your `index.html` file and you'll find the the `div` elements for the sky and the sea.
++ Regarde à l'intérieur du `corps` de ton fichier `index.html` et tu trouveras les éléments `div` pour le ciel et la mer.
     
         <div id="sky">
         </div>
@@ -17,18 +17,18 @@ Let's start by adding an image for the sun and positioning it with some CSS.
         </div>
         
 
-+ An image for the sun is already included in your project.
++ Une image pour le soleil est déjà incluse dans ton projet.
     
-    Add the image inside your sun `div` including an id so you can style it:
+    Ajoute l'image à l'intérieur de ton `div` soleil avec un identifiant pour pouvoir lui affecter un style:
     
-    ![screenshot](images/sunrise-sun-image.png)
+    ![capture d'écran](images/sunrise-sun-image.png)
 
-+ Whoa, the image is huge. Go to `style.css` and add the CSS to set the image height:
++ Whoa, l'image est énorme. Va à `style.css` et ajoute le CSS pour définir la hauteur de l'image:
     
-    ![screenshot](images/sunrise-sun-height.png)
+    ![capture d'écran](images/sunrise-sun-height.png)
     
-    Note that the width is updated automatically to keep the proportions the same.
+    Note que la largeur est mise à jour automatiquement pour conserver les mêmes proportions.
 
-+ Finally, let's add some code to position the sun:
++ Enfin, ajoutons du code pour positionner le soleil:
     
-    ![screenshot](images/sunrise-sun-position.png)
+    ![capture d'écran](images/sunrise-sun-position.png)
