@@ -2,9 +2,9 @@
 
 ## Aufgabe: Diagonale Animation
 
-Can you add code to your `sunrise` animation, to make your sun start at the bottom left of the sky and move diagonally to its position at roughly the top center?
+Können Sie Ihrer `sunrise` Animation Code hinzufügen, damit Ihre Sonne unten links am Himmel beginnt und sich diagonal zu ihrer Position ungefähr in der oberen Mitte bewegt?
 
-You can use the `left` property to do this, for example:
+Sie können dazu die Eigenschaft `left` , zum Beispiel:
 
     left: 40%;
     
