@@ -1,29 +1,29 @@
-## Animating the sunrise
+## Animer le lever de soleil
 
-To animate your sunrise, you need to define how the sun moves and how long it takes to rise.
+Pour animer ton lever de soleil, il faut définir comment le soleil se déplace et combien de temps il lui faut pour se lever.
 
-To do this you define a list of **key frames**. Each key frame defines the CSS properties of an element at a particular point in an animation.
+Dans ce but, tu définis une liste d' **images clés**. Chaque image clé définit les propriétés CSS d'un élément à un point particulier d'une animation.
 
-+ First, you need to use `@keyframes` to create a new animation called sunrise.
++ Tout d'abord, tu dois utiliser `@keyframes` pour créer une nouvelle animation appelée leverdesoleil.
     
-    Add this CSS code to the end of your `style.css` file:
+    Ajoutez ce code CSS à la fin de votre fichier `style.css`:
     
-        @keyframes sunrise {
+        @keyframes leverdesoleil {
             0%
             100%
         }
         
     
-    This code tells the sun where to position itself at the start (`0%`) and the end (`100%`) of the animation.
+    Ce code indique la position du soleil au début (`0%`) et à la fin (`100%`) de l'animation.
     
-    Because the sun is inside the sky `div`, the `top` and `left` positions you give are within to the sky, with `top: 100%` being the bottom of the sky, and not the bottom of the webpage.
+    Parce que le soleil est dans le `div` ciel, les positions `top` et `left` sont par rapport au ciel, `top: 100%` étant le bas du ciel et non le bas de la page Web.
 
-+ Now that you have created a `sunrise` animation, you just need to tell your sun to use it!
++ Maintenant que tu as créé une animation `leverdesoleil` , il suffit de dire à ton soleil de l'utiliser!
     
-    Add the highlighted code to your sun's CSS:
+    Ajoute le code en surbrillance au CSS de ton soleil:
     
-    ![screenshot](images/sunrise-sunrise.png)
+    ![capture d'écran](images/sunrise-sunrise.png)
     
-    This tells the sun to spend 10 seconds animating a sunrise.
+    Cela indique au soleil de passer 10 secondes à animer un lever de soleil.
 
-+ To run the animation again in Trinket, just click **Autorun**.
++ Pour relancer l'animation dans Trinket, clique simplement sur **Autorun**.
