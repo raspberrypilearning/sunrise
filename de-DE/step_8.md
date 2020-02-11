@@ -1,29 +1,29 @@
 \--- challenge \---
 
-## Aufgabe: Noch mehr Animationen
+## Challenge: More animation
 
-Können Sie ein anderes Bild animieren? Sie können die Position, Farbe, Form, Größe, Deckkraft (Durchsichtigkeit) oder alles andere animieren, was Sie sich vorstellen können. Ändern Sie auch die Dauer, für die Ihre Animationen ausgeführt werden.
+Can you animate another image? You can animate the position, colour, shape, size, opacity (seethroughness) or anything else you can think of. Also try changing the amount of time your animations run for.
 
-Für jedes Element, das Sie animieren möchten, müssen Sie:
+For each item you want to animate, you will need to:
 
-+ Fügen Sie es mit einer ID in Ihren HTML-Code ein
-+ Fügen Sie einen Stil für die ID hinzu
-+ Erstellen Sie eine @ keyframes-Regel
-+ Verwenden Sie im Stil `Animation:` , um die Animation zu verwenden, die Sie mit @keyframes definiert haben 
++ Include it in your HTML with an id
++ Add a style for the id
++ Create an @keyframes rule
++ Use `animation:` in the style to use the animation you defined with @keyframes 
 
-Klicken Sie auf das Bildsymbol, um die im Projekt enthaltenen Bilder anzuzeigen:
+Click on the image icon to see the images that are included in the project:
 
-![Screenshot](images/sunrise-images.png)
+![screenshot](images/sunrise-images.png)
 
-Sie können auch Ihre eigenen Bilder hochladen, wenn Sie möchten.
+You can also upload your own images if you like.
 
-Vergessen Sie nicht, dass Sie sowohl Gegenstände ins Meer als auch in den Himmel werfen können:
+Don't forget you can put items in the sea as well as the sky:
 
-![Screenshot](images/sunrise-boat.png)
+![screenshot](images/sunrise-boat.png)
 
-Im Beispiel verwendet der Regenbogen die Deckkraft für einen Überblendungseffekt:
+In the example the rainbow uses opacity for a fade effect:
 
-    @keyframes verblassen {
+    @keyframes fade {
       0%  
       50% 
       66% 
@@ -31,7 +31,7 @@ Im Beispiel verwendet der Regenbogen die Deckkraft für einen Überblendungseffe
     }
     
 
-Das Boot verwendet eine negative Startposition, sodass Sie diese für einen Teil der Animation nicht sehen können:
+The boat uses a negative starting position so that you can't see it for part of the animation:
 
      @keyframes left-right {
       0%   
@@ -39,4 +39,4 @@ Das Boot verwendet eine negative Startposition, sodass Sie diese für einen Teil
     }
     
 
-Und ergänze den CSS-Code in <0>style.css</0>, um das Bild zu positionieren.
+\--- /challenge \---
