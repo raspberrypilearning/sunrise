@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## Izazov: Dijagonalna animacija
+## Challenge: Diagonal animation
 
-Možeš li da dodaš kôd svojoj animaciji `sunrise`, tako da sunce počne da izlazi u donjem lijevom dijelu neba i kreće se dijagonalno do svoje pozicije koja je otprilike na sredini gornjeg dijela neba?
+Can you add code to your `sunrise` animation, to make your sun start at the bottom left of the sky and move diagonally to its position at roughly the top center?
 
-Da to uradiš, možeš da koristiš svojstvo `left` (lijevo), na primjer:
+You can use the `left` property to do this, for example:
 
     left: 40%;
     
