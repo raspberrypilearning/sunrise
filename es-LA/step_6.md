@@ -17,6 +17,6 @@ Animation isn't just for movement. Let's animate the sky to turn dark at night.
         animation: sky 10s;
         
     
-    ![captura de pantalla](images/sunrise-sky.png)
+    ![screenshot](images/sunrise-sky.png)
 
 + Click **Autorun** to test your animation.
