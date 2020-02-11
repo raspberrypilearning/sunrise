@@ -1,16 +1,14 @@
 --- challenge ---
+
 ## Défi : Animation diagonale
-Pouvez-vous ajouter du code à votre animation `sunrise` pour que votre soleil commence en bas à gauche du ciel et se déplace en diagonale par rapport à sa position pour se retrouver centré au sommet ?
 
-Vous pouvez utiliser la propriété `left` pour le faire, par exemple :
+Comment peux-tu ajouter du code à ton animation `lever de soleil` pour que le soleil commence en bas à gauche du ciel et se déplace en diagonale vers sa position à peu près en haut au centre?
 
-```
-left: 40%;
-```
+Tu peux utiliser la propriété `left` pour faire cela, par exemple:
 
-![screenshot](images/sunrise-left.png)
+    left: 40%;
+    
 
-
-
+![capture d'écran](images/sunrise-left.png)
 
 --- /challenge ---

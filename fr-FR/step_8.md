@@ -1,46 +1,52 @@
 --- challenge ---
-## Défi : Plus d'animations
 
-Pouvez-vous animer une autre image ? Vous pouvez animer la position, la couleur, la forme, la taille, l'opacité (seethroughness) ou tout ce à quoi vous pouvez penser. Essayez également de changer la durée de vos animations. 
+## Défi : D'autres animations
 
-Pour chaque objet que vous souhaitez animer, il vous faudra :
+Peux-tu animer une autre image? Tu peux animer la position, la couleur, la forme, la taille, l'opacité (la transparence) ou toute autre chose à laquelle tu peux penser. Essaye également de modifier la durée d'exécution de tes animations.
 
-+ L'inclure dans votre HTML avec un id
-+ Ajouter un style pour l'id
+Pour chaque élément que tu souhaites animer, il faut:
+
++ L'inclure dans votre ton HTML avec un identifiant
++ Ajouter un style pour l'identifiant
 + Créer une règle @keyframes
-+ Utiliser `animation:` dans le style pour utiliser l'animation que vous avez définie avec @keyframes 
++ Utiliser `animation:` dans le style pour employer l'animation définie avec @keyframes 
 
-Cliquez sur l'icône image pour voir les images qui sont incluses dans le projet :
+Clique sur l'icône de l'image pour voir les images incluses dans le projet:
 
-![screenshot](images/sunrise-images.png)
+![capture d'écran](images/sunrise-images.png)
 
-Vous pouvez aussi mettre en ligne vos propres images si vous le souhaitez. 
+Tu peux également télécharger tes propres images si tu le souhaites.
 
-N'oubliez pas de placer les objets dans la mer ainsi que dans le ciel :
+N'oublie pas que tu peux ajouter des objets dans la mer et dans le ciel:
 
-![screenshot](images/sunrise-boat.png)
+![capture d'écran](images/sunrise-boat.png)
 
-Dans l'exemple, l'arc-en-ciel utilise l'opacité pour obtenir un effet d'atténuation :
+Dans l'exemple, l'arc-en-ciel utilise l'opacité pour un effet de fondu:
 
-```
-@keyframes fade {
-  0%   {opacity: 0;}
-  50%  {opacity: 100;}
-  66%  {opacity: 0;}
-  100%   {opacity: 0;}
-}
-```
+    @keyframes fade {
+      0%  
+      50% 
+      66% 
+      100%  
+    }
+    
 
-Le bateau utilise une position de départ négative pour que vous ne puissiez pas le voir pendant une partie de l'animation :
+Le bateau utilise une position de départ négative afin que tu ne puisses pas le voir pendant une partie de l'animation:
 
-```
- @keyframes left-right {
-  0%    {left:-50%;}
-  100%  {left:200%;}
-}
-```
-
-
-
+     @keyframes left-right {
+      0%   
+      100% 
+    }
+    
 
 --- /challenge ---
+
+***
+
+Ce projet a été traduit par des bénévoles:
+
+Fabrice Debart
+
+Michel Arnols
+
+Grâce aux bénévoles, nous pouvons donner aux gens du monde entier la chance d'apprendre dans leur propre langue. Vous pouvez nous aider à atteindre plus de personnes en vous portant volontaire pour la traduction - plus d'informations sur [rpf.io/translate](https://rpf.io/translate).
