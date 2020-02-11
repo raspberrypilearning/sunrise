@@ -1,13 +1,13 @@
 ---
 hero_image: images/banner.png
-title: Sorgere del sole
+title: Sunrise
 theme: yellow
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-1, programming-0, phys-comp-0, manufacture-0, community-0
-description: Crea l'animazione del sorgere del sole.
+description: Create an animated sunrise.
 original_url: https://codeclubprojects.org/en-GB/webdev/sunrise
 interests: ''
 technologies: html-css-javascript
@@ -18,18 +18,18 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduzione
+    title: Introduction
   - 
-    title: Creazione del sole
+    title: Creating the sun
   - 
-    title: Animare il sorgere del sole
+    title: Animating the sunrise
   - 
-    title: 'Sfida: Animazione diagonale'
+    title: 'Challenge: Diagonal animation'
   - 
-    title: Animazione infinita
+    title: Infinite animation
   - 
-    title: Anima il cielo
+    title: Animating the sky
   - 
-    title: 'Sfida: Migliora il cielo'
+    title: 'Challenge: Improve the sky'
   - 
-    title: 'Sfida: Altre animazioni'
+    title: 'Challenge: More animation'
