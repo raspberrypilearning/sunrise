@@ -23,7 +23,7 @@ Nemoj zaboraviti da možeš dodati stvari u more kao i u nebo:
 
 U primjeru duga koristi neprozirnost za efekt izblijeđivanja:
 ```
-    @ keyframes izblijedi {0% 50% 66% 100%}
+    @keyframes izblijedi {0% 50% 66% 100%}
 ```    
 
 Brod koristi negativnu polaznu poziciju tako da ga u jednom dijelu animacije ne možeš vidjeti:
