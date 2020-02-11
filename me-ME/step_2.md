@@ -1,14 +1,14 @@
-## Kreiranje sunca
+## Creating the sun
 
-Počnimo tako što ćemo dodati sliku sunca i pozicionirati je pomoću CSS-a.
+Let's start by adding an image for the sun and positioning it with some CSS.
 
-+ Otvori sljedeći trinket: <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto.cc/web-sunrise</a>.
++ Open this trinket: <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto.cc/web-sunrise</a>.
     
-    Projekat treba da izgleda ovako:
+    The project should look like this:
     
     ![screenshot](images/sunrise-starter.png)
 
-+ U svojoj datoteci `index.html`, unutar `body`, naći ćeš `div` elemente za nebo i more.
++ Look inside the `body` of your `index.html` file and you'll find the the `div` elements for the sky and the sea.
     
         <div id="sky">
         </div>
@@ -17,18 +17,18 @@ Počnimo tako što ćemo dodati sliku sunca i pozicionirati je pomoću CSS-a.
         </div>
         
 
-+ Tvoj projekat već sadrži sliku sunca.
++ An image for the sun is already included in your project.
     
-    Dodaj sliku unutar svog `div` za nebo. Dodaj i id, kako bi mogao/mogla da stilizuješ sunce:
+    Add the image inside your sun `div` including an id so you can style it:
     
     ![screenshot](images/sunrise-sun-image.png)
 
-+ Hej, slika je ogromna. Pređi na `style.css` i dodaj CSS za podešavanje visine slike:
++ Whoa, the image is huge. Go to `style.css` and add the CSS to set the image height:
     
     ![screenshot](images/sunrise-sun-height.png)
     
-    Imaj u vidu da se širina automatski ažurira, kako bi proporcije slike ostale iste.
+    Note that the width is updated automatically to keep the proportions the same.
 
-+ Na kraju, dodajmo kôd za pozicioniranje sunca:
++ Finally, let's add some code to position the sun:
     
     ![screenshot](images/sunrise-sun-position.png)
