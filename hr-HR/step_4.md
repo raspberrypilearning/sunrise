@@ -11,4 +11,4 @@ To možeš napraviti koristeći `left (lijevo)` svojstvo, na primjer:
 
 ![snimka zaslona](images/sunrise-left.png)
 
---- challenge ---
+--- /challenge ---
