@@ -1,4 +1,4 @@
-## परिचय
+## Introduction
 
 In this project, you'll learn how to use CSS to create an animated sunrise.
 
@@ -8,19 +8,19 @@ In this project, you'll learn how to use CSS to create an animated sunrise.
   <img src="images/sunrise-final.png">
 </div>
 
-### क्लब लीडरों के लिए अतिरिक्त जानकारी
+### Additional information for club leaders
 
-यदि आप इस प्रोजेक्ट को प्रिंट करना चाहते हैं, तो कृपया [प्रिंटर अनुकूल संस्करण](https://projects.raspberrypi.org/en/projects/sunrise/print) का उपयोग करें।
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/sunrise/print).
 
 ## \--- collapse \---
 
-## title: क्लब नेता नोट्स
+## title: Club leader notes
 
-## परिचय:
+## Introduction:
 
 In this project, children will to learn how to animate a simple scene using CSS. They will use the CSS @keyframes rule to animate various properties of images and divs.
 
-## ऑनलाइन संसाधन
+## Online Resources
 
 We recommend using [trinket](https://trinket.io/) to write HTML & CSS online. This project contains the following trinkets:
 
@@ -32,9 +32,9 @@ There is also a trinket containing a sample solution to the challenges:
 
 + ['Sunrise' Finished](https://trinket.io/html/abcc0284a3)
 
-## ऑफ़लाइन संसाधन
+## Offline Resources
 
-This project can be [completed offline](../offline.html) if preferred. You can access the project resources by clicking the 'Download Project Materials' link for this project. This link contains a 'Project Resources' folder, which includes resources that children will need to complete this project offline. सुनिश्चित करें कि प्रत्येक बच्चे को इन संसाधनों की प्रतिलिपि तक पहुँच प्राप्त होती है। This folder includes the following files:
+This project can be [completed offline](../offline.html) if preferred. You can access the project resources by clicking the 'Download Project Materials' link for this project. This link contains a 'Project Resources' folder, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This folder includes the following files:
 
 + template/index.html
 + template/prefix.js
@@ -57,23 +57,23 @@ You can also find a completed version of this project's challenges in the 'Volun
 + sunrise-finished/sun.png
 + sunrise-finished/rainbow.png
 
-## सीखने के उद्देश्य
+## Learning Objectives
 
 + Styling and animation with CSS: 
     + Introducing `@keyframes` rule for defining steps in an animation.
     + Reinforcing the use of properties to define the size, shape, position and colour of elements on a webpage.
 
-इस प्रोजेक्ट में [Raspberry Pi डिजिटल निर्माण पाठ्यक्रम](http://rpf.io/curriculum) के निम्नलिखित पहलुओं के तत्व सम्मिलित हैं:
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
 + [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator).
 
-## चुनौतियाँ
+## Challenges
 
 + "Diagonal animation" - editing animation `@keyframe` properties to use left:;
 + "Improve the sky" - add more keyframes and setting background:.
 + "More animation" - animate more images or elements using a variety of CSS properties. 
 
-## अक्सर पूछे जाने वाले प्रश्न
+## Frequently Asked Questions
 
 + This project makes use of the javascript `prefixfree.js` library, to allow animation compatibility between browsers. If this library isn't used, then children using older browsers will instead need to declare an animation for their browser, for example:
 
@@ -88,11 +88,11 @@ You can also find a completed version of this project's challenges in the 'Volun
 
 ## \--- collapse \---
 
-## title: प्रोजेक्ट सामग्री
+## title: Project materials
 
-## प्रोजेक्ट संसाधन
+## Project resources
 
-+ [सभी प्रोजेक्ट संसाधनों वाली .zip फ़ाइल](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-project-resources.zip)
++ [.zip file containing all project resources](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-project-resources.zip)
 + [Online Trinket containing all 'Sunrise' project resources](http://jumpto.cc/web-sunrise)
 + [Online Trinket template](http://jumpto.cc/trinket-template)
 + [Online blank Trinket](http://jumpto.cc/trinket-blank)
@@ -109,10 +109,10 @@ You can also find a completed version of this project's challenges in the 'Volun
 + [sunrise/boat.png](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-boat.png)
 + [sunrise/helicopter.png](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-helicopter.png)
 
-## क्लब नेता संसाधन
+## Club leader resources
 
-+ [सभी प्रोजेक्ट संसाधनों वाली .zip फ़ाइल](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-volunteer-resources.zip)
-+ [ऑनलाइन पूर्ण Trinket प्रोजेक्ट](https://trinket.io/html/abcc0284a3)
++ [.zip file containing all completed project resources](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-volunteer-resources.zip)
++ [Online completed Trinket project](https://trinket.io/html/abcc0284a3)
 + [sunrise-finished/index.html](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-index.html)
 + [sunrise-finished/style.css](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-style.css)
 + [sunrise-finished/prefixfree.js](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-prefixfree.js)
