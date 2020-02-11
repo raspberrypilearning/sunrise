@@ -1,14 +1,14 @@
-## Die Sonne herstellen
+## Creating the sun
 
-Beginnen wir damit, ein Bild für die Sonne hinzuzufügen und es mit etwas CSS zu positionieren.
+Let's start by adding an image for the sun and positioning it with some CSS.
 
-+ Öffne diesen Trinket: <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto.cc/web-sunrise</a>.
++ Open this trinket: <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto.cc/web-sunrise</a>.
     
-    Das Projekt sollte so aussehen:
+    The project should look like this:
     
-    ![Screenshot](images/sunrise-starter.png)
+    ![screenshot](images/sunrise-starter.png)
 
-+ Schauen Sie in die `body` Ihrer `index.html` Datei und Sie finden die `div` -Elemente für den Himmel und das Meer.
++ Look inside the `body` of your `index.html` file and you'll find the the `div` elements for the sky and the sea.
     
         <div id="sky">
         </div>
@@ -17,18 +17,18 @@ Beginnen wir damit, ein Bild für die Sonne hinzuzufügen und es mit etwas CSS z
         </div>
         
 
-+ Ein Bild für die Sonne ist bereits in Ihrem Projekt enthalten.
++ An image for the sun is already included in your project.
     
-    Fügen Sie das Bild in Ihre Sonne `div` einschließlich einer ID, damit Sie es stylen können:
+    Add the image inside your sun `div` including an id so you can style it:
     
-    ![Screenshot](images/sunrise-sun-image.png)
+    ![screenshot](images/sunrise-sun-image.png)
 
-+ Whoa, das Bild ist riesig. Gehen Sie zu `style.css` und fügen Sie das CSS hinzu, um die Bildhöhe festzulegen:
++ Whoa, the image is huge. Go to `style.css` and add the CSS to set the image height:
     
     ![screenshot](images/sunrise-sun-height.png)
     
-    Beachten Sie, dass die Breite automatisch aktualisiert wird, um die Proportionen gleich zu halten.
+    Note that the width is updated automatically to keep the proportions the same.
 
-+ Zuletzt fügen wir einen Code hinzu, um die Sonne zu positionieren:
++ Finally, let's add some code to position the sun:
     
     ![screenshot](images/sunrise-sun-position.png)
