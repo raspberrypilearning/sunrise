@@ -19,7 +19,7 @@ You can also upload your own images if you like.
 
 Don't forget you can put items in the sea as well as the sky:
 
-![スクリーンショット](images/sunrise-boat.png)
+![screenshot](images/sunrise-boat.png)
 
 In the example the rainbow uses opacity for a fade effect:
 
