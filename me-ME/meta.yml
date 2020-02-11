@@ -1,13 +1,13 @@
 ---
 hero_image: images/banner.png
-title: Izlazak sunca
+title: Sunrise
 theme: yellow
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-1, programming-0, phys-comp-0, manufacture-0, community-0
-description: Kreiraj animirani izlazak sunca.
+description: Create an animated sunrise.
 original_url: https://codeclubprojects.org/en-GB/webdev/sunrise
 interests: ''
 technologies: html-css-javascript
@@ -18,18 +18,18 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Uvod
+    title: Introduction
   - 
-    title: Kreiranje sunca
+    title: Creating the sun
   - 
-    title: Animacija izlaska sunca
+    title: Animating the sunrise
   - 
-    title: 'Izazov: Dijagonalna animacija'
+    title: 'Challenge: Diagonal animation'
   - 
-    title: Neprekidna animacija
+    title: Infinite animation
   - 
-    title: Animacija neba
+    title: Animating the sky
   - 
-    title: 'Izazov: Poboljšaj nebo'
+    title: 'Challenge: Improve the sky'
   - 
-    title: 'Izazov: Više animacije'
+    title: 'Challenge: More animation'
