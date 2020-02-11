@@ -13,13 +13,13 @@ For each item you want to animate, you will need to:
 
 Click on the image icon to see the images that are included in the project:
 
-![captura de pantalla](images/sunrise-images.png)
+![screenshot](images/sunrise-images.png)
 
 You can also upload your own images if you like.
 
 Don't forget you can put items in the sea as well as the sky:
 
-![captura de pantalla](images/sunrise-boat.png)
+![screenshot](images/sunrise-boat.png)
 
 In the example the rainbow uses opacity for a fade effect:
 
