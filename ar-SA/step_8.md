@@ -1,27 +1,27 @@
-\--- تحدي \---
+\--- challenge \---
 
-## تحدي: المزيد من الرسوم المتحركة
+## Challenge: More animation
 
-هل يمكنك صنع صورة متحركة اخرى؟ يمكنك تغيير الموقع, اللون, الشكل, الحجم, نسبة الشفافية(ما تراه خلفه) أو شيء اخر يخطر ببالك. أيضاً قم بتجربة تغيير مدة الرسم المتحرك.
+Can you animate another image? You can animate the position, colour, shape, size, opacity (seethroughness) or anything else you can think of. Also try changing the amount of time your animations run for.
 
-عند صنعك لرسم متحرك لأي عنصر, ستحتاج الى:
+For each item you want to animate, you will need to:
 
-+ اضافتها الى HTML الخاص بك مع تعريف
-+ اضافة تصميم للتعريف
-+ قم بصنع قاعدة @keyframes
-+ استخدم `animation:` في التصميم من اجل أستخدام الرسم المتحرك الذي قمت بتعريفه باستخدام @keyframes 
++ Include it in your HTML with an id
++ Add a style for the id
++ Create an @keyframes rule
++ Use `animation:` in the style to use the animation you defined with @keyframes 
 
-أنقر على أيقونة الصورة لرؤية الصور الموجودة في المشروع:
+Click on the image icon to see the images that are included in the project:
 
-![لقطة الشاشة](images/sunrise-images.png)
+![screenshot](images/sunrise-images.png)
 
-ويمكنك أيضاً وضع الصور الخاصة بك اذا شئت.
+You can also upload your own images if you like.
 
-لا تنسى يمكنك وضع عناصر في البحر كما يمكنك وضعها في السماء:
+Don't forget you can put items in the sea as well as the sky:
 
-![الصور](images/sunrise-boat.png)
+![screenshot](images/sunrise-boat.png)
 
-في المثال يستخدم قوس قزح خاصية الشفافية لوضع تاثير التلاشي:
+In the example the rainbow uses opacity for a fade effect:
 
     @keyframes fade {
       0%  
@@ -31,7 +31,7 @@
     }
     
 
-القارب يقوم بأستخدام نقطة بداية سالبة للموقع لجعله غير مرئي لبعض الوقت في الرسم المتحرك:
+The boat uses a negative starting position so that you can't see it for part of the animation:
 
      @keyframes left-right {
       0%   
