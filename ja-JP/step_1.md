@@ -1,6 +1,6 @@
-## はじめに
+## Introduction
 
-このプロジェクトでは、CSSを使った日の出のアニメーションのつくり方を学びます。
+In this project, you'll learn how to use CSS to create an animated sunrise.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/html/abcc0284a3?outputOnly=true&start=result" width="600" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -8,33 +8,33 @@
   <img src="images/sunrise-final.png">
 </div>
 
-### 指導者のための追加情報
+### Additional information for club leaders
 
-このプロジェクトを印刷する必要がある場合は、 [印刷用バージョン](https://projects.raspberrypi.org/en/projects/sunrise/print)を使用してください。
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/sunrise/print).
 
 ## \--- collapse \---
 
-## title：指導者の方へ
+## title: Club leader notes
 
-## はじめに
+## Introduction:
 
-このプロジェクトで、子供たちはCSSを使った簡単なシーンのアニメーションのつくり方を学びます。 imageタグとdivタグのプロパティを、CSSの@keyframesルールに沿って変更し、アニメーションをつくります。
+In this project, children will to learn how to animate a simple scene using CSS. They will use the CSS @keyframes rule to animate various properties of images and divs.
 
-## オンライン・リソース
+## Online Resources
 
-オンライン上でHTMLとCSSを書くために、 [trinket](https://trinket.io/) を使うことをおすすめします。 以下のtrinketが利用できます。
+We recommend using [trinket](https://trinket.io/) to write HTML & CSS online. This project contains the following trinkets:
 
 + ['Sunrise' starting point](http://jumpto.cc/web-sunrise)
 
-また、子供たちが１からHTMLとCSSを記述できるように、何も書かれていない状態のtrinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank)を使うことができます。それに加え、trinketのテンプレート [(jumpto.cc/html-template)](http://jumpto.cc/html-template)も利用できます。
+Children can also make use of this blank trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) to write their own HTML & CSS, or alternatively they can use this template trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
-また、チャレンジ(課題)に対しての回答例を含むtrinketもあります(以下参照)。
+There is also a trinket containing a sample solution to the challenges:
 
-+ [''日の出プロジェクト'完成版](https://trinket.io/html/abcc0284a3)
++ ['Sunrise' Finished](https://trinket.io/html/abcc0284a3)
 
-## オフライン・リソース
+## Offline Resources
 
-このプロジェクトは[オフライン](../offline.html)で完成することも可能です。 You can access the project resources by clicking the 'Download Project Materials' link for this project. This link contains a 'Project Resources' folder, which includes resources that children will need to complete this project offline. 子供たち一人ひとりが資料のコピーにアクセスできるようにしておいて下さい。 This folder includes the following files:
+This project can be [completed offline](../offline.html) if preferred. You can access the project resources by clicking the 'Download Project Materials' link for this project. This link contains a 'Project Resources' folder, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This folder includes the following files:
 
 + template/index.html
 + template/prefix.js
@@ -48,7 +48,7 @@
 + sunrise/rainbow.png
 + sunrise/sun.png
 
-なお、プロジェクトの課題の完成版がボランティア・リソースのセクションに含まれています。
+You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
 
 + sunrise-finished/index.html
 + sunrise-finished/style.css
@@ -57,23 +57,23 @@
 + sunrise-finished/sun.png
 + sunrise-finished/rainbow.png
 
-## 学習目標
+## Learning Objectives
 
 + Styling and animation with CSS: 
     + Introducing `@keyframes` rule for defining steps in an animation.
     + Reinforcing the use of properties to define the size, shape, position and colour of elements on a webpage.
 
-このプロジェクトでは [Raspberry Pi デジタル・メイキング・カリキュラム](http://rpf.io/curriculum)（英語）の柱の一つである、プログラミングの以下の要素を含みます。
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
 + [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator).
 
-## チャレンジ
+## Challenges
 
 + "Diagonal animation" - editing animation `@keyframe` properties to use left:;
 + "Improve the sky" - add more keyframes and setting background:.
 + "More animation" - animate more images or elements using a variety of CSS properties. 
 
-## よくある質問
+## Frequently Asked Questions
 
 + This project makes use of the javascript `prefixfree.js` library, to allow animation compatibility between browsers. If this library isn't used, then children using older browsers will instead need to declare an animation for their browser, for example:
 
@@ -88,12 +88,12 @@
 
 ## \--- collapse \---
 
-## title：プロジェクト資料
+## title: Project materials
 
-## プロジェクト資料
+## Project resources
 
-+ [全プロジェクトの資料が入った.zipファイル](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-project-resources.zip)
-+ [全プロジェクトの資料](http://jumpto.cc/web-sunrise)
++ [.zip file containing all project resources](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-project-resources.zip)
++ [Online Trinket containing all 'Sunrise' project resources](http://jumpto.cc/web-sunrise)
 + [Online Trinket template](http://jumpto.cc/trinket-template)
 + [Online blank Trinket](http://jumpto.cc/trinket-blank)
 + [template/index.html](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/template-index.html)
@@ -109,15 +109,15 @@
 + [sunrise/boat.png](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-boat.png)
 + [sunrise/helicopter.png](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-helicopter.png)
 
-## 指導者用資料
+## Club leader resources
 
-+ [全プロジェクトの完成版の資料が入った.zipファイル](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-volunteer-resources.zip)
-+ [完成版Trinketプロジェクト(オンライン)](https://trinket.io/html/abcc0284a3)
-+ [完成版のHTMLファイル](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-index.html)
-+ [完成版のCSSファイル](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-style.css)
-+ [完成版のJavaScriptソース](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-prefixfree.js)
-+ [完成版プロジェクトで使う太陽の画像](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-sun.png)
-+ [完成版プロジェクトで使うボートの画像](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-boat.png)
-+ [完成版プロジェクトで使う虹の画像](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-rainbow.png)
++ [.zip file containing all completed project resources](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-volunteer-resources.zip)
++ [Online completed Trinket project](https://trinket.io/html/abcc0284a3)
++ [sunrise-finished/index.html](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-index.html)
++ [sunrise-finished/style.css](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-style.css)
++ [sunrise-finished/prefixfree.js](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-prefixfree.js)
++ [sunrise-finished/sun.png](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-sun.png)
++ [sunrise-finished/boat.png](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-boat.png)
++ [sunrise-finished/rainbow.png](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-rainbow.png)
 
 \--- /collapse \---
