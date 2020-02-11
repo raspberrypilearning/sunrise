@@ -16,6 +16,6 @@ Let's make the animation keep repeating forever.
 
 + Now you just need to add the word `infinite` to the `#sun` animation to make it loop forever:
     
-    ![captura de pantalla](images/sunrise-infinite.png)
+    ![screenshot](images/sunrise-infinite.png)
 
 + Test out your animation. Does the sun keep rising and setting?
