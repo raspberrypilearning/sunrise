@@ -1,6 +1,6 @@
 ## Animiranje neba
 
-Animacija nije samo za kretanje. Animažimo nebo da se noću okrene mrakom.
+Animacija nije samo za kretanje. Animirajmo nebo da noću bude mračno.
 
 + Dodajte animaciju `nebo` u svoj CSS:
     
@@ -11,7 +11,7 @@ Animacija nije samo za kretanje. Animažimo nebo da se noću okrene mrakom.
 
 + Dodajte kôd na svoje nebo da biste je ispričali da upotrebljava vašu novu animaciju:
     
-        animacija: nebo 10s;
+        animation: sky 10s;
         
     
     ![screenshot](images/sunrise-sky.png)
