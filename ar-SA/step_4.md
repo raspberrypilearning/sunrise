@@ -1,14 +1,14 @@
-\--- تحدي \---
+\--- challenge \---
 
-## تحدي: رسم متحرك قطري
+## Challenge: Diagonal animation
 
-هل يمكنك اضافة كود برمجي الى `sunrise` الخاصة بك, لجعل الشمس تبدأ من اسفل يسار السماء وتتحرك بشكل قطري الى موقعها الذي يقع في اعلى المنتصف؟
+Can you add code to your `sunrise` animation, to make your sun start at the bottom left of the sky and move diagonally to its position at roughly the top center?
 
-انت تستطيع استخدام خاصية ال `left` لفعل هذا, مثال:
+You can use the `left` property to do this, for example:
 
     left: 40%;
     
 
-![لقطة الشاشة](images/sunrise-left.png)
+![screenshot](images/sunrise-left.png)
 
-\--- challenge/ \---
+\--- /challenge \---
