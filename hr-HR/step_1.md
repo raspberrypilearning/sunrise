@@ -71,7 +71,7 @@ Ovaj projekt pokriva elemente iz sljedećih dijelova plana i programa [Raspberry
 
 + „Dijagonalna animacija” - uređivanje `@keyframe` svojstva animacije za upotrebu lijevo;
 + „Poboljšaj nebo” - dodavanje više keyframes svojstava i postavljanje pozadine;
-+ „Poboljšaj nebo” - animiranje više slika ili elemenata pomoću različitih CSS svojstava. 
++ „Više animacija” - animiranje više slika ili elemenata pomoću različitih CSS svojstava. 
 
 ## Često postavljana pitanja
 
