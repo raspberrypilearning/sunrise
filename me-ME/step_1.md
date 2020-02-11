@@ -1,6 +1,6 @@
-## Uvod
+## Introduction
 
-U ovom projektu naučićeš kako da koristiš CSS za kreiranje animiranog izlaska sunca.
+In this project, you'll learn how to use CSS to create an animated sunrise.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/html/abcc0284a3?outputOnly=true&start=result" width="600" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -8,33 +8,33 @@ U ovom projektu naučićeš kako da koristiš CSS za kreiranje animiranog izlask
   <img src="images/sunrise-final.png">
 </div>
 
-### Dodatne informacije za vođe kluba
+### Additional information for club leaders
 
-Ukoliko je potrebno da odštampate ovaj projekat, koristite [Verziju za štampu](https://projects.raspberrypi.org/en/projects/sunrise/print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/sunrise/print).
 
 ## \--- collapse \---
 
-## title: Bilješke za vođe kluba
+## title: Club leader notes
 
-## Uvod:
+## Introduction:
 
-U ovom projektu djeca će naučiti kako da animiraju jednostavnu scenu koristeći CSS. Koristiće CSS @keyframes pravilo da animiraju različita svojstva slika i elemenata div.
+In this project, children will to learn how to animate a simple scene using CSS. They will use the CSS @keyframes rule to animate various properties of images and divs.
 
-## Online izvori
+## Online Resources
 
-Za pisanje HTML-a i CSS-a online preporučujemo da koristite [trinket](https://trinket.io/). Ovaj projekat sadrži sljedeće trinkete:
+We recommend using [trinket](https://trinket.io/) to write HTML & CSS online. This project contains the following trinkets:
 
-+ [Početak projekta 'Izlazak sunca'](http://jumpto.cc/web-sunrise)
++ ['Sunrise' starting point](http://jumpto.cc/web-sunrise)
 
-Za pisanje sopstvenog HTML-a i CSS-a, djeca takođe mogu da koriste ovaj prazan trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) ili da koriste ovaj trinket šablon [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
+Children can also make use of this blank trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) to write their own HTML & CSS, or alternatively they can use this template trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
-Takođe postoji trinket koji sadrži primjer rješenja izazova:
+There is also a trinket containing a sample solution to the challenges:
 
-+ [Završen projekat 'Izlazak sunca'](https://trinket.io/html/abcc0284a3)
++ ['Sunrise' Finished](https://trinket.io/html/abcc0284a3)
 
-## Offline izvori
+## Offline Resources
 
-Ako želite, ovaj projekat može biti [izrađen offline](../offline.html). Izvorima projekta možete pristupiti klikom na link projekta 'Projektni materijali'. Navedeni link sadrži odjeljak 'Izvori projekta' u kojem se nalaze izvori koji će djeci biti potrebni kako bi izradila ovaj projekat offline. Obezbijedite da svako dijete ima pristup kopiji ovih izvora. Odjeljak sadrži sljedeće datoteke:
+This project can be [completed offline](../offline.html) if preferred. You can access the project resources by clicking the 'Download Project Materials' link for this project. This link contains a 'Project Resources' folder, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This folder includes the following files:
 
 + template/index.html
 + template/prefix.js
@@ -48,7 +48,7 @@ Ako želite, ovaj projekat može biti [izrađen offline](../offline.html). Izvor
 + sunrise/rainbow.png
 + sunrise/sun.png
 
-Takođe, završenu verziju izazova ovoga projekta možete naći u odjeljku 'Izvori za volontere' koji sadrži:
+You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
 
 + sunrise-finished/index.html
 + sunrise-finished/style.css
@@ -57,45 +57,45 @@ Takođe, završenu verziju izazova ovoga projekta možete naći u odjeljku 'Izvo
 + sunrise-finished/sun.png
 + sunrise-finished/rainbow.png
 
-## Ciljevi učenja
+## Learning Objectives
 
-+ Stilizovanje i animacija sa CSS-om: 
-    + Upoznavanje sa ` @keyframes` pravilom za definisanje koraka u animaciji.
-    + Utvrđivanje znanja o upotrebi svojstava za određivanje veličine, oblika, pozicije i boje elemenata na veb-stranici.
++ Styling and animation with CSS: 
+    + Introducing `@keyframes` rule for defining steps in an animation.
+    + Reinforcing the use of properties to define the size, shape, position and colour of elements on a webpage.
 
-Ovim projektom obuhvaćeni su elementi iz sljedećih dijelova [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Dizajniranje osnovnih 2D i 3D elemenata](https://www.raspberrypi.org/curriculum/design/creator).
++ [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator).
 
-## Izazovi
+## Challenges
 
-+ ''Dijagonalna animacija'' - uređivanje `@keyframe` svojstava animacije za korišćenje left:;
-+ ''Poboljšaj nebo'' - dodavanje više ključnih kadrova (keyframes) i postavljanje pozadine (background:).
-+ ''Više animacije'' - animacija više slika ili elemenata koristeći različita CSS svojstva. 
++ "Diagonal animation" - editing animation `@keyframe` properties to use left:;
++ "Improve the sky" - add more keyframes and setting background:.
++ "More animation" - animate more images or elements using a variety of CSS properties. 
 
-## Često postavljana pitanja
+## Frequently Asked Questions
 
-+ Ovaj projekat koristi javascript biblioteku `prefixfree.js`, kako bi bila omogućena kompatibilnost animacija između pregledača. Ako se ova biblioteka ne koristi, djeca koja koriste starije pregledače treba da deklarišu animaciju za svoj pregledač, na primjer:
++ This project makes use of the javascript `prefixfree.js` library, to allow animation compatibility between browsers. If this library isn't used, then children using older browsers will instead need to declare an animation for their browser, for example:
 
-    animation: sky 10s infinite;            // Za sve novije pregledače
-    -webkit-animation: sky 10s infinite;    // Za Webkit pregledače (Chrome, Safari...)
-    -moz-animation: sky 10s infinite;       // Za Mozilla pregledače
-    -o-animation: sky 10s infinite;         // Za Opera pregledače
-    -ms-animation: sky 10s infinite;        // Za Microsoft pregledače 
+    animation: sky 10s infinite;            //for all newer browsers
+    -webkit-animation: sky 10s infinite;    // For Webkit browsers(Chrome, Safari...)
+    -moz-animation: sky 10s infinite;       // For Mozilla browsers
+    -o-animation: sky 10s infinite;         // For Opera browsers
+    -ms-animation: sky 10s infinite;        // For Microsoft browsers 
     
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Projektni materijali
+## title: Project materials
 
-## Izvori projekta
+## Project resources
 
-+ [.zip datoteka koja sadrži sve izvore projekta](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-project-resources.zip)
-+ [Online Trinket koji sadrži sve izvore projekta 'Izlazak sunca'](http://jumpto.cc/web-sunrise)
-+ [Online Trinket šablon](http://jumpto.cc/trinket-template)
-+ [Online prazan Trinket](http://jumpto.cc/trinket-blank)
++ [.zip file containing all project resources](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-project-resources.zip)
++ [Online Trinket containing all 'Sunrise' project resources](http://jumpto.cc/web-sunrise)
++ [Online Trinket template](http://jumpto.cc/trinket-template)
++ [Online blank Trinket](http://jumpto.cc/trinket-blank)
 + [template/index.html](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/template-index.html)
 + [template/style.css](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/template-style.css)
 + [intro/index.html](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/intro-index.html)
@@ -109,10 +109,10 @@ Ovim projektom obuhvaćeni su elementi iz sljedećih dijelova [Raspberry Pi Digi
 + [sunrise/boat.png](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-boat.png)
 + [sunrise/helicopter.png](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-helicopter.png)
 
-## Izvori za vođe kluba
+## Club leader resources
 
-+ [.zip datoteka koja sadrži sve završene izvore projekta](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-volunteer-resources.zip)
-+ [Završen Trinket projekat online](https://trinket.io/html/abcc0284a3)
++ [.zip file containing all completed project resources](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-volunteer-resources.zip)
++ [Online completed Trinket project](https://trinket.io/html/abcc0284a3)
 + [sunrise-finished/index.html](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-index.html)
 + [sunrise-finished/style.css](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-style.css)
 + [sunrise-finished/prefixfree.js](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-prefixfree.js)
