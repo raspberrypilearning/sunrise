@@ -1,35 +1,35 @@
 ---
 hero_image: images/banner.png
-title: 日出
+title: Sunrise
 theme: yellow
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
-curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
-description: 创建一个日出动画。
+curriculum: 1, design-1, programming-0, phys-comp-0, manufacture-0, community-0
+description: Create an animated sunrise.
 original_url: https://codeclubprojects.org/en-GB/webdev/sunrise
 interests: ''
-technologies: html/css
-site_areas: codeclub, webdev
+technologies: html-css-javascript
+site_areas: projects
 hardware: ''
 software: html-css-javascript
 version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: 介绍
+    title: Introduction
   - 
-    title: 创建太阳
+    title: Creating the sun
   - 
-    title: 对日出进行动画处理
+    title: Animating the sunrise
   - 
-    title: '挑战：斜向动画'
+    title: 'Challenge: Diagonal animation'
   - 
-    title: 无限动画
+    title: Infinite animation
   - 
-    title: 对天空进行动画处理
+    title: Animating the sky
   - 
-    title: '挑战：完善天空'
+    title: 'Challenge: Improve the sky'
   - 
-    title: '挑战：更多动画'
+    title: 'Challenge: More animation'
