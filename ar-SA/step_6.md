@@ -1,8 +1,8 @@
-## صنع صورة متحركة للسماء
+## Animating the sky
 
-الرسم المتحرك ليس فقط بلحركة. لنقم بصنع صورة متحركة للسماء لجعلها تُظلم في الليل.
+Animation isn't just for movement. Let's animate the sky to turn dark at night.
 
-+ اضف رسم متحرك اسمه `sky` الى الCSS الخاص بك:
++ Add an animation called `sky` to your CSS:
     
         @keyframes sky {
             0%
@@ -10,13 +10,13 @@
         }
         
     
-    لاحظ انك الان تقوم بتغيير لون السماء, وليس حركتها.
+    Notice that this time you're animating the colour of the sky, and not the position.
 
-+ أضف كود برمجي الى سمائك, لاخبارها بأستخدام الرسم المتحرك الجديد:
++ Add code to your sky, to tell it to use your new animation:
     
         animation: sky 10s;
         
     
-    ![لقطة الشاشة](images/sunrise-sky.png)
+    ![screenshot](images/sunrise-sky.png)
 
-+ انقر على**Autorun** لاختبار الرسم المتحرك.
++ Click **Autorun** to test your animation.
