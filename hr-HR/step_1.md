@@ -61,7 +61,7 @@ Dovršenu verziju izazova projekta možete pronaći i u odjeljku „Resursi za v
 ## Ishodi učenja
 
 + Postavljanje stila i animacija s CSS-om: 
-    + Upoznavanje s `@ keyframes` pravilom za definiranje koraka u animaciji.
+    + Upoznavanje s `@keyframes` pravilom za definiranje koraka u animaciji.
     + Poticanje upotrebe svojstava za određivanje veličine, oblika, položaja i boje elemenata na web stranici.
 
 Ovaj projekt pokriva elemente iz sljedećih dijelova plana i programa [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
@@ -77,13 +77,13 @@ Ovaj projekt pokriva elemente iz sljedećih dijelova plana i programa [Raspberry
 ## Često postavljana pitanja
 
 + Ovaj projekt koristi javascript biblioteku `prefixfree.js` kako bi se omogućila kompatibilnost animacija između preglednika. Ako se ta biblioteka ne koristi, djeca koja koriste starije preglednike morat će umjesto toga deklarirati animaciju za svoj preglednik. Na primjer:
-
+```
     animation: sky 10s infinite;            // za sve novije preglednike
     -webkit-animation: sky 10s infinite;    // za Webkit preglednike (Chrome, Safari,...)
     -moz-animation: sky 10s infinite;       // za Mozilla preglednike
     -o-animation: sky 10s infinite;         // za Opera preglednike
     -ms-animation: sky 10s infinite;        // za Microsoft preglednike 
-    
+```    
 
 --- /collapse ---
 

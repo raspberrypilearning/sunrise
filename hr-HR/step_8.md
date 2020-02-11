@@ -8,7 +8,7 @@ Za svaku stavku koju želiš animirati morat ćeš:
 
 + Uključiti ju u svoj HTML kȏd s ID-om
 + Dodati stil za ID
-+ Napravite @keyframes pravilo
++ Koristiti @keyframes pravilo
 + Koristiti `animation:` u stilu da upotrijebiš animaciju koju ćeš definirati koristeći @keyframeso
 
 Klikni na ikonu slike da vidiš slike koje su uključene u projekt:
