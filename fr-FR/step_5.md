@@ -1,26 +1,21 @@
-## Animation infinie
+## Animation sans fin
 
-Faisons en sorte que l'animation se répète à l'infini.
+Faisons en sorte que l'animation se répète indéfiniment.
 
-+ Si vous voulez que le soleil se lève puis se couche, ajoutez plus d'images clés à votre animation :
++ Si tu souhaites que le soleil se lève puis se couche, ajoute simplement des images clés à ton animation:
+    
+        @keyframes leverdesoleil {
+            0%  
+            33% 
+            66% 
+            100%
+        }
+        
+    
+    Cela signifie que l'animation commence et se termine avec le soleil au bas du ciel et reste au sommet pendant 33% à 66% de l'animation.
 
-    ```
-    @keyframes sunrise {
-        0%   {top:90%; left:0;}
-        33%  {top:0; left:40%; }
-        66%  {top:0; left:40%; }
-        100% {top:90%; left:80%; }
-    }
-    ```
++ Maintenant, il te suffit d’ajouter le mot `infinite` à l’animation `#sun` pour le mettre en boucle pour toujours:
+    
+    ![captures d'écran](images/sunrise-infinite.png)
 
-    Cela signifie que l'animation commence et se termine avec le soleil au bas du ciel, et qu'il reste au sommet de 33 % à 66 % de l'animation.
-
-+ Maintenant, vous devez simplement ajouter le mot `infinite` à l'animation `#sun` pour qu'elle tourne en boucle à l'infini :
-
-    ![screenshot](images/sunrise-infinite.png)
-
-+ Testez votre animation. Le soleil se lève-t-il et se couche-t-il en boucle ? 
-
-
-
-
++ Teste ton animation. Est-ce que le soleil se lève et se couche sans arrêt?

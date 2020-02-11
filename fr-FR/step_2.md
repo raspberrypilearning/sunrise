@@ -1,38 +1,34 @@
 ## Créer le soleil
 
-Commençons en ajoutant une image pour le soleil et en le positionnant avec un peu de CSS.
+Commençons par ajouter une image pour le soleil et la positionner avec du CSS.
 
-+ Ouvrez ce trinket : <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto.cc/web-sunrise</a>. 
-
-    Le projet doit ressembler à ça :
-
-	![screenshot](images/sunrise-starter.png)
-
-+ Regardez à l'intérieur du `body` de votre fichier `index.html` et vous trouverez les éléments de `div` pour le ciel et la mer.
-
-    ```
-    <div id="sky">
-    </div>
++ Ouvre ce trinket: <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto.cc/web-sunrise</a>.
     
-    <div id="sea">
-    </div>
-    ```
+    Le projet devrait ressembler à ceci:
+    
+    ![capture d'écran](images/sunrise-starter.png)
 
-+ Une image pour le soleil est déjà incluse dans votre projet. 
++ Regarde à l'intérieur du `corps` de ton fichier `index.html` et tu trouveras les éléments `div` pour le ciel et la mer.
+    
+        <div id="sky">
+        </div>
+        
+        <div id="sea">
+        </div>
+        
 
-    Ajoutez l'image à l'intérieur de la `div` soleil en incluant un id pour pouvoir y appliquer un style :
++ Une image pour le soleil est déjà incluse dans ton projet.
+    
+    Ajoute l'image à l'intérieur de ton `div` soleil avec un identifiant pour pouvoir lui affecter un style:
+    
+    ![capture d'écran](images/sunrise-sun-image.png)
 
-    ![screenshot](images/sunrise-sun-image.png)
++ Whoa, l'image est énorme. Va à `style.css` et ajoute le CSS pour définir la hauteur de l'image:
+    
+    ![capture d'écran](images/sunrise-sun-height.png)
+    
+    Note que la largeur est mise à jour automatiquement pour conserver les mêmes proportions.
 
-+ Whoa, l'image est grande. Allez dans `style.css` et ajoutez le CSS pour régler la hauteur de l'image :
-
-    ![screenshot](images/sunrise-sun-height.png)
-
-    Notez que la largeur est mise à jour automatiquement pour garder les mêmes proportions. 
-
-+ Enfin, ajoutons un peu de code pour positionner le soleil :
-
-    ![screenshot](images/sunrise-sun-position.png)
-
-
-
++ Enfin, ajoutons du code pour positionner le soleil:
+    
+    ![capture d'écran](images/sunrise-sun-position.png)

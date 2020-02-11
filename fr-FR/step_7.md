@@ -1,9 +1,9 @@
 --- challenge ---
-## Défi : Améliorer le ciel 
 
-Pouvez-vous changer l'animation du ciel pour qu'il soit en phase avec le soleil, qu'il reste bleu durant la journée et qu'il devienne sombre lorsque le soleil se couche ? Faites en sorte qu'il s'agisse d'une boucle. 
+## Défi : Améliorer le ciel
 
-![screenshot](images/sunrise-sky-challenge.png)
+Peux-tu changer l'animation du ciel pour qu'elle corresponde au soleil, reste bleue pendant la journée et redevienne noire au coucher du soleil. Mets-le en boucle pour toujours aussi.
 
+![capture d’écran](images/sunrise-sky-challenge.png)
 
 --- /challenge ---

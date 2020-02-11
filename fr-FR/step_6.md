@@ -1,26 +1,22 @@
 ## Animer le ciel
 
-L'animation n'est pas que pour les mouvements. Animons le ciel pour qu'il soit sombre la nuit.
+L'animation ne concerne pas seulement le mouvement. Animons le ciel pour qu'il s'assombrisse la nuit.
 
-+ Ajoutez une animation appelée  `sky` à votre CSS :
++ Ajoute une animation appelée `ciel` à ton CSS:
+    
+        @keyframes ciel {
+            0%
+            100%
+        }
+        
+    
+    Note que cette fois, tu animes la couleur du ciel et non sa position.
 
-    ```
-    @keyframes sky {
-        0% {background: black}
-        100% {background: lightblue}
-    }
-    ```
++ Ajoute du code à ton ciel, pour lui dire d’utiliser ta nouvelle animation:
+    
+        animation: ciel 10s;
+        
+    
+    ![captures d'écran](images/sunrise-sky.png)
 
-    Remarquez que cette fois vous animez la couleur du ciel, et non pas une position.
-
-+ Ajoutez du code à votre ciel pour lui dire d'utiliser votre nouvelle animation :
-
-    ```
-    animation: sky 10s;
-    ```
-
-    ![screenshot](images/sunrise-sky.png)
-
-+ Cliquez sur **Autorun** pour tester votre animation. 
-
-
++ Clique sur **Autorun** pour tester ton animation.
