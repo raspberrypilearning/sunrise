@@ -21,7 +21,7 @@ steps:
   - title: Créer le soleil
   - title: Animer le lever de soleil
   - title: 'Défi : Animation diagonale'
-  - title: Animation infinie
+  - title: Animation sans fin
   - title: Animer le ciel
   - title: 'Défi : Améliorer le ciel'
-  - title: "Défi : Plus d'animations"
+  - title: "Défi : D’autres animations"

@@ -10,7 +10,7 @@ Dans ce projet, tu apprendras à utiliser CSS pour créer un lever de soleil ani
 
 ### Informations complémentaires pour les responsables de club
 
-Pour imprimer ce projet, merci d'utiliser la [version imprimable](https://projects.raspberrypi.org/en/projects/sunrise/print).
+Pour imprimer ce projet, merci d'utiliser la [version imprimable](https://projects.raspberrypi.org/fr-FR/projects/sunrise/print).
 
 --- collapse ---
 ---
