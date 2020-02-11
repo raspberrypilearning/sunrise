@@ -13,4 +13,4 @@ Napravi da se animacija ponavlja beskonačno mnogo puta.
     
     ![screenshot](images/sunrise-infinite.png)
 
-+ Isprobaj svoju animaciju. Sunce se diže i postavlja?
++ Isprobaj svoju animaciju. Diže li se i postavlja sunce?
