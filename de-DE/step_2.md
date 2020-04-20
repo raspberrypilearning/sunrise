@@ -1,14 +1,14 @@
-## Creating the sun
+## Die Sonne erschaffen
 
-Let's start by adding an image for the sun and positioning it with some CSS.
+Beginnen wir damit, ein Bild für die Sonne hinzuzufügen und es mit etwas CSS zu positionieren.
 
-+ Open this trinket: <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto.cc/web-sunrise</a>.
++ Öffne dieses Trinket: <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto.cc/web-sunrise</a>.
     
-    The project should look like this:
+    Das Projekt sollte so aussehen:
     
-    ![screenshot](images/sunrise-starter.png)
+    ![Bildschirmfoto](images/sunrise-starter.png)
 
-+ Look inside the `body` of your `index.html` file and you'll find the the `div` elements for the sky and the sea.
++ Schau in den `body` deiner `index.html` Datei und du wirst die `div` -Elemente für den Himmel und das Meer finden.
     
         <div id="sky">
         </div>
@@ -17,18 +17,18 @@ Let's start by adding an image for the sun and positioning it with some CSS.
         </div>
         
 
-+ An image for the sun is already included in your project.
++ Ein Bild für die Sonne ist bereits in deinem Projekt enthalten.
     
-    Add the image inside your sun `div` including an id so you can style it:
+    Füge das Bild in dein Sonnen-`div` einschließlich einer ID ein, damit du es gestalten kannst:
     
-    ![screenshot](images/sunrise-sun-image.png)
+    ![Bildschirmfoto](images/sunrise-sun-image.png)
 
-+ Whoa, the image is huge. Go to `style.css` and add the CSS to set the image height:
++ Wow, das Bild ist riesig. Geh zu `style.css` und füge das CSS hinzu, um die Bildhöhe festzulegen:
     
-    ![screenshot](images/sunrise-sun-height.png)
+    ![Bildschirmfoto](images/sunrise-sun-height.png)
     
-    Note that the width is updated automatically to keep the proportions the same.
+    Beachte, dass die Breite automatisch aktualisiert wird, um die Proportionen gleich zu halten.
 
-+ Finally, let's add some code to position the sun:
++ Zuletzt, füge noch etwas Code hinzu, um die Sonne zu positionieren:
     
-    ![screenshot](images/sunrise-sun-position.png)
+    ![Bildschirmfoto](images/sunrise-sun-position.png)
