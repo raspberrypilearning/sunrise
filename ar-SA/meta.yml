@@ -1,35 +1,35 @@
 ---
 hero_image: images/banner.png
-title: Sunrise
+title: شروق الشمس
 theme: yellow
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
-curriculum: 1, design-1, programming-0, phys-comp-0, manufacture-0, community-0
-description: Create an animated sunrise.
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+description: أنشئ رسمًا متحركًا لشروق الشمس.
 original_url: https://codeclubprojects.org/en-GB/webdev/sunrise
 interests: ''
-technologies: html-css-javascript
-site_areas: projects
+technologies: html/css
+site_areas: codeclub, webdev
 hardware: ''
 software: html-css-javascript
 version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: المقدمة
   - 
-    title: Creating the sun
+    title: إنشاء كائن الشمس
   - 
-    title: Animating the sunrise
+    title: تحريك شروق الشمس
   - 
-    title: 'Challenge: Diagonal animation'
+    title: 'التحدي: التحريك بشكل قطري'
   - 
-    title: Infinite animation
+    title: رسم متحرك لانهائي
   - 
-    title: Animating the sky
+    title: تحريك السماء
   - 
-    title: 'Challenge: Improve the sky'
+    title: 'التحدي: تحسين ظهور السماء'
   - 
-    title: 'Challenge: More animation'
+    title: 'التحدي: رسوم متحركة أخرى'
