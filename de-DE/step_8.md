@@ -1,27 +1,27 @@
 \--- challenge \---
 
-## Challenge: More animation
+## Herausforderung: Noch mehr Animation
 
-Can you animate another image? You can animate the position, colour, shape, size, opacity (seethroughness) or anything else you can think of. Also try changing the amount of time your animations run for.
+Kannst du ein weiteres Bild animieren? Du kannst die Position, Farbe, Form, Größe, Deckkraft (Transparenz) oder alles andere animieren, was du dir vorstellen kannst. Versuche auch die Dauer zu ändern, wie lange deine Animationen ausgeführt werden.
 
-For each item you want to animate, you will need to:
+Für jedes Element, das du animieren möchtest, musst du:
 
-+ Include it in your HTML with an id
-+ Add a style for the id
-+ Create an @keyframes rule
-+ Use `animation:` in the style to use the animation you defined with @keyframes 
++ Es mit einer ID in dein HTML einfügen
++ Einen Style für diese ID hinzufügen
++ Eine @keyframe-Regel erstellen
++ `animation:` im Style verwenden, um die Animation, die du mit @keyframes definiert hast, zu nutzen 
 
-Click on the image icon to see the images that are included in the project:
+Klicke auf das Bildsymbol, um die Bilder angezeigt zu bekommen, die im Projekt enthalten sind:
 
-![screenshot](images/sunrise-images.png)
+![Bildschirmfoto](images/sunrise-images.png)
 
-You can also upload your own images if you like.
+Wenn du willst, kannst du auch deine eigenen Bilder hochladen.
 
-Don't forget you can put items in the sea as well as the sky:
+Vergiss nicht, du kannst Gegenstände sowohl ins Meer tun, als auch in den Himmel:
 
-![screenshot](images/sunrise-boat.png)
+![Bildschirmfoto](images/sunrise-boat.png)
 
-In the example the rainbow uses opacity for a fade effect:
+Im Beispiel verwendet der Regenbogen opacity (also Deckkraft) für einen Überblendeffekt:
 
     @keyframes fade {
       0%  
@@ -31,7 +31,7 @@ In the example the rainbow uses opacity for a fade effect:
     }
     
 
-The boat uses a negative starting position so that you can't see it for part of the animation:
+Das Boot verwendet eine negative Start-Position, so dass man es am Anfang der Animation nicht sehen kann:
 
      @keyframes left-right {
       0%   
