@@ -2,7 +2,7 @@
 
 L'animation ne concerne pas seulement le mouvement. Animons le ciel pour qu'il s'assombrisse la nuit.
 
-+ Ajoute une animation appelée `ciel` à ton CSS:
++ Ajoute une animation appelée `ciel` à ton CSS :
     
         @keyframes ciel {
             0%
@@ -12,7 +12,7 @@ L'animation ne concerne pas seulement le mouvement. Animons le ciel pour qu'il s
     
     Note que cette fois, tu animes la couleur du ciel et non sa position.
 
-+ Ajoute du code à ton ciel, pour lui dire d’utiliser ta nouvelle animation:
++ Ajoute du code à ton ciel, pour lui dire d’utiliser ta nouvelle animation :
     
         animation: ciel 10s;
         
