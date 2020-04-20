@@ -1,12 +1,12 @@
 ---
 hero_image: images/banner.png
-title: Lever de Soleil
+title: Lever de soleil
 theme: jaune
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
-curriculum: 1, design-1, programmation-0, phys-comp-0, fabrication-0, communauté-0
+curriculum: 1, design-1, programming-0, phys-comp-0, manufacture-0, community-0
 description: Créer un lever de soleil animé.
 original_url: https://codeclubprojects.org/en-GB/webdev/sunrise
 interests: ''
