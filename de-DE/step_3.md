@@ -1,12 +1,12 @@
-## Animating the sunrise
+## Den Sonnenaufgang animieren
 
-To animate your sunrise, you need to define how the sun moves and how long it takes to rise.
+Um den Sonnenaufgang zu animieren, musst du definieren, wie sich die Sonne bewegt und wie lange es dauert, bis sie aufgeht.
 
-To do this you define a list of **key frames**. Each key frame defines the CSS properties of an element at a particular point in an animation.
+Um das zu erreichen, definierst du eine Liste von **keyframes**. Jeder keyframe definiert die CSS-Eigenschaften eines Elements an einem bestimmten Punkt in einer Animation.
 
-+ First, you need to use `@keyframes` to create a new animation called sunrise.
++ Zuerst musst du `@keyframes` nutzen, um eine neue Animation namens sunrise zu erstellen.
     
-    Add this CSS code to the end of your `style.css` file:
+    Füge diesen CSS-Code am Ende deiner Datei `style.css` hinzu:
     
         @keyframes sunrise {
             0%
@@ -14,16 +14,16 @@ To do this you define a list of **key frames**. Each key frame defines the CSS p
         }
         
     
-    This code tells the sun where to position itself at the start (`0%`) and the end (`100%`) of the animation.
+    Dieser Code teilt der Sonne mit, wo sie sich am Anfang (`0%`) und am Ende (`100%`) der Animation positionieren soll.
     
-    Because the sun is inside the sky `div`, the `top` and `left` positions you give are within to the sky, with `top: 100%` being the bottom of the sky, and not the bottom of the webpage.
+    Da sich die Sonne innerhalb des Himmel ("sky") `div` Tags befindet, sind die `top` und `left` Positionen innerhalb des Himmels gesetzt, wobei `top: 100%` das untere Ende des Himmels und nicht der untere Rand der Webseite ist.
 
-+ Now that you have created a `sunrise` animation, you just need to tell your sun to use it!
++ Nachdem du eine `sunrise` Animation erstellt hast, musst du deiner Sonne nur noch mitteilen, dass sie diese verwenden soll!
     
-    Add the highlighted code to your sun's CSS:
+    Füge den markierten Code in das CSS deiner Sonne ein:
     
-    ![screenshot](images/sunrise-sunrise.png)
+    ![Bildschirmfoto](images/sunrise-sunrise.png)
     
-    This tells the sun to spend 10 seconds animating a sunrise.
+    Dies weist die Sonne an, 10 Sekunden für die Sonnenaufgang Animation zu verwenden.
 
-+ To run the animation again in Trinket, just click **Autorun**.
++ Um die Animation in Trinket erneut auszuführen, klick einfach auf **Autorun**.
