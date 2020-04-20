@@ -6,7 +6,7 @@ Dans ce but, tu définis une liste d' **images clés**. Chaque image clé défin
 
 + Tout d'abord, tu dois utiliser `@keyframes` pour créer une nouvelle animation appelée leverdesoleil.
     
-    Ajoutez ce code CSS à la fin de votre fichier `style.css`:
+    Ajoute ce code CSS à la fin de ton fichier `style.css` :
     
         @keyframes leverdesoleil {
             0%
@@ -18,9 +18,9 @@ Dans ce but, tu définis une liste d' **images clés**. Chaque image clé défin
     
     Parce que le soleil est dans le `div` ciel, les positions `top` et `left` sont par rapport au ciel, `top: 100%` étant le bas du ciel et non le bas de la page Web.
 
-+ Maintenant que tu as créé une animation `leverdesoleil` , il suffit de dire à ton soleil de l'utiliser!
++ Maintenant que tu as créé une animation `leverdesoleil` , il suffit de dire à ton soleil de l'utiliser !
     
-    Ajoute le code en surbrillance au CSS de ton soleil:
+    Ajoute le code en surbrillance au CSS de ton soleil :
     
     ![capture d'écran](images/sunrise-sunrise.png)
     
