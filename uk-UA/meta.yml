@@ -7,7 +7,7 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-1, programming-0, phys-comp-0, manufacture-0, community-0
-description: Створення мультиплікаційного сходу сонця
+description: Створення анімації сходу сонця.
 original_url: https://codeclubprojects.org/en-GB/webdev/sunrise
 interests: ''
 technologies: html-css-javascript
@@ -22,14 +22,14 @@ steps:
   - 
     title: Створення сонця
   - 
-    title: Мультиплікація сходу сонця
+    title: Анімація сходу сонця
   - 
-    title: 'Завдання: Удосконалення анімації'
+    title: 'Завдання: діагональна анімація'
   - 
-    title: Безмежна мультиплікація
+    title: Нескінченна анімація
   - 
-    title: Мультиплікація неба
+    title: Анімація неба
   - 
-    title: 'Завдання: Вдосконалення неба'
+    title: 'Завдання: вдосконалення неба'
   - 
-    title: 'Завдання: Удосконалення анімації'
+    title: 'Завдання: вдосконалення анімації'
