@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: Improve the sky
+## Herausforderung: Verbessere den Himmel
 
-Can you change the sky animation so that it matches the sun and stays blue during the day and returns to black as the sun sets. Make it loop forever too.
+Kannst du die Animation des Himmels so ändern, dass sie mit der Sonne übereinstimmt und tagsüber blau bleibt und bei Sonnenuntergang wieder schwarz wird. Mach, dass die Schleife ewig läuft.
 
-![screenshot](images/sunrise-sky-challenge.png)
+![Bildschirmfoto](images/sunrise-sky-challenge.png)
 
 \--- /challenge \---
