@@ -1,17 +1,14 @@
 --- challenge ---
-## Aufgabe: Diagonale Animation
-Kannst du den Code zu deiner `sunrise` (Sonnenaufgang) Animation hinzufügen, damit deine Sonne unten links vom Himmel aufgeht und diagonal zu ihrer Position ungefähr oben in der Mitte gelangt?
 
-Du kannst die `left` (links) Eigenschaft hierfür benutzen, zum Beispiel:
+## Herausforderung: Diagonale Animation
 
+Kannst du Code zu deiner `sunrise` Animation hinzufügen, damit deine Sonne unten links am Himmel beginnt und sich diagonal zu ihrer Position ungefähr zur oberen Mitte bewegt?
+
+Du kannst die `left`-Eigenschaft dazu nutzen, zum Beispiel:
 ```
-links: 40%;
-```
+    left: 40%;
+```    
 
-![screenshot](images/sunrise-left.png)
-
-
-
-
+![Bildschirmfoto](images/sunrise-left.png)
 
 --- /challenge ---

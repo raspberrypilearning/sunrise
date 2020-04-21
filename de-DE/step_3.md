@@ -1,32 +1,29 @@
 ## Den Sonnenaufgang animieren
 
-Um den Sonnenaufgang  zu animieren, musst du definieren, wie sich die Sonne bewegt und wie lange es dauern soll, bis sie aufgeht.
+Um den Sonnenaufgang zu animieren, musst du definieren, wie sich die Sonne bewegt und wie lange es dauert, bis sie aufgeht.
 
-Damit du dies tun kannst, musst du eine Liste von sog. __Keyframes__, bzw. Schlüsselbildern definieren. Jeder „Keyframe“ definiert die CSS-Eigenschaften eines Elements zu einem bestimmten Zeitpunkt der Animation. 
+Um das zu erreichen, definierst du eine Liste von **keyframes**. Jeder keyframe definiert die CSS-Eigenschaften eines Elements an einem bestimmten Punkt in einer Animation.
 
-+ Als erstes musst du `@keyframes` (Schlüsselbilder) benutzen, um eine neue Animation namens Sonnenaufgang zu erstellen. 
-
-    Füge diesen CSS-Code zum Ende deiner `style.css` Datei hinzu:
-
++ Zuerst musst du `@keyframes` nutzen, um eine neue Animation namens sunrise zu erstellen.
+    
+    Füge diesen CSS-Code am Ende deiner Datei `style.css` hinzu:
     ```
-    @keyframes Sonnenaufgang {
-        0% {oben: 90%;}
-        100% {oben: 0;}
-    }
-    ```
+        @keyframes sunrise {
+            0%
+            100%
+        }
+    ```    
+    
+    Dieser Code teilt der Sonne mit, wo sie sich am Anfang (`0%`) und am Ende (`100%`) der Animation positionieren soll.
+    
+    Da sich die Sonne innerhalb des Himmel ("sky") `div` Tags befindet, sind die `top` und `left` Positionen innerhalb des Himmels gesetzt, wobei `top: 100%` das untere Ende des Himmels und nicht der untere Rand der Webseite ist.
 
-    Dieser Code teilt der Sonne mit, wo sie zu Beginn (`0%`) und zum Ende (`100%`) der Animation positioniert ist.
++ Nachdem du eine `sunrise` Animation erstellt hast, musst du deiner Sonne nur noch mitteilen, dass sie diese verwenden soll!
+    
+    Füge den markierten Code in das CSS deiner Sonne ein:
+    
+    ![Bildschirmfoto](images/sunrise-sunrise.png)
+    
+    Dies weist die Sonne an, 10 Sekunden für die Sonnenaufgang Animation zu verwenden.
 
-    Da die Sonne sich im Himmel `div` befindet, sind die `top` (oben) und `left` (links) Positionen, die du gibst, innerhalb „zum Himmel“, wobei `top: 100%` (oben 100%) die Unterseite des Himmels bedeutet und nicht die Unterseite deiner Webseite.
-
-
-+ Jetzt, wo du eine `sunrise` (Sonnenaufgang) Animation erstellt hast, musst du nur noch der Sonne mitteilen, diese zu benutzen! 
-
-    Füge den markierten Code zum CSS deiner Sonne hinzu:
-
-    ![screenshot](images/sunrise-sunrise.png)
-
-    Dies teilt der Sonne mit, 10 Sekunden damit zu verbringen, einen Sonnenaufgang zu animieren.
-
-+ Um diese Animation erneut laufen zu lassen, brauchst du im Trinket einfach nur auf **Autorun** (automatisch laufen lassen) zu klicken. 
-
++ Um die Animation in Trinket erneut auszuführen, klick einfach auf **Autorun**.

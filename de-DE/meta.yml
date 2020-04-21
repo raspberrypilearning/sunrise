@@ -1,3 +1,4 @@
+---
 hero_image: images/banner.png
 title: Sonnenaufgang
 theme: yellow
@@ -15,12 +16,12 @@ hardware: ''
 software: html-css-javascript
 version: 3
 last_tested: 2017-01-01
-steps: 
-- title: Einführung
-- title: Die Sonne herstellen
-- title: Den Sonnenaufgang animieren
-- title: 'Aufgabe: Diagonale Animation'
-- title: Unendliche Animation
-- title: Den Himmel animieren
-- title: 'Aufgabe: Verbessere den Himme'
-- title: 'Aufgabe: Noch mehr Animationen'
+steps:
+  - title: Einleitung
+  - title: Die Sonne erschaffen
+  - title: Den Sonnenaufgang animieren
+  - title: 'Herausforderung: Diagonale Animation'
+  - title: Endlose Animation
+  - title: Den Himmel animieren
+  - title: 'Herausforderung: Verbessere den Himmel'
+  - title: 'Herausforderung: Noch mehr Animation'

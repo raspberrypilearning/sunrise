@@ -1,46 +1,52 @@
 --- challenge ---
-## Aufgabe: Noch mehr Animationen
 
-Kannst du ein weiteres Bild animieren? Du kannst die Position, die Farbe, die Form, die Größe, die Opaziät (Durchsichtigkeit) oder alles andere mögliche, das dir einfällt, animieren. Probiere auch mal, ob du die Länge der Zeit, in der deine Animationen laufen sollen, ändern kannst. 
+## Herausforderung: Noch mehr Animation
 
-Für jedes Ding, das du animieren willst, musst du:
+Kannst du ein weiteres Bild animieren? Du kannst die Position, Farbe, Form, Größe, Deckkraft (Transparenz) oder alles andere animieren, was du dir vorstellen kannst. Versuche auch die Dauer zu ändern, wie lange deine Animationen ausgeführt werden.
 
-+ es mit einer ID in dein HTML mit einbeziehen
-+ einen Stil für die ID hinzufügen
-+ eine „@keyframes” Regel aufstellen
-+ Benutze `animation:` in dem Stil, um die Animation zu benutzen, die du mit „@keyframes“ definiert hast. 
+Für jedes Element, das du animieren möchtest, musst du:
 
-Klicke auf das Bildsymbol, um die Bilder zu sehen, die in diesem Projekt mit enthalten sind:
++ Es mit einer ID in dein HTML einfügen
++ Einen Style für diese ID hinzufügen
++ Eine @keyframe-Regel erstellen
++ `animation:` im Style verwenden, um die Animation, die du mit @keyframes definiert hast, zu nutzen 
 
-![screenshot](images/sunrise-images.png)
+Klicke auf das Bildsymbol, um die Bilder angezeigt zu bekommen, die im Projekt enthalten sind:
 
-Du kannst, wenn du willst, auch deine eigenen Bilder hochladen. 
+![Bildschirmfoto](images/sunrise-images.png)
 
-Vergiss nicht, dass du Dinge auch im Meer, bzw. im Himmel platzieren kannst:
+Wenn du willst, kannst du auch deine eigenen Bilder hochladen.
 
-![screenshot](images/sunrise-boat.png)
+Vergiss nicht, du kannst Gegenstände sowohl ins Meer tun, als auch in den Himmel:
 
-In dem Beispiel hier benutzt der Regenbogen die Opazität für diesen Ausblendungseffekt:
+![Bildschirmfoto](images/sunrise-boat.png)
 
+Im Beispiel verwendet der Regenbogen opacity (also Deckkraft) für einen Überblendeffekt:
 ```
-@keyframes ausblenden {
-  0%   {Opazität: 0;}
-  50%  { Opazität: 100;}
-  66%  { Opazität: 0;}
-  100%   {Opazität: 0;}
-}
+    @keyframes fade {
+      0%  
+      50% 
+      66% 
+      100%  
+    }
+```    
+
+Das Boot verwendet eine negative Start-Position, so dass man es am Anfang der Animation nicht sehen kann:
 ```
-
-Das Boot benutzt eine negative Startposition, damit du es für einen gewissen Teil der Animation nicht sehen kannst:
-
-```
- @keyframes links-rechts {
-  0%    {links:-50%;}
-  100%  {links:200%;}
-}
-```
-
-
-
+     @keyframes left-right {
+      0%   
+      100% 
+    }
+```    
 
 --- /challenge ---
+
+
+***
+Dieses Projekt wurde von freiwilligen Helfern übersetzt:
+
+Holger Wittmann
+
+Tassilo Scherrer
+
+Dank freiwilliger Helfer können wir Menschen auf der ganzen Welt die Möglichkeit geben, in ihrer eigenen Sprache zu lernen. Du kannst uns helfen, mehr Menschen zu erreichen, indem Du dich freiwillig zum Übersetzen meldest - weitere Informationen unter [rpf.io/translate](https://rpf.io/translate).

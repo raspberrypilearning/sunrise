@@ -1,38 +1,34 @@
-## Die Sonne herstellen
+## Die Sonne erschaffen
 
-Lass uns damit beginnen, ein Bild für die Sonne hinzuzufügen und diese mit etwas CSS-Code zu positionieren.
+Beginnen wir damit, ein Bild für die Sonne hinzuzufügen und es mit etwas CSS zu positionieren.
 
-+ Dieses Trinket öffnen: <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto.cc/web-sunrise</a>. 
-
-    Das Projekt sollte so aussehen:
-
-	![screenshot](images/sunrise-starter.png)
-
-+ Schau in den `body` (Hauptteil) deiner `index.html` (Inhaltsverzeichnis) Datei und du wirst dort die `div` Elemente für den Himmel und das Meer finden.
-
-    ```
-    <div id="sky">
-    </div>
++ Öffne dieses Trinket: <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto.cc/web-sunrise</a>.
     
-    <div id="sea">
-    </div>
+    Das Projekt sollte so aussehen:
+    
+    ![Bildschirmfoto](images/sunrise-starter.png)
+
++ Schau in den `body` deiner `index.html` Datei und du wirst die `div` -Elemente für den Himmel und das Meer finden.
     ```
+        <div id="sky">
+        </div>
+        
+        <div id="sea">
+        </div>
+    ```   
 
-+ Diesem Projekt wurde bereits ein Bild für die Sonne hinzugefügt. 
++ Ein Bild für die Sonne ist bereits in deinem Projekt enthalten.
+    
+    Füge das Bild in dein Sonnen-`div` einschließlich einer ID ein, damit du es gestalten kannst:
+    
+    ![Bildschirmfoto](images/sunrise-sun-image.png)
 
-    Füge das Bild in deiner Sonne `div` inklusive einer ID ein, damit du es grafisch gestalten kannst:
++ Wow, das Bild ist riesig. Geh zu `style.css` und füge das CSS hinzu, um die Bildhöhe festzulegen:
+    
+    ![Bildschirmfoto](images/sunrise-sun-height.png)
+    
+    Beachte, dass die Breite automatisch aktualisiert wird, um die Proportionen gleich zu halten.
 
-    ![screenshot](images/sunrise-sun-image.png)
-
-+ Wow! Das Bild ist ja riesig! Gehe zu `style.css` und füge den CSS-Code hinzu, um die Bildhöhe einzustellen:
-
-    ![screenshot](images/sunrise-sun-height.png)
-
-    Bitte beachte, dass die Breite automatisch eingestellt wird, damit die Proportionen gleich bleiben. 
-
-+ Zum Schluss wollen wir noch etwas Code hinzufügen, um die Sonne zu positionieren:
-
-    ![screenshot](images/sunrise-sun-position.png)
-
-
-
++ Zuletzt, füge noch etwas Code hinzu, um die Sonne zu positionieren:
+    
+    ![Bildschirmfoto](images/sunrise-sun-position.png)
