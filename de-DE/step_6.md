@@ -1,27 +1,22 @@
 ## Den Himmel animieren
 
-Die Animation gilt nicht nur für Bewegungen. Lass uns den Himmel so animieren, dass er nachts dunkel wird.
+Animation ist nicht nur für Bewegung. Lass uns den Himmel animieren, damit er nachts dunkel wird.
 
-+ Füge eine Animation namens `sky` (Himmel) zu deinem CSS hinzu:
-
++ Füge eine Animation mit dem Namen `sky` zu deinem CSS hinzu:
     ```
-    @keyframes Himmel {
-        0% {Hinergrund: schwarz }
-        100% {Hintergrund: hellblau}
-    }
+        @keyframes sky {
+            0%
+            100%
+        }
+    ```    
+    
+    Beachte, dass du diesmal die Farbe des Himmels animierst und nicht die Position.
+
++ Füge Code zu deinem Himmel hinzu, um ihm zu sagen dass er die neue Animation verwenden soll:
     ```
+        animation: sky 10s;
+    ```    
+    
+    ![Bildschirmfoto](images/sunrise-sky.png)
 
-    Beachte bitte, dass du diesmal die Farbe des Himmels animierst und nicht die Position.
-
-+ Füge den Code zu deinem Himmel hinzu, um ihm mitzuteilen, deine neue Animation zu benutzen:
-
-    ```
-    Animation: Himmel 10s;
-    ```
-
-    ![screenshot](images/sunrise-sky.png)
-
-+ Klicke auf **Autorun**, um deine Animation zu testen. 
-
-
-
++ Klicke **Autorun**, um die Animation zu testen.

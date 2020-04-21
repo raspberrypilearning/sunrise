@@ -1,26 +1,21 @@
-## Unendliche Animation
+## Endlose Animation
 
-Lass es uns so einstellen, dass sich die Animation unendlich wiederholt.
+Lass uns die Animation so machen dass sie sich für immer wiederholt.
 
-+ Wenn du willst, dass die Sonne auf- und wieder untergeht, brauchst du einfach nur weitere „Keyframes“ zu deiner Animation hinzuzufügen:
-
++ Wenn du willst, dass die Sonne aufgeht und anschließend untergeht, füge deiner Animation einfach weitere Keyframes hinzu:
     ```
-    @keyframes Sonnenaufgang {
-        0%   {oben:90%; links:0;}
-        33%  {oben:0; links:40%; }
-        66%  {oben:0; links:40%; }
-        100% {oben:90%; links:80%; }
-    }
-    ```
+        @keyframes sunrise {
+            0%  
+            33% 
+            66% 
+            100%
+        }
+    ```    
+    
+    Das bedeutet, dass die Animation mit der Sonne am unteren Rand des Himmels beginnt und endet und von 33% bis 66% der Animation am oberen Rand stehen bleibt.
 
-    Das bedeutet, dass die Animation mit der Sonne im unteren Teil des Himmels beginnt und dort auch endet und von 33% bis 66% der Animation oben bleibt.
++ Jetzt musst du der Animation `#sun` nur noch das Wort `infinite` hinzufügen, damit sie für immer wiederholt wird:
+    
+    ![Bildschirmfoto](images/sunrise-infinite.png)
 
-+ Jetzt musst du nur noch das Wort `infinite` (unendlich) zur `#sun` (Sonne) Animation hinzufügen, damit sie für immer in einer Schleife ist:
-
-    ![screenshot](images/sunrise-infinite.png)
-
-+ Teste deine Animation. Geht die Sonne immer wieder erneut auf und unter? 
-
-
-
-
++ Teste deine Animation. Geht die Sonne immer wieder auf und unter?

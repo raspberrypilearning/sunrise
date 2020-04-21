@@ -1,9 +1,9 @@
 --- challenge ---
-## Aufgabe: Verbessere den Himmel 
 
-Kannst du die Animation des Himmels ändern, damit er zur Sonne passt und tagsüber blau bleibt und nachts, bei Sonnenuntergang, schwarz wird? Lasse den Himmel auch für immer in einer Schleife bleiben. 
+## Herausforderung: Verbessere den Himmel
 
-![screenshot](images/sunrise-sky-challenge.png)
+Kannst du die Animation des Himmels so ändern, dass sie mit der Sonne übereinstimmt und tagsüber blau bleibt und bei Sonnenuntergang wieder schwarz wird. Mach, dass die Schleife ewig läuft.
 
+![Bildschirmfoto](images/sunrise-sky-challenge.png)
 
 --- /challenge ---
