@@ -1,14 +1,14 @@
-\--- تحدي \---
+\--- challenge \---
 
-## تحدي: رسم متحرك قطري
+## Reto: Animación diagonal
 
-هل يمكنك اضافة كود برمجي الى `sunrise` الخاصة بك, لجعل الشمس تبدأ من اسفل يسار السماء وتتحرك بشكل قطري الى موقعها الذي يقع في اعلى المنتصف؟
+¿Puedes añadir código a tu animación `sunrise`, para hacer que tu sol empiece abajo a la izquierda en el cielo y se mueva diagonalmente a su posición, aproximadamente, arriba en el centro?
 
-انت تستطيع استخدام خاصية ال `left` لفعل هذا, مثال:
+Puedes usar la propiedad `left` para hacer esto, por ejemplo:
 
     left: 40%;
     
 
-![لقطة الشاشة](images/sunrise-left.png)
+![screenshot](images/sunrise-left.png)
 
-\--- challenge/ \---
+\--- /challenge \---
