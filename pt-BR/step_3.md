@@ -1,29 +1,29 @@
-## Animando o nascer do sol
+## Animatie van de zonsopgang
 
-Para animar o seu nascer do sol, você precisa definir como o sol se move e quanto tempo leva para subir.
+Om je zonsopgang te animeren, moet je bepalen hoe de zon beweegt en hoe lang het duurt om op te komen.
 
-Para fazer isso, você define uma lista de **key frames**. Cada key frame define as propriedades CSS de um elemento em um determinado ponto em uma animação.
+Daarvoor definieer je een lijst met **sleutelframes**. Elk sleutelframe definieert de CSS-eigenschappen van een element op een bepaald punt in een animatie.
 
-+ Primeiro, você precisa usar `@keyframes` para criar uma nova animação chamada sunrise.
++ Eerst moet je `@keyframes` gebruiken om een ​​nieuwe animatie met de naam zonsopkomst te maken.
     
-    Adicione este código CSS ao final do seu arquivo `style.css`:
+    Voeg deze CSS-code toe aan het einde van je `style.css` bestand:
     
-        @keyframes sunrise {
+        @keyframes zonsopkomst {
             0%
             100%
         }
         
     
-    Este código indica o posicionamento do sol no início (`0%`) e a posição final (`100%`) da animação.
+    Deze code vertelt de zon waar hij zichzelf moet positioneren aan het begin (`0%`) en het einde (`100%`) van de animatie.
     
-    Porque o sol está dentro do céu `div`, as posições `top` e `left` que você informa estão dentro do céu, com `top: 100%` sendo o fundo do céu, e não a parte inferior da página da web.
+    Omdat de zon zich in de lucht-`div` bevindt, zijn de `top` en `left` posities de posities die je binnen de lucht geeft, zodat `top: 100%` de onderkant van de lucht aangeeft, en niet de onderkant van de webpagina.
 
-+ Agora que você criou uma animação `sunrise`, você pode ver o seu sol em execução!
++ Nu je een `zonsopkomst` animatie hebt gemaakt, hoef je alleen maar je zon te vertellen om hem te gebruiken!
     
-    Adicione o código destacado do CSS no seu sol:
+    Voeg de gemarkeerde code toe aan de CSS van je zon:
     
     ![screenshot](images/sunrise-sunrise.png)
     
-    Isso irá dizer para o sol ficar 10 segundos animando o amanhecer.
+    Dit vertelt de zon om 10 seconden te besteden aan het animeren van een zonsopgang.
 
-+ Para executar a animação novamente no Trinket, basta clicar **Autorun**.
++ Klik **Autorun** om de animatie opnieuw in Trinket uit te voeren.
