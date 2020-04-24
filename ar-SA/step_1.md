@@ -1,6 +1,6 @@
 ## المقدمة
 
-في هذا المشروع، ستتعلم كيفية استخدام CSS لإنشاء رسم متحرك لشروق الشمس.
+في هذا المشروع, سوف تتعلم كيفية التعامل مع CSS لأنشاء شروق شمس متحرك.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/html/abcc0284a3?outputOnly=true&start=result" width="600" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -10,32 +10,32 @@
 
 ### معلومات إضافية لقادة النادي
 
-إذا كنت بحاجة إلى طباعة هذا المشروع، فيُرجى استخدام [نسخة سهلة الطباعة](https://projects.raspberrypi.org/en/projects/sunrise/print).
-
+إذا كنت بحاجة إلى طباعة هذا المشروع، فيُرجى استخدام [النسخة القابلة للطباعة](https://projects.raspberrypi.org/ar-SA/projects/sunrise/print).
 
 --- collapse ---
 ---
 title: ملاحظات قادة النادي
 ---
 
+## مقدمة:
 
-## المقدمة:
-في هذا المشروع، سيتعلَّم الأطفال كيفية تحريك مشهد بسيط باستخدام CSS. وسيستخدمون قاعدة keyframes@ في CSS لتحريك خصائص مختلفة للصور وعناصر divs.
+في هذا المشروع سيتعلم الاطفال كيفية صنع مشهد متحرك بسيط بـأستخدام CSS. سوف يستخدمون قاعدة CSS @keyframes من اجل تحريك خصائص او اجزاء مختلفة من الصورة.
 
 ## الموارد المتوفرة على الإنترنت
 
-نوصي باستخدام [trinket](https://trinket.io/) لكتابة ملفات HTML وCSS على الإنترنت. يحتوي هذا المشروع على ملفات trinket التالية:
+نوصي باستخدام [trinket](https://trinket.io/) لكتابة ملفات HTML و & CSS على الإنترنت. هذا المشروع يحتوي على trinkets التالية:
 
-+ ['شروق الشمس' مشروع البدء](https://trinket.io/html/web-sunrise)
++ [الخطوة الاولى ل"شروق الشمس"](http://jumpto.cc/web-sunrise)
 
-يمكن أن يستخدم الأطفال أيضًا ملف trinket الفارغ هذا [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) لكتابة ملفات HTML و CSS، أو يمكنهم استخدام قالب trinket هذا [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
+يمكن أن يستخدم الأطفال أيضًا ملف trinket الفارغ هذا[(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) لكتابة ملفات HTML & CSS الخاصة بهم، أو يمكنهم استخدام قالب trinket هذا [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
 كما يوجد مشروع trinket يحتوي على نموذج حل للتحديات:
 
-+ [مشروع 'شروق الشمس' مُكتمل](https://trinket.io/html/abcc0284a3)
++ [كمل "شروق الشمس"](https://trinket.io/html/abcc0284a3)
 
 ## الموارد المتوفرة دون اتصال بالإنترنت
-بالنسبة إلى هذا المشروع، يمكن [إكماله دون اتصال بالإنترنت](offline.html/..) إذا كنت تفضل ذلك. ويمكنك الوصول إلى موارد المشروع من خلال النقر فوق الرابط "تنزيل مواد المشروع" الخاص بهذا المشروع. يحتوي هذا الرابط على مجلد "موارد المشروع"، الذي يتضمن الموارد التي يحتاج إليها الأطفال لإكمال هذا المشروع دون اتصال بالإنترنت. تأكد من أن كل طفل لديه حق الوصول إلى نسخة من هذه الموارد. يتضمن هذا المجلد الملفات التالية:
+
+يمكن أن يكون هذا المشروع [مكتمل دون اتصال بالإنترنت](../offline.html) إذا كنت تفضل ذلك. تستطيع الوصول الى موارد المشروع بلنقر على رابط المشروع هذا 'Download Project Materials' . هذا الرابط يحتوي على ملف "موارد المشروع", الذي يحتوي بدوره على الموارد التي يحتاجها الاطفال لأكمال هذا المشروع بدون اتصال بلانترنت. تأكد من أن كل طفل لديه امكانية الوصول الى نسخة من هذه الموارد. هذا المجلد يحتوي على الملفات التالية:
 
 + template/index.html
 + template/prefix.js
@@ -49,7 +49,7 @@ title: ملاحظات قادة النادي
 + sunrise/rainbow.png
 + sunrise/sun.png
 
-يمكنك أيضًا العثور على نسخة كاملة من تحديات هذا المشروع في قسم "موارد المتطوعين" الذي يحتوي على:
+يمكنك أيضًا الحصول على النسخة الكاملة لهذا المشروع في قسم "موارد المتطوعين"والذي يحتوي على:
 
 + sunrise-finished/index.html
 + sunrise-finished/style.css
@@ -59,65 +59,67 @@ title: ملاحظات قادة النادي
 + sunrise-finished/rainbow.png
 
 ## أهداف التعلم
-+ تحديد الأنماط وإنشاء الرسوم المتحركة باستخدام CSS:
-	+ تناول القاعدة `keyframes@` لتحديد خطوات الرسم المتحرك.
-	+ زيادة تعزيز استخدام الخصائص لتحديد حجم العناصر وشكلها وموضعها ولونها على صفحة الويب.
 
-يتناول هذا المشروع عناصر من الصفوف التالية من [المناهج الرقمية الخاصة بـ Raspberry Pi](http://rpf.io/curriculum):
++ التصميم والتحريك باستخدام CSS: 
+    + تقديم قاعدة `@keyframes` لتعريف الخطوات في الصور المتحركة.
+    + تعزيز الاستخدام من الخصائص لتحديد الحجم, الشكل, الموقع و لون العناصر على صفحة الموقع الالكتروني.
+
+يتناول هذا المشروع عناصر من معايير المناهج الرقمية الخاصة بـ [Raspberry Pi](http://rpf.io/curriculum):
 
 + [الأصول الأساسية للتصميمات ثنائية الأبعاد وثلاثية الأبعاد](https://www.raspberrypi.org/curriculum/design/creator).
 
-## التحديات:
-+ "التحريك بشكل قطري" - تحرير خصائص الرسوم المتحركة `keyframe@` لاستخدام الخاصية :إلى اليسار؛
-+ "تحسين ظهور السماء" - إضافة المزيد من الإطارات المفتاحية وتعيين الخلفية:.
-+ "رسوم متحركة أخرى" - تحريك صور أو عناصر أخرى باستخدام مجموعة متنوعة من خصائص CSS. 
+## التحديات
+
++ "تحريك قطري" -تحرير الصور المتحركة خصائص `@keyframe` لاستخدام الشمال::;
++ "تحسين السماء"- اضافة المزيد من الخصائص والمحتويات الى الخلفية:.
++ "المزيد من الصور المتحركة"- قم بصنع المزيد من الصور المتحركة او العناصر بأستخدام تشكيلة من CSS. 
 
 ## الأسئلة الشائعة
 
-يستخدم هذا المشروع مكتبة `prefixfree.js` للغة javascript لتوفير توافق الرسوم المتحركة بين المتصفحات. وإذا لم تكن هذه المكتبة مستخدمة، فإن الأطفال الذين يستخدمون متصفحات قديمة سيحتاجون إلى الإعلان عن رسم متحرك للمتصفحات التي يستخدمونها، على سبيل المثال:
++ هذا المشروع يقوم بالاستفادة من مكتبة javascript `prefixfree.js`, للسماح بامكانية تحريك الصور بين المتصفحات. اذا لم يتم استخدام هذه المكتبة, عندها الاطفال الذين يملكون متصفحات قديمة سيحتاجون الى تعريف الصور المتحركة الى متصفحاتهم, مثال:
 
-```
-animation: sky 10s infinite; 		  	//for all newer browsers
--webkit-animation: sky 10s infinite;  	// For Webkit browsers(Chrome, Safari...)
--moz-animation: sky 10s infinite;     	// For Mozilla browsers
--o-animation: sky 10s infinite;       	// For Opera browsers
--ms-animation: sky 10s infinite;		// For Microsoft browsers 
-```
-
+    animation: sky 10s infinite;            //for all newer browsers
+    -webkit-animation: sky 10s infinite;    // For Webkit browsers(Chrome, Safari...)
+    -moz-animation: sky 10s infinite;       // For Mozilla browsers
+    -o-animation: sky 10s infinite;         // For Opera browsers
+    -ms-animation: sky 10s infinite;        // For Microsoft browsers 
+    
 
 --- /collapse ---
-
 
 --- collapse ---
 ---
 title: مواد المشروع
 ---
-## موارد المشروع
-* [ملف .zip يحتوي على كل موارد المشروع](resources/sunrise-project-resources.zip)
-* [Trinket عبر الإنترنت يحتوي على كل موارد مشروع 'شروق الشمس'](http://jumpto.cc/web-sunrise)
-* [قالب Trinket عبر الإنترنت](http://jumpto.cc/trinket-template)
-* [Trinket فارغ عبر الإنترنت](http://jumpto.cc/python-new)
-* [template/index.html](resources/template-index.html)
-* [template/style.css](resources/template-style.css)
-* [intro/index.html](resources/intro-index.html)
-* [intro/style.css](resources/intro-style.css)
-* [sunrise/index.html](resources/sunrise-index.html)
-* [sunrise/style.css](resources/sunrise-style.css)
-* [sunrise/prefixfree.js](resources/sunrise-prefixfree.js)
-* [sunrise/sun.png](resources/sunrise-sun.png)
-* [sunrise/rainbow.png](resources/sunrise-rainbow.png)
-* [sunrise/cloud.png](resources/sunrise-cloud.png)
-* [sunrise/boat.png](resources/sunrise-boat.png)
-* [sunrise/helicopter.png](resources/sunrise-helicopter.png)
 
-## موارد قادة النادي
-* [ملف .zip يحتوي على كل موارد المشاريع المكتملة](resources/sunrise-volunteer-resources.zip)
-* [مشروع Trinket المكتمل على الإنترنت](https://trinket.io/html/abcc0284a3)
-* [sunrise-finished/index.html](resources/sunrise-finished-index.html)
-* [sunrise-finished/style.css](resources/sunrise-finished-style.css)
-* [sunrise-finished/prefixfree.js](resources/sunrise-finished-prefixfree.js)
-* [sunrise-finished/sun.png](resources/sunrise-finished-sun.png)
-* [sunrise-finished/boat.png](resources/sunrise-finished-boat.png)
-* [sunrise-finished/rainbow.png](resources/sunrise-finished-rainbow.png)
+## موارد المشروع
+
++ [ملف.zip يحتوي على كل موارد المشروع](https://github.com/raspberrypilearning/sunrise/raw/master/ar-SA/resources/sunrise-project-resources.zip)
++ [ Trinket عبر الانترنت يحتوي على جميع موارد مشروع "شروق الشمس"](http://jumpto.cc/web-sunrise)
++ [قالب Trinket عبر الإنترنت](http://jumpto.cc/trinket-template)
++ [Trinket فارغ عبر الإنترنت](http://jumpto.cc/trinket-blank)
++ [template/index.html](https://github.com/raspberrypilearning/sunrise/raw/master/ar-SA/resources/template-index.html)
++ [template/style.css](https://github.com/raspberrypilearning/sunrise/raw/master/ar-SA/resources/template-style.css)
++ [intro/index.html](https://github.com/raspberrypilearning/sunrise/raw/master/ar-SA/resources/intro-index.html)
++ [intro/style.css](https://github.com/raspberrypilearning/sunrise/raw/master/ar-SA/resources/intro-style.css)
++ [sunrise/index.html](https://github.com/raspberrypilearning/sunrise/raw/master/ar-SA/resources/sunrise-index.html)
++ [sunrise/style.css](https://github.com/raspberrypilearning/sunrise/raw/master/ar-SA/resources/sunrise-style.css)
++ [sunrise/prefixfree.js](https://github.com/raspberrypilearning/sunrise/raw/master/ar-SA/resources/sunrise-prefixfree.js)
++ [sunrise/sun.png](https://github.com/raspberrypilearning/sunrise/raw/master/ar-SA/resources/sunrise-sun.png)
++ [sunrise/rainbow.png](https://github.com/raspberrypilearning/sunrise/raw/master/ar-SA/resources/sunrise-rainbow.png)
++ [sunrise/cloud.png](https://github.com/raspberrypilearning/sunrise/raw/master/ar-SA/resources/sunrise-cloud.png)
++ [sunrise/boat.png](https://github.com/raspberrypilearning/sunrise/raw/master/ar-SA/resources/sunrise-boat.png)
++ [sunrise/helicopter.png](https://github.com/raspberrypilearning/sunrise/raw/master/ar-SA/resources/sunrise-helicopter.png)
+
+## موارد قائد النادي
+
++ [ملف.zip يحتوي على جميع موارد المشروع المكتملة](https://github.com/raspberrypilearning/sunrise/raw/master/ar-SA/resources/sunrise-volunteer-resources.zip)
++ [مشروع Trinket المكتمل على الإنترنت](https://trinket.io/html/abcc0284a3)
++ [sunrise-finished/index.html](https://github.com/raspberrypilearning/sunrise/raw/master/ar-SA/resources/sunrise-finished-index.html)
++ [sunrise-finished/style.css](https://github.com/raspberrypilearning/sunrise/raw/master/ar-SA/resources/sunrise-finished-style.css)
++ [sunrise-finished/prefixfree.js](https://github.com/raspberrypilearning/sunrise/raw/master/ar-SA/resources/sunrise-finished-prefixfree.js)
++ [sunrise-finished/sun.png](https://github.com/raspberrypilearning/sunrise/raw/master/ar-SA/resources/sunrise-finished-sun.png)
++ [sunrise-finished/boat.png](https://github.com/raspberrypilearning/sunrise/raw/master/ar-SA/resources/sunrise-finished-boat.png)
++ [sunrise-finished/rainbow.png](https://github.com/raspberrypilearning/sunrise/raw/master/ar-SA/resources/sunrise-finished-rainbow.png)
 
 --- /collapse ---
