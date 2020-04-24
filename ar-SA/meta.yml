@@ -1,6 +1,6 @@
 ---
-title: شروق الشمس
 hero_image: images/banner.png
+title: شروق الشمس
 theme: yellow
 duration: 2
 listed: true
@@ -12,13 +12,16 @@ original_url: https://codeclubprojects.org/en-GB/webdev/sunrise
 interests: ''
 technologies: html/css
 site_areas: codeclub, webdev
+hardware: ''
+software: html-css-javascript
+version: 3
+last_tested: 2017-01-01
 steps:
-- title: المقدمة
-- title: إنشاء كائن الشمس
-- title: تحريك شروق الشمس
-- title: 'التحدي: التحريك بشكل قطري'
-- title: رسم متحرك لانهائي
-- title: تحريك السماء
-- title: 'التحدي: تحسين ظهور السماء'
-- title: 'التحدي: رسوم متحركة أخرى'
-
+  - title: المقدمة
+  - title: إنشاء كائن الشمس
+  - title: تحريك شروق الشمس
+  - title: 'التحدي: التحريك بشكل قطري'
+  - title: رسم متحرك لانهائي
+  - title: تحريك السماء
+  - title: 'التحدي: تحسين ظهور السماء'
+  - title: 'التحدي: رسوم متحركة أخرى'
