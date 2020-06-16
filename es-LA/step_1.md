@@ -1,6 +1,6 @@
-## Introduction
+## Introducción
 
-In this project, you'll learn how to use CSS to create an animated sunrise.
+En este proyecto, aprenderás a usar CSS para crear un amanecer animado.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/html/abcc0284a3?outputOnly=true&start=result" width="600" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -8,33 +8,33 @@ In this project, you'll learn how to use CSS to create an animated sunrise.
   <img src="images/sunrise-final.png">
 </div>
 
-### Additional information for club leaders
+### Información adicional para los líderes del club
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/sunrise/print).
+Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://projects.raspberrypi.org/en/projects/sunrise/print).
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: Notas para el líder del club
 
-## Introduction:
+## Introducción:
 
-In this project, children will to learn how to animate a simple scene using CSS. They will use the CSS @keyframes rule to animate various properties of images and divs.
+En este proyecto, los niños y niñas aprenderán como animar una escena simple usando CSS. Usarán las reglas @keyframes de CSS para animar varias propiedades de imágenes y divs.
 
-## Online Resources
+## Recursos en línea
 
-We recommend using [trinket](https://trinket.io/) to write HTML & CSS online. This project contains the following trinkets:
+Recomendamos usar [trinket](https://trinket.io/) para programar en HTML y CSS en línea. Este proyecto contiene los siguientes trinkets:
 
-+ ['Sunrise' starting point](http://jumpto.cc/web-sunrise)
++ ["Amanecer" punto de partida](http://jumpto.cc/web-sunrise)
 
-Children can also make use of this blank trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) to write their own HTML & CSS, or alternatively they can use this template trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
+También pueden hacer uso de este trinket en blanco [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) para escribir su propio HTML & CSS o alternativamente pueden usar esta plantilla de trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
-There is also a trinket containing a sample solution to the challenges:
+Además, hay un trinket que contiene una solución de muestra para los retos:
 
-+ ['Sunrise' Finished](https://trinket.io/html/abcc0284a3)
++ ["Amanecer" terminado](https://trinket.io/html/abcc0284a3)
 
-## Offline Resources
+## Recursos sin conexión
 
-This project can be [completed offline](../offline.html) if preferred. You can access the project resources by clicking the 'Download Project Materials' link for this project. This link contains a 'Project Resources' folder, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This folder includes the following files:
+Si prefieres, este proyecto se puede [completar offline](../offline.html). Se puede acceder a los recursos del proyecto haciendo clic en el enlace "Descargar materiales del proyecto". Este enlace contiene una carpeta de "Recursos del proyecto", que incluye los recursos que los niños necesitarán para completar el proyecto sin conexión. Asegúrate de que cada niño tenga acceso a una copia de estos recursos. Esta carpeta incluye los siguientes archivos:
 
 + template/index.html
 + template/prefix.js
@@ -48,7 +48,7 @@ This project can be [completed offline](../offline.html) if preferred. You can a
 + sunrise/rainbow.png
 + sunrise/sun.png
 
-You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
+También puedes encontrar una versión completa de los desafíos de este proyecto en la sección "Recursos para voluntarios", que contiene:
 
 + sunrise-finished/index.html
 + sunrise-finished/style.css
@@ -57,25 +57,25 @@ You can also find a completed version of this project's challenges in the 'Volun
 + sunrise-finished/sun.png
 + sunrise-finished/rainbow.png
 
-## Learning Objectives
+## Objetivos del aprendizaje
 
-+ Styling and animation with CSS: 
-    + Introducing `@keyframes` rule for defining steps in an animation.
-    + Reinforcing the use of properties to define the size, shape, position and colour of elements on a webpage.
++ Estilo y animación con CSS: 
+    + Introducir las reglas `@keyframes` para definir los pasos en una animación.
+    + Reforzar el uso de propiedades para definir el tamaño, forma, posición y color de los elementos de una página web.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Este proyecto incluye elementos de los siguientes aspectos del [Currículo de creación digital de Raspberry Pi](http://rpf.io/curriculum):
 
-+ [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator).
++ [Diseño de elementos básicos en 2D y 3D](https://www.raspberrypi.org/curriculum/design/creator).
 
-## Challenges
+## Desafíos
 
-+ "Diagonal animation" - editing animation `@keyframe` properties to use left:;
-+ "Improve the sky" - add more keyframes and setting background:.
-+ "More animation" - animate more images or elements using a variety of CSS properties. 
++ "Animación diagonal" - editar las propiedades de animación `@keyframe` para usar la propiedad left:;
++ "Mejorar el cielo" - añadir más keyframes y ajustar background:.
++ "Más animación" - añadir mayor animación a imágenes o elementos usando una variedad de propiedades CSS. 
 
-## Frequently Asked Questions
+## Preguntas frecuentes
 
-+ This project makes use of the javascript `prefixfree.js` library, to allow animation compatibility between browsers. If this library isn't used, then children using older browsers will instead need to declare an animation for their browser, for example:
++ Este proyecto usa la librería de javascript `prefixfree.js`, para permitir la compatibilidad de las animaciones entre navegadores web. Si esta librería no se usa, entonces los niños y niñas que usen navegadores antiguos necesitarán declarar la animación para su navegador, por ejemplo:
 
     animation: sky 10s infinite;            //for all newer browsers
     -webkit-animation: sky 10s infinite;    // For Webkit browsers(Chrome, Safari...)
@@ -88,14 +88,14 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: Materiales del proyecto
 
-## Project resources
+## Recursos del proyecto
 
-+ [.zip file containing all project resources](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-project-resources.zip)
-+ [Online Trinket containing all 'Sunrise' project resources](http://jumpto.cc/web-sunrise)
-+ [Online Trinket template](http://jumpto.cc/trinket-template)
-+ [Online blank Trinket](http://jumpto.cc/trinket-blank)
++ [Archivo .zip que contiene todos los recursos del proyecto](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-project-resources.zip)
++ [Trinket en línea que contiene todos los recursos del proyecto "Amanecer"](http://jumpto.cc/web-sunrise)
++ [Plantilla de Trinket en línea](http://jumpto.cc/trinket-template)
++ [Trinket en blanco en línea](http://jumpto.cc/trinket-blank)
 + [template/index.html](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/template-index.html)
 + [template/style.css](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/template-style.css)
 + [intro/index.html](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/intro-index.html)
@@ -109,10 +109,10 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 + [sunrise/boat.png](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-boat.png)
 + [sunrise/helicopter.png](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-helicopter.png)
 
-## Club leader resources
+## Recursos del líder del club
 
-+ [.zip file containing all completed project resources](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-volunteer-resources.zip)
-+ [Online completed Trinket project](https://trinket.io/html/abcc0284a3)
++ [Archivo .zip que contiene todos los recursos del proyecto](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-volunteer-resources.zip)
++ [Proyecto Trinket completado en línea](https://trinket.io/html/abcc0284a3)
 + [sunrise-finished/index.html](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-index.html)
 + [sunrise-finished/style.css](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-style.css)
 + [sunrise-finished/prefixfree.js](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-prefixfree.js)
