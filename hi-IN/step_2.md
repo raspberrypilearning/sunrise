@@ -1,34 +1,33 @@
-## Creating the sun
+## एक सूर्य बनाना
 
-Let's start by adding an image for the sun and positioning it with some CSS.
+सूरज की एक पिक्चर ऐड कर के और इसे कुछ CSS के साथ स्थिति से शुरू करें।
 
-+ Open this trinket: <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto.cc/web-sunrise</a>.
++ इस ट्रिंकेट को खोलें: <a href="http://jumpto.cc/web-sunrise" target="_blank"> jumpto.cc/web-sunrise </a> ।
     
-    The project should look like this:
+    प्रोजेक्ट इस तरह दिखनी चाहिए:
     
-    ![screenshot](images/sunrise-starter.png)
+    ![स्क्रीनशॉट](images/sunrise-starter.png)
 
-+ Look inside the `body` of your `index.html` file and you'll find the the `div` elements for the sky and the sea.
++ अपने ` index.html </ 0> फ़ाइल के <code> body </ 0> के अंदर देखें और आपको आकाश और समुद्र के लिए <code> div </ 0> तत्व मिलेंगे।</p>
+
+<pre><code><div id="sky">
+</div>
+
+<div id="sea">
+</div>
+`</pre></li> 
     
-        <div id="sky">
-        </div>
+    + सूरज के लिए एक छवि पहले से ही आपके प्रोजेक्ट में शामिल है।
         
-        <div id="sea">
-        </div>
-        
+        अपने सूरज के अंदर की चित्र जोड़ें  div </ 0> जिसमें आप इसे स्टाइल कर सकते हैं:</p>
 
-+ An image for the sun is already included in your project.
-    
-    Add the image inside your sun `div` including an id so you can style it:
-    
-    ![screenshot](images/sunrise-sun-image.png)
+<p><img src="images/sunrise-sun-image.png" alt="स्क्रीनशॉट" /></p></li>
+<li><p>वाह, चित्र बहुत बड़ा है। <code> style.css </ 0> पर जाएं और चित्र की ऊंचाई सेट करने के लिए CSS ऐड करें :</p>
 
-+ Whoa, the image is huge. Go to `style.css` and add the CSS to set the image height:
-    
-    ![screenshot](images/sunrise-sun-height.png)
-    
-    Note that the width is updated automatically to keep the proportions the same.
+<p><img src="images/sunrise-sun-height.png" alt="स्क्रीनशॉट" /></p>
 
-+ Finally, let's add some code to position the sun:
-    
-    ![screenshot](images/sunrise-sun-position.png)
+<p>ध्यान दें कि समान अनुपात रखने के लिए चौड़ाई ऑटोमेटिकली अपडेट हो जाती है।</p></li>
+<li><p>अंत में, सूर्य को पोज़िशन देने के लिए कुछ कोड जोड़ें:</p>
+
+<p><img src="images/sunrise-sun-position.png" alt="स्क्रीनशॉट" /></p></li>
+</ul>
