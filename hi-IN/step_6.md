@@ -1,8 +1,8 @@
-## Animating the sky
+## आकाश को एनिमेट करना
 
-Animation isn't just for movement. Let's animate the sky to turn dark at night.
+एनीमेशन सिर्फ आंदोलन के लिए नहीं है। आकाश को चेतन करो ताकि रात को अंधेरा हो जाए।
 
-+ Add an animation called `sky` to your CSS:
++ ` SKY ` एनीमेशन जोड़ें अपने CSS के लिए:
     
         @keyframes sky {
             0%
@@ -10,13 +10,13 @@ Animation isn't just for movement. Let's animate the sky to turn dark at night.
         }
         
     
-    Notice that this time you're animating the colour of the sky, and not the position.
+    ध्यान दें कि इस बार आप आकाश के रंग को नहीं बल्कि स्थिति को एनिमेट कर रहे हैं
 
-+ Add code to your sky, to tell it to use your new animation:
++ अपने नए एनीमेशन का उपयोग करने के लिए इसे अपने आकाश में कोड जोड़ें:
     
         animation: sky 10s;
         
     
-    ![screenshot](images/sunrise-sky.png)
+    ![स्क्रीनशॉट](images/sunrise-sky.png)
 
-+ Click **Autorun** to test your animation.
++ अपने एनीमेशन का जाँच करने के लिए **Autorun** पर क्लिक करें।
