@@ -1,14 +1,14 @@
 \--- challenge \---
 
-## Challenge: Diagonal animation
+## चुनौती: तिरछी एनिमेशन
 
-Can you add code to your `sunrise` animation, to make your sun start at the bottom left of the sky and move diagonally to its position at roughly the top center?
+क्या आप अपने ` sunrise` एनीमेशन में कोड जोड़ सकते हैं, ताकि आपका सूर्य आकाश के नीचे बाईं ओर शुरू हो और तिरछे शीर्ष केंद्र पर अपनी स्थिति में आ जाए?
 
-You can use the `left` property to do this, for example:
+आप ऐसा करने के लिए ` left` गुण का उपयोग कर सकते हैं, उदाहरण के लिए:
 
     left: 40%;
     
 
-![screenshot](images/sunrise-left.png)
+![स्क्रीनशॉट](images/sunrise-left.png)
 
 \--- /challenge \---
