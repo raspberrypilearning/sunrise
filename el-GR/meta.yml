@@ -1,13 +1,13 @@
 ---
 hero_image: images/banner.png
-title: Sonnenaufgang
+title: Ανατολή ήλιου
 theme: yellow
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-1, programming-0, phys-comp-0, manufacture-0, community-0
-description: Erstelle einen animierten Sonnenaufgang.
+description: Απεικόνιση της ανατολής του ηλίου.
 original_url: https://codeclubprojects.org/en-GB/webdev/sunrise
 interests: ''
 technologies: html-css-javascript
@@ -18,18 +18,18 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Einleitung
+    title: Εισαγωγή
   - 
-    title: Die Sonne erschaffen
+    title: Δημιουργία του ήλιου
   - 
-    title: Den Sonnenaufgang animieren
+    title: Απεικόνιση της ανατολής του ήλιου
   - 
-    title: 'Herausforderung: Diagonale Animation'
+    title: 'Πρόκληση: Διαγώνια κίνηση'
   - 
-    title: Endlose Animation
+    title: Ασταμάτητη κίνηση
   - 
-    title: Den Himmel animieren
+    title: Μεταβάλλοντας το χρώμα του ουρανού
   - 
-    title: 'Herausforderung: Verbessere den Himmel'
+    title: 'Πρόκληση: Βελτίωση του ουρανού'
   - 
-    title: 'Herausforderung: Noch mehr Animation'
+    title: 'Πρόκληση: Περισσότερες κινούμενες εικόνες'
