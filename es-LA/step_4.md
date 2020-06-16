@@ -1,14 +1,14 @@
 \--- challenge \---
 
-## Challenge: Diagonal animation
+## Desafío: Animación diagonal
 
-Can you add code to your `sunrise` animation, to make your sun start at the bottom left of the sky and move diagonally to its position at roughly the top center?
+¿Puedes añadir código a tu animación `amanecer`, para hacer que tu sol empiece abajo a la izquierda en el cielo y se mueva diagonalmente a su posición, aproximadamente, al centro superior?
 
-You can use the `left` property to do this, for example:
+Para hacerlo, puedes usar la propiedad `left`, por ejemplo:
 
     left: 40%;
     
 
-![screenshot](images/sunrise-left.png)
+![captura de pantalla](images/sunrise-left.png)
 
 \--- /challenge \---
