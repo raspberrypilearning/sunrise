@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: Improve the sky
+## चुनौती: आकाश में सुधार करें
 
-Can you change the sky animation so that it matches the sun and stays blue during the day and returns to black as the sun sets. Make it loop forever too.
+क्या आप आकाश के एनीमेशन को बदल सकते हैं ताकि यह सूर्य दिन के दौरान नीला रह सकते है और सूर्य के अस्त होते ही काला हो जाता है। इसे भी हमेशा के लिए लूप करें।
 
-![screenshot](images/sunrise-sky-challenge.png)
+![स्क्रीनशॉट](images/sunrise-sky-challenge.png)
 
 \--- /challenge \---
