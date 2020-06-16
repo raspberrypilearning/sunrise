@@ -1,14 +1,14 @@
-## De zon creëren
+## Tworzenie animacji Słońca
 
-Laten we beginnen met een afbeelding voor de zon toe te voegen en deze te positioneren met wat CSS.
+Zacznijmy od dodania obrazka ze Słońcem i ustawienia go w odpowiednim miejscu z pomocą CSS.
 
-+ Open deze trinket: <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto.cc/web-sunrise</a>.
++ Otwórz edytor: <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto.cc/web-sunrise</a>.
     
-    Het project zou er als volgt uit moeten zien:
+    Projekt powinien wyglądać następująco:
     
-    ![screenshot](images/sunrise-starter.png)
+    ![zrzut ekranu](images/sunrise-starter.png)
 
-+ Kijk in de `body` van je `index.html` bestand en je zult de de `div` elementen voor de lucht en de zee vinden.
++ W znaczniku `body` jest plik `index. html`, w którym znajdziesz dwa elementy `div`, które będą ci potrzebne: niebo (ang. sky) oraz morze (ang. sea).
     
         <div id="sky">
         </div>
@@ -17,18 +17,18 @@ Laten we beginnen met een afbeelding voor de zon toe te voegen en deze te positi
         </div>
         
 
-+ Een afbeelding voor de zon is al in je project opgenomen.
++ Obrazek Słońca jest już dodany do projektu.
     
-    Voeg de afbeelding in je zon toe `div` inclusief een id zodat je het kunt stylen:
+    Dodaj do elementu `div` nazwanego <0>sun</0> kod, który wyświetli obrazek. Nadaj mu identyfikator, aby za chwilę móc go stylizować:
     
-    ![screenshot](images/sunrise-sun-image.png)
+    ![zrzut ekranu](images/sunrise-sun-image.png)
 
-+ Whoa, het beeld is enorm. Ga naar `style.css` en voeg de CSS toe om de hoogte van de afbeelding in te stellen:
++ Oho, twój obrazek jest ogromny. Zajrzyj do pliku `style. css` i dodaj kod CSS, aby ustawić wysokość obrazka:
     
     ![screenshot](images/sunrise-sun-height.png)
     
-    Merk op dat de breedte automatisch wordt bijgewerkt om de verhoudingen hetzelfde te houden.
+    Zauważ, że szerokość obrazka jest ustawiana automatycznie, aby proporcje zostały zachowane.
 
-+ Laten we tot slot een code toevoegen om de zon te positioneren:
++ Na koniec dodajmy kod, aby określić położenie Słońca:
     
     ![screenshot](images/sunrise-sun-position.png)
