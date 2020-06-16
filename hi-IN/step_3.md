@@ -1,29 +1,28 @@
-## Animating the sunrise
+## सूर्योदय को एनिमेट करना
 
-To animate your sunrise, you need to define how the sun moves and how long it takes to rise.
+अपने सूर्योदय को एनिमेट करने के लिए, आपको यह ध्यान रखने की आवश्यकता है कि सूर्य कैसे चलता है और उदय होने में कितना समय लगता है।
 
-To do this you define a list of **key frames**. Each key frame defines the CSS properties of an element at a particular point in an animation.
+ऐसा करने के लिए आप **key frames</ 0> की एक सूची बनानी होगी। प्रत्येक key frame एक एनीमेशन में एक विशेष पॉइंट पर एक एलिमेंट के CSS गुणों को बताता है।</p> 
 
-+ First, you need to use `@keyframes` to create a new animation called sunrise.
-    
-    Add this CSS code to the end of your `style.css` file:
-    
-        @keyframes sunrise {
-            0%
-            100%
-        }
-        
-    
-    This code tells the sun where to position itself at the start (`0%`) and the end (`100%`) of the animation.
-    
-    Because the sun is inside the sky `div`, the `top` and `left` positions you give are within to the sky, with `top: 100%` being the bottom of the sky, and not the bottom of the webpage.
++ सबसे पहले, आपको सूर्योदय नामक एक नया एनीमेशन बनाने के लिए ` @keyframes </ 0> का यूज़ करने की जरुरत है।</p>
 
-+ Now that you have created a `sunrise` animation, you just need to tell your sun to use it!
-    
-    Add the highlighted code to your sun's CSS:
-    
-    ![screenshot](images/sunrise-sunrise.png)
-    
-    This tells the sun to spend 10 seconds animating a sunrise.
+<p>इस CSS कोड को अपने <code> style.css </ 0> फ़ाइल के अंत में जोड़ें:</p>
 
-+ To run the animation again in Trinket, just click **Autorun**.
+<pre><code>@keyframes sunrise {
+    0%
+    100%
+}
+`</pre> 
+    
+    यह कोड सूर्य को बताता है कि एनीमेशन के दौरान शुरुआत में कहां स्थित रहना है ( 0% </ 0>) और अंत में (<code> 100% </ 0>) कहां रहना है ।</p>
+
+<p>क्योंकि सूर्य आकाश के अंदर है <code> div </ 0>, <code> top </ 0> and <code>left</ 0> जो पोज़िशन आप आकाश के भीतर  देते हैं <code> top: 100% </ 0> वह आकाश के नीचे होता है , और वेबपेज के नीचे नहीं।</p></li>
+<li><p>अब जब आपने एक <code> sinrise </ 0> एनीमेशन बनाया है, तो आपको इसे उपयोग करने के लिए अपने सूर्य को बताने की जरुरत है!</p>
+
+<p>हाइलाइट किए गए कोड को अपने सूरज के CSS में जोड़ें:</p>
+
+<p><img src="images/sunrise-sunrise.png" alt="स्क्रीनशॉट" /></p>
+
+<p>यह सूर्य को एक सूर्योदय के 10 सेकंड बिताने के लिए कहता है।</p></li>
+<li><p>एनिमेशन को फिर से Trinket में चलाने के लिए, बस <strong> Autorun </strong> पर क्लिक करें ।</p></li>
+</ul>
