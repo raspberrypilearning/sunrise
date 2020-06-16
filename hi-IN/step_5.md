@@ -1,8 +1,8 @@
-## Infinite animation
+## अनंत एनिमेशन
 
-Let's make the animation keep repeating forever.
+आइए एनीमेशन को हमेशा के लिए दोहराते रहें।
 
-+ If you want the sun to rise and then set, just add more keyframes to your animation:
++ यदि आप चाहते हैं कि सूर्य उदय हो जाए और फिर सेट हो जाए, तो बस अपने एनिमेशन में और कीफ़्रेम जोड़ें:
     
         @keyframes sunrise {
             0%  
@@ -12,10 +12,10 @@ Let's make the animation keep repeating forever.
         }
         
     
-    This means that the animation starts and ends with the sun at the bottom of the sky, and stays at the top from 33% until 66% of the animation.
+    इसका मतलब यह है कि एनीमेशन के सूर्रू और समाप्त में सूरज नीचे रहेगा, और एनीमेशन के 66% तक 33% से ऊपर रहेगा।
 
-+ Now you just need to add the word `infinite` to the `#sun` animation to make it loop forever:
++ अब आपको बस शब्द जोड़ना होगा ` infinite` को ` #sun ` एनीमेशन से ताकि इसे हमेशा के लिए लूप रखने के लिए
     
-    ![screenshot](images/sunrise-infinite.png)
+    ![स्क्रीनशॉट](images/sunrise-infinite.png)
 
-+ Test out your animation. Does the sun keep rising and setting?
++ अपने एनीमेशन का जाँच करें। क्या सूर्य उदय और अस्त होता रहता है?
