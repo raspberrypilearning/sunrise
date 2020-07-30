@@ -78,12 +78,13 @@ HTML& आणी CSS लिहीण्यासाठी मुले ह्य�
 
 + हा प्रकल्प javascript `prefixfree.js` लायब्ररी तसेच ब्राउझर दरम्यान अ‍ॅनिमेशन सुसंगततेसाठी वापरतो. जर ही लायब्ररी वापरली नसेल तर त्याऐवजी जुने ब्राउझर वापरणार्‍या मुलांना त्यांच्या ब्राउझरसाठी अ‍ॅनिमेशन घोषित करण्याची आवश्यकता असेल, उदाहरणार्थ:
 
-    animation: sky 10s infinite;            //for all newer browsers
-    -webkit-animation: sky 10s infinite;    // For Webkit browsers(Chrome, Safari...)
-    -moz-animation: sky 10s infinite;       // For Mozilla browsers
-    -o-animation: sky 10s infinite;         // For Opera browsers
-    -ms-animation: sky 10s infinite;        // For Microsoft browsers 
-    
+```
+animation: sky 10s infinite; 		  	//for all newer browsers
+-webkit-animation: sky 10s infinite;  	// For Webkit browsers(Chrome, Safari...)
+-moz-animation: sky 10s infinite;     	// For Mozilla browsers
+-o-animation: sky 10s infinite;       	// For Opera browsers
+-ms-animation: sky 10s infinite;		// For Microsoft browsers 
+```
 
 --- /collapse ---
 
