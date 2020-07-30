@@ -2,7 +2,7 @@
 
 सूरज की एक पिक्चर ऐड कर के और इसे कुछ CSS के साथ स्थिति से शुरू करें।
 
-+ इस ट्रिंकेट को खोलें: <a href="http://jumpto.cc/web-sunrise" target="_blank"> jumpto.cc/web-sunrise </a> ।
++ इस ट्रिंकेट को खोलें: <a href="http://jumpto.cc/web-sunrise" target="_blank"> jumpto.cc/web-sunrise </a>
     
     प्रोजेक्ट इस तरह दिखनी चाहिए:
     
