@@ -97,9 +97,9 @@ HTML और CSS को ऑनलाइन लिखने के लिए ह�
         ## प्रोजेक्ट संसाधन
         
         + [सभी प्रोजेक्ट संसाधनों वाली .zip फ़ाइल](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-project-resources.zip)
-        + [ऑनलाइन ट्रिंकेट जिसमें सभी 'Sunrise' प्रोजेक्ट संसाधन हैं](http://jumpto.cc/web-sunrise)
-        + [ऑनलाइन ट्रिंकेट टेम्प्लेट](http://jumpto.cc/trinket-template)
-        + [ऑनलाइन खाली ट्रिंकेट](http://jumpto.cc/trinket-blank)
+        + [ऑनलाइन Trinket जिसमें सभी 'Sunrise' प्रोजेक्ट संसाधन हैं](http://jumpto.cc/web-sunrise)
+        + [ऑनलाइन Trinket टेम्प्लेट](http://jumpto.cc/trinket-template)
+        + [ऑनलाइन खाली Trinket](http://jumpto.cc/trinket-blank)
         + [template/index.html](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/template-index.html)
         + [template/style.css](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/template-style.css)
         + [intro/index.html](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/intro-index.html)
