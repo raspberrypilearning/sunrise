@@ -77,11 +77,11 @@ Este proyecto incluye elementos de los siguientes aspectos del [Currículo de cr
 
 + Este proyecto usa la librería de javascript `prefixfree.js`, para permitir la compatibilidad de las animaciones entre navegadores web. Si esta librería no se usa, entonces los niños y niñas que usen navegadores antiguos necesitarán declarar la animación para su navegador, por ejemplo:
 
-    animation: sky 10s infinite;            //for all newer browsers
-    -webkit-animation: sky 10s infinite;    // For Webkit browsers(Chrome, Safari...)
-    -moz-animation: sky 10s infinite;       // For Mozilla browsers
-    -o-animation: sky 10s infinite;         // For Opera browsers
-    -ms-animation: sky 10s infinite;        // For Microsoft browsers 
+    animation: sky 10s infinite; //Para todos los navegadores nuevos
+    -webkit-animation: sky 10s infinite; // Para navegadores con Webkit(Chrome, Safari...)
+    -moz-animation: sky 10s infinite; // Para navegadores Mozilla
+    -o-animation: sky 10s infinite; // Para navegadores Opera
+    -ms-animation: sky 10s infinite; // Para navegadores Microsoft 
     
 
 \--- /collapse \---
