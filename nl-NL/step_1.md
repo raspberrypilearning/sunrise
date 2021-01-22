@@ -34,7 +34,7 @@ Er is ook een trinket met een voorbeeldoplossing voor de uitdagingen:
 
 ## Offline bronnen
 
-Dit project kan indien gewenst [geheel offline ](../offline.html) voltooid worden. Je krijgt toegang tot de projectbronnen door op de koppeling 'Projectmaterialen downloaden' voor dit project te klikken. Deze link bevat een 'Projectbronnen'-sectie die bronnen bevat om dit project offline te voltooien. Zorg ervoor dat elk kind toegang heeft tot een kopie van deze bronnen. Deze map bevat de volgende bestanden:
+This project can be [completed offline](https://rpf.io/html-offline) if preferred. Je krijgt toegang tot de projectbronnen door op de koppeling 'Projectmaterialen downloaden' voor dit project te klikken. Deze link bevat een 'Projectbronnen'-sectie die bronnen bevat om dit project offline te voltooien. Zorg ervoor dat elk kind toegang heeft tot een kopie van deze bronnen. Deze map bevat de volgende bestanden:
 
 + template/index.html
 + template/prefix.js
