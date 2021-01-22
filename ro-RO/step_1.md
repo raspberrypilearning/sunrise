@@ -34,7 +34,7 @@ De asemenea, există un trinket care conține soluția finală a provocărilor:
 
 ## Resurse offline
 
-Acest proiect poate fi [completat offline](../offline.html) dacă dorești. Poți accesa resursele proiectului dând click pe link-ul „Materialele proiectului” pentru acest proiect. Acest link conține o secțiune „Resursele proiectului” care include resurse de care copiii vor avea nevoie pentru a completa acest proiect offline. Asigură-te că fiecare copil are acces la o copie a acestor resurse. Această secțiune include următoarele fișiere:
+This project can be [completed offline](https://rpf.io/html-offline) if preferred. Poți accesa resursele proiectului dând click pe link-ul „Materialele proiectului” pentru acest proiect. Acest link conține o secțiune „Resursele proiectului” care include resurse de care copiii vor avea nevoie pentru a completa acest proiect offline. Asigură-te că fiecare copil are acces la o copie a acestor resurse. Această secțiune include următoarele fișiere:
 
 + template/index.html
 + template/prefix.js
