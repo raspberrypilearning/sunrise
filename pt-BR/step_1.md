@@ -34,7 +34,7 @@ Há também um projeto thinket contendo uma solução de amostra para os desafio
 
 ## Recursos offline
 
-Este projeto pode ser [ concluído off-line ](../offline.html), se preferir. Você pode acessar os recursos do projeto clicando no link 'Baixar materiais do projeto' para este projeto. Este link contém uma pasta 'Recursos do Projeto', que inclui recursos que as crianças precisarão para concluir este projeto off-line. Certifique-se de que cada criança tenha acesso a uma cópia desses recursos. Esta pasta contém os seguintes arquivos:
+This project can be [completed offline](https://rpf.io/html-offline) if preferred. Você pode acessar os recursos do projeto clicando no link 'Baixar materiais do projeto' para este projeto. Este link contém uma pasta 'Recursos do Projeto', que inclui recursos que as crianças precisarão para concluir este projeto off-line. Certifique-se de que cada criança tenha acesso a uma cópia desses recursos. Esta pasta contém os seguintes arquivos:
 
 + template/index.html
 + template/prefix.js
