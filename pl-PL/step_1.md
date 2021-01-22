@@ -34,7 +34,7 @@ Dostępny jest także projekt zawierający przykładowe rozwiązania wyzwań:
 
 ## Zasoby Offline
 
-Ten projekt można także [wykonać offline](../offline.html). Materiały potrzebne do wykonania projektu dostępne są po kliknięciu linku "Materiały do projektu". Można znaleźć tam sekcję "Źródła", która zawiera zasoby potrzebne dzieciom do wykonania projektu w wersji offline. Upewnij się, że każde dziecko ma dostęp do własnej kopii zasobów. Ta sekcja zawiera następujące pliki:
+This project can be [completed offline](https://rpf.io/html-offline) if preferred. Materiały potrzebne do wykonania projektu dostępne są po kliknięciu linku "Materiały do projektu". Można znaleźć tam sekcję "Źródła", która zawiera zasoby potrzebne dzieciom do wykonania projektu w wersji offline. Upewnij się, że każde dziecko ma dostęp do własnej kopii zasobów. Ta sekcja zawiera następujące pliki:
 
 + template/index.html
 + template/prefix.js
