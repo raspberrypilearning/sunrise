@@ -23,19 +23,19 @@ title: ملاحظات قادة النادي
 
 ## الموارد المتوفرة على الإنترنت
 
-نوصي باستخدام [trinket](https://trinket.io/) لكتابة ملفات HTML و & CSS على الإنترنت. هذا المشروع يحتوي على trinkets التالية:
+نوصي باستخدام [trinket](https://trinket.io/) لكتابة ملفات HTML و & CSS على الإنترنت. هذا المشروع يحتوي على مجموعة الtrinket التالية:
 
 + [الخطوة الاولى ل"شروق الشمس"](http://jumpto.cc/web-sunrise)
 
 يمكن أن يستخدم الأطفال أيضًا ملف trinket الفارغ هذا[(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) لكتابة ملفات HTML & CSS الخاصة بهم، أو يمكنهم استخدام قالب trinket هذا [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
-كما يوجد مشروع trinket يحتوي على نموذج حل للتحديات:
+كما يوجد مشروع trinket يحتوي على نماذج حل التحديات:
 
-+ [كمل "شروق الشمس"](https://trinket.io/html/abcc0284a3)
++ ["شروق الشمس" مكتمل](https://trinket.io/html/abcc0284a3)
 
 ## الموارد المتوفرة دون اتصال بالإنترنت
 
-يمكن أن يكون هذا المشروع [مكتمل دون اتصال بالإنترنت](../offline.html) إذا كنت تفضل ذلك. تستطيع الوصول الى موارد المشروع بلنقر على رابط المشروع هذا 'Download Project Materials' . هذا الرابط يحتوي على ملف "موارد المشروع", الذي يحتوي بدوره على الموارد التي يحتاجها الاطفال لأكمال هذا المشروع بدون اتصال بلانترنت. تأكد من أن كل طفل لديه امكانية الوصول الى نسخة من هذه الموارد. هذا المجلد يحتوي على الملفات التالية:
+This project can be [completed offline](https://rpf.io/html-offline) if preferred. تستطيع الوصول الى موارد المشروع بالنقر على رابط المشروع هذا 'Download Project Materials'. هذا الرابط يحتوي على ملف "موارد المشروع", الذي يحتوي بدوره على الموارد التي يحتاجها الاطفال لأكمال هذا المشروع بدون اتصال بلانترنت. تأكد من أن كل طفل لديه امكانية الوصول الى نسخة من هذه الموارد. هذا المجلد يحتوي على الملفات التالية:
 
 + template/index.html
 + template/prefix.js
@@ -61,22 +61,22 @@ title: ملاحظات قادة النادي
 ## أهداف التعلم
 
 + التصميم والتحريك باستخدام CSS: 
-    + تقديم قاعدة `@keyframes` لتعريف الخطوات في الصور المتحركة.
-    + تعزيز الاستخدام من الخصائص لتحديد الحجم, الشكل, الموقع و لون العناصر على صفحة الموقع الالكتروني.
+    + التعريف بقاعدة `@keyframes` لتحديد الخطوات في الصور المتحركة.
+    + تعزيز استخدام الخصائص لتحديد الحجم و الشكل و الموقع و لون العناصر على صفحة الموقع الالكتروني.
 
-يتناول هذا المشروع عناصر من معايير المناهج الرقمية الخاصة بـ [Raspberry Pi](http://rpf.io/curriculum):
+يتناول هذا المشروع عناصر من هذة المعايير من منهج الصناعة الرقمية الخاص بـ [Raspberry Pi](http://rpf.io/curriculum):
 
-+ [الأصول الأساسية للتصميمات ثنائية الأبعاد وثلاثية الأبعاد](https://www.raspberrypi.org/curriculum/design/creator).
++ [ تصميم اصول بسيطة بالأبعاد الثنائية والثلاثية](https://www.raspberrypi.org/curriculum/design/creator).
 
 ## التحديات
 
-+ "تحريك قطري" -تحرير الصور المتحركة خصائص `@keyframe` لاستخدام الشمال::;
-+ "تحسين السماء"- اضافة المزيد من الخصائص والمحتويات الى الخلفية:.
-+ "المزيد من الصور المتحركة"- قم بصنع المزيد من الصور المتحركة او العناصر بأستخدام تشكيلة من CSS. 
++ "تحريك قطري" - تحرير خصائص `@keyframe` للصور المتحركة لاستخدام left:;
++ "تطوير السماء"- اضافة المزيد من الخصائص والمحتويات الى الخلفية:.
++ "المزيد من الصور المتحركة"- قم بصنع المزيد من الصور او العناصر المتحركة بأستخدام تشكيلة من خصائص الCSS. 
 
 ## الأسئلة الشائعة
 
-+ هذا المشروع يقوم بالاستفادة من مكتبة javascript `prefixfree.js`, للسماح بامكانية تحريك الصور بين المتصفحات. اذا لم يتم استخدام هذه المكتبة, عندها الاطفال الذين يملكون متصفحات قديمة سيحتاجون الى تعريف الصور المتحركة الى متصفحاتهم, مثال:
++ هذا المشروع يقوم بالاستفادة من مكتبة javascript `prefixfree.js`, للسماح بتوافق تحريك الصور بين متصفحات الانترنت. اذا لم يتم استخدام هذه المكتبة, عندها الاطفال الذين يملكون متصفحات انترنت قديمة سيحتاجون الى تعريف الصور المتحركة الى متصفحاتهم, مثال:
 
     animation: sky 10s infinite;            //for all newer browsers
     -webkit-animation: sky 10s infinite;    // For Webkit browsers(Chrome, Safari...)
@@ -113,7 +113,7 @@ title: مواد المشروع
 
 ## موارد قائد النادي
 
-+ [ملف.zip يحتوي على جميع موارد المشروع المكتملة](https://github.com/raspberrypilearning/sunrise/raw/master/ar-SA/resources/sunrise-volunteer-resources.zip)
++ [ملف.zip يحتوي على جميع موارد المشروع المكتمل](https://github.com/raspberrypilearning/sunrise/raw/master/ar-SA/resources/sunrise-volunteer-resources.zip)
 + [مشروع Trinket المكتمل على الإنترنت](https://trinket.io/html/abcc0284a3)
 + [sunrise-finished/index.html](https://github.com/raspberrypilearning/sunrise/raw/master/ar-SA/resources/sunrise-finished-index.html)
 + [sunrise-finished/style.css](https://github.com/raspberrypilearning/sunrise/raw/master/ar-SA/resources/sunrise-finished-style.css)
