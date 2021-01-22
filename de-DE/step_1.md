@@ -34,7 +34,7 @@ Es gibt auch ein Trinket mit einem Lösungsbeispiel für die Herausforderungen:
 
 ## Offline-Ressourcen
 
-Dieses Projekt kann, falls gewünscht, auch [offline bearbeitet](../offline.html) werden. Sie können auf die Projektressourcen zugreifen, indem Sie auf den Link "Projektmaterialien herunterladen" für dieses Projekt klicken. Dieser Link enthält einen Ordner "Projektressourcen", der Ressourcen enthält, die Kinder benötigen, um dieses Projekt offline abzuschließen. Stellen sie sicher, dass jedes Kind Zugriff auf eine Kopie dieser Ressourcen hat. Dieser Ordner enthält die folgenden Dateien:
+This project can be [completed offline](https://rpf.io/html-offline) if preferred. Sie können auf die Projektressourcen zugreifen, indem Sie auf den Link "Projektmaterialien herunterladen" für dieses Projekt klicken. Dieser Link enthält einen Ordner "Projektressourcen", der Ressourcen enthält, die Kinder benötigen, um dieses Projekt offline abzuschließen. Stellen sie sicher, dass jedes Kind Zugriff auf eine Kopie dieser Ressourcen hat. Dieser Ordner enthält die folgenden Dateien:
 
 + template/index.html
 + template/prefix.js
