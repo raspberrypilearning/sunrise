@@ -34,7 +34,7 @@ También hay un trinket que contiene una solución de muestra para los desafíos
 
 ## Recursos sin conexión
 
-Este proyecto se puede [completar sin conexión](../offline.html) si se prefiere. Se puede acceder a los recursos del proyecto haciendo clic en el enlace 'Descargar materiales del proyecto' para este proyecto. Este enlace contiene una carpeta de 'Recursos del proyecto', que incluye los recursos que los niños necesitarán para completar este proyecto sin conexión. Asegúrate de que cada niño tenga acceso a una copia de estos recursos. Esta carpeta incluye los siguientes archivos:
+This project can be [completed offline](https://rpf.io/html-offline) if preferred. Se puede acceder a los recursos del proyecto haciendo clic en el enlace 'Descargar materiales del proyecto' para este proyecto. Este enlace contiene una carpeta de 'Recursos del proyecto', que incluye los recursos que los niños necesitarán para completar este proyecto sin conexión. Asegúrate de que cada niño tenga acceso a una copia de estos recursos. Esta carpeta incluye los siguientes archivos:
 
 + template/index.html
 + template/prefix.js
