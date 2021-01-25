@@ -34,7 +34,7 @@ Također je uključen i trinket koji sadrži prijedlog rješenja izazova:
 
 ## Offline izvori
 
-Ako želite, na ovom projektu možete [raditi i offline](../offline.html). Resursima projekta možete pristupiti klikom na poveznicu „Preuzimanje materijala projekta”. Na ovoj poveznici nalazi se mapa „Resursi projekta” koja uključuje resurse potrebne da bi djeca mogla raditi na ovom projektu izvanmrežno. Pobrinite se da svako dijete ima pristup kopiji ovih materijala. Ova mapa sadrži sljedeće datoteke:
+This project can be [completed offline](https://rpf.io/html-offline) if preferred. Resursima projekta možete pristupiti klikom na poveznicu „Preuzimanje materijala projekta”. Na ovoj poveznici nalazi se mapa „Resursi projekta” koja uključuje resurse potrebne da bi djeca mogla raditi na ovom projektu izvanmrežno. Pobrinite se da svako dijete ima pristup kopiji ovih materijala. Ova mapa sadrži sljedeće datoteke:
 
 + template/index.html
 + template/prefix.js
