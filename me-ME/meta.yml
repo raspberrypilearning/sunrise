@@ -17,11 +17,13 @@ software: html-css-javascript
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Uvod
-  - title: Kreiranje sunca
-  - title: Animacija izlaska sunca
-  - title: 'Izazov: Dijagonalna animacija'
-  - title: Neprekidna animacija
-  - title: Animacija neba
-  - title: 'Izazov: Poboljšaj nebo'
-  - title: 'Izazov: Više animacije'
+- title: Uvod
+  completion: engaged
+- title: Kreiranje sunca
+- title: Animacija izlaska sunca
+- title: 'Izazov: Dijagonalna animacija'
+- title: Neprekidna animacija
+- title: Animacija neba
+- title: 'Izazov: Poboljšaj nebo'
+  completion: internal
+- title: 'Izazov: Više animacije'

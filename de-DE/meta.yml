@@ -17,11 +17,13 @@ software: html-css-javascript
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Einleitung
-  - title: Die Sonne erschaffen
-  - title: Den Sonnenaufgang animieren
-  - title: 'Herausforderung: Diagonale Animation'
-  - title: Endlose Animation
-  - title: Den Himmel animieren
-  - title: 'Herausforderung: Verbessere den Himmel'
-  - title: 'Herausforderung: Noch mehr Animation'
+- title: Einleitung
+  completion: engaged
+- title: Die Sonne erschaffen
+- title: Den Sonnenaufgang animieren
+- title: 'Herausforderung: Diagonale Animation'
+- title: Endlose Animation
+- title: Den Himmel animieren
+- title: 'Herausforderung: Verbessere den Himmel'
+  completion: internal
+- title: 'Herausforderung: Noch mehr Animation'

@@ -17,11 +17,13 @@ software: html-css-javascript
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Introducción
-  - title: Creando el Sol
-  - title: Animando el amanecer
-  - title: 'Desafío: Animación diagonal'
-  - title: Animación infinita
-  - title: Animando el cielo
-  - title: 'Desafío: Mejora el cielo'
-  - title: 'Desafío: Más animación'
+- title: Introducción
+  completion: engaged
+- title: Creando el Sol
+- title: Animando el amanecer
+- title: 'Desafío: Animación diagonal'
+- title: Animación infinita
+- title: Animando el cielo
+- title: 'Desafío: Mejora el cielo'
+  completion: internal
+- title: 'Desafío: Más animación'
