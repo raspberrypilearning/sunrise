@@ -17,11 +17,15 @@ software: html-css-javascript
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Wprowadzenie
-  - title: Tworzenie animacji słońca
-  - title: Animacja wschodu słońca
-  - title: 'Wyzwanie: animacja po przekątnej'
-  - title: Niekończąca się animacja
-  - title: Tworzenie animacji nieba
-  - title: 'Wyzwanie: popraw niebo'
-  - title: 'Wyzwanie: więcej animacji'
+- title: Wprowadzenie
+- title: Tworzenie animacji słońca
+- title: Animacja wschodu słońca
+  completion:
+  - engaged
+- title: 'Wyzwanie: animacja po przekątnej'
+- title: Niekończąca się animacja
+- title: Tworzenie animacji nieba
+  completion:
+  - internal
+- title: 'Wyzwanie: popraw niebo'
+- title: 'Wyzwanie: więcej animacji'

@@ -17,11 +17,15 @@ software: html-css-javascript
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Introducere
-  - title: Creează soarele
-  - title: Animează răsăritul de soare
-  - title: 'Provocare: Animație în diagonală'
-  - title: Animație infinită
-  - title: Animează cerul
-  - title: 'Provocare: Perfecționează cerul'
-  - title: 'Provocare: Mai multă animație'
+- title: Introducere
+- title: Creează soarele
+- title: Animează răsăritul de soare
+  completion:
+  - engaged
+- title: 'Provocare: Animație în diagonală'
+- title: Animație infinită
+- title: Animează cerul
+  completion:
+  - internal
+- title: 'Provocare: Perfecționează cerul'
+- title: 'Provocare: Mai multă animație'

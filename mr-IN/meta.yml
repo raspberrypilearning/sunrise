@@ -17,11 +17,15 @@ software: html-css-javascript
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: परिचय
-  - title: सूर्य निर्माण करणे
-  - title: सूर्योदय सजीव करणे
-  - title: 'आव्हान: कर्णरेषा(Diagonal) अ‍ॅनिमेशन'
-  - title: अनंत अ‍ॅनिमेशन
-  - title: आकाश सजीव करणे
-  - title: 'आव्हान: आकाश सुधारणे'
-  - title: 'आव्हान: अधिक अ‍ॅनिमेशन'
+- title: परिचय
+- title: सूर्य निर्माण करणे
+- title: सूर्योदय सजीव करणे
+  completion:
+  - engaged
+- title: 'आव्हान: कर्णरेषा(Diagonal) अ‍ॅनिमेशन'
+- title: अनंत अ‍ॅनिमेशन
+- title: आकाश सजीव करणे
+  completion:
+  - internal
+- title: 'आव्हान: आकाश सुधारणे'
+- title: 'आव्हान: अधिक अ‍ॅनिमेशन'

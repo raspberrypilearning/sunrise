@@ -17,11 +17,15 @@ software: html-css-javascript
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Introduction
-  - title: Créer le soleil
-  - title: Animer le lever de soleil
-  - title: 'Défi : Animation diagonale'
-  - title: Animation sans fin
-  - title: Animer le ciel
-  - title: 'Défi : Améliorer le ciel'
-  - title: "Défi : D’autres animations"
+- title: Introduction
+- title: Créer le soleil
+- title: Animer le lever de soleil
+  completion:
+  - engaged
+- title: 'Défi : Animation diagonale'
+- title: Animation sans fin
+- title: Animer le ciel
+  completion:
+  - internal
+- title: 'Défi : Améliorer le ciel'
+- title: 'Défi : D’autres animations'

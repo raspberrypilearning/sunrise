@@ -17,11 +17,15 @@ software: html-css-javascript
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Inleiding
-  - title: De zon creëren
-  - title: Animatie van de zonsopgang
-  - title: 'Uitdaging: diagonale animatie'
-  - title: Doorlopende animatie
-  - title: De lucht animeren
-  - title: 'Uitdaging: verbeter de lucht'
-  - title: 'Uitdaging: meer animatie'
+- title: Inleiding
+- title: De zon creëren
+- title: Animatie van de zonsopgang
+  completion:
+  - engaged
+- title: 'Uitdaging: diagonale animatie'
+- title: Doorlopende animatie
+- title: De lucht animeren
+  completion:
+  - internal
+- title: 'Uitdaging: verbeter de lucht'
+- title: 'Uitdaging: meer animatie'
