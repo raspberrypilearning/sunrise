@@ -18,12 +18,14 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Введення
-  completion: engaged
 - title: Створення сонця
 - title: Мультиплікація сходу сонця
+  completion:
+  - engaged
 - title: 'Завдання: Удосконалення анімації'
 - title: Безмежна мультиплікація
 - title: Мультиплікація неба
+  completion:
+  - internal
 - title: 'Завдання: Вдосконалення неба'
-  completion: internal
 - title: 'Завдання: Удосконалення анімації'

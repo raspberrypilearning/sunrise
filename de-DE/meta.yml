@@ -18,12 +18,14 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Einleitung
-  completion: engaged
 - title: Die Sonne erschaffen
 - title: Den Sonnenaufgang animieren
+  completion:
+  - engaged
 - title: 'Herausforderung: Diagonale Animation'
 - title: Endlose Animation
 - title: Den Himmel animieren
+  completion:
+  - internal
 - title: 'Herausforderung: Verbessere den Himmel'
-  completion: internal
 - title: 'Herausforderung: Noch mehr Animation'

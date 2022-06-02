@@ -18,12 +18,14 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Introduction
-  completion: engaged
 - title: Creating the sun
 - title: Animating the sunrise
+  completion:
+  - engaged
 - title: 'Challenge: Diagonal animation'
 - title: Infinite animation
 - title: Animating the sky
+  completion:
+  - internal
 - title: 'Challenge: Improve the sky'
-  completion: internal
 - title: 'Challenge: More animation'

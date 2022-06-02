@@ -18,12 +18,14 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Introdução
-  completion: engaged
 - title: Criando o sol
 - title: Animando o nascer do sol
+  completion:
+  - engaged
 - title: 'Desafio: Animação diagonal'
 - title: Repetição da animação
 - title: Animando o céu
+  completion:
+  - internal
 - title: 'Desafio: Melhorar o céu'
-  completion: internal
 - title: 'Desafio: Mais animações'

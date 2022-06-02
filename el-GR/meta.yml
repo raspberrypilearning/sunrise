@@ -18,12 +18,14 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Εισαγωγή
-  completion: engaged
 - title: Δημιουργία του ήλιου
 - title: Απεικόνιση της ανατολής του ήλιου
+  completion:
+  - engaged
 - title: 'Πρόκληση: Διαγώνια κίνηση'
 - title: Ασταμάτητη κίνηση
 - title: Μεταβάλλοντας το χρώμα του ουρανού
+  completion:
+  - internal
 - title: 'Πρόκληση: Βελτίωση του ουρανού'
-  completion: internal
 - title: 'Πρόκληση: Περισσότερες κινούμενες εικόνες'

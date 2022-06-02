@@ -18,12 +18,14 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Introduzione
-  completion: engaged
 - title: Creazione del sole
 - title: Animare il sorgere del sole
+  completion:
+  - engaged
 - title: 'Sfida: Animazione diagonale'
 - title: Animazione infinita
 - title: Anima il cielo
+  completion:
+  - internal
 - title: 'Sfida: Migliora il cielo'
-  completion: internal
 - title: 'Sfida: Altre animazioni'

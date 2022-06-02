@@ -18,12 +18,14 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Introducción
-  completion: engaged
 - title: Creando el sol
 - title: Animando el amanecer
+  completion:
+  - engaged
 - title: 'Desafío: Animación diagonal'
 - title: Animación infinita
 - title: Animando el cielo
+  completion:
+  - internal
 - title: 'Desafío: Mejora el cielo'
-  completion: internal
 - title: 'Desafío: Más animación'

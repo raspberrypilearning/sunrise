@@ -18,12 +18,14 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: 소개
-  completion: engaged
 - title: 해 만들기
 - title: 일출 애니메이션
+  completion:
+  - engaged
 - title: '도전과제: 대각선 애니메이션'
 - title: 애니메이션 무한 반복
 - title: 애니메이션을 하늘에 적용하기
+  completion:
+  - internal
 - title: '도전과제: 하늘 애니메이션 발전시키기'
-  completion: internal
 - title: '도전과제: 더 많은 애니메이션 추가하기'

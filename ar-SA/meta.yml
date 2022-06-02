@@ -18,12 +18,14 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: المقدمة
-  completion: engaged
 - title: إنشاء كائن الشمس
 - title: تحريك شروق الشمس
+  completion:
+  - engaged
 - title: 'التحدي: التحريك بشكل قطري'
 - title: رسم متحرك لانهائي
 - title: تحريك السماء
+  completion:
+  - internal
 - title: 'التحدي: تحسين ظهور السماء'
-  completion: internal
 - title: 'التحدي: رسوم متحركة أخرى'

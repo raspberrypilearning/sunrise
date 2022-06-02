@@ -18,12 +18,14 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Uvod
-  completion: engaged
 - title: Kreiranje sunca
 - title: Animacija izlaska sunca
+  completion:
+  - engaged
 - title: 'Izazov: Dijagonalna animacija'
 - title: Neprekidna animacija
 - title: Animacija neba
+  completion:
+  - internal
 - title: 'Izazov: Poboljšaj nebo'
-  completion: internal
 - title: 'Izazov: Više animacije'

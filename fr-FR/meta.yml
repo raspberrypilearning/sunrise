@@ -18,12 +18,14 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Introduction
-  completion: engaged
 - title: Créer le soleil
 - title: Animer le lever de soleil
+  completion:
+  - engaged
 - title: 'Défi : Animation diagonale'
 - title: Animation sans fin
 - title: Animer le ciel
+  completion:
+  - internal
 - title: 'Défi : Améliorer le ciel'
-  completion: internal
 - title: 'Défi : D’autres animations'

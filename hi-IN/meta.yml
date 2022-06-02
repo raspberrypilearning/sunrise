@@ -18,12 +18,14 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: परिचय
-  completion: engaged
 - title: एक सूर्य बनाना
 - title: सूर्योदय को एनिमेट करना
+  completion:
+  - engaged
 - title: 'चुनौती: तिरछी एनिमेशन'
 - title: अनंत एनिमेशन
 - title: आकाश को एनिमेट करना
+  completion:
+  - internal
 - title: 'चुनौती: आकाश में सुधार करें'
-  completion: internal
 - title: 'चुनौती: और एनिमेशन'
