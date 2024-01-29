@@ -23,12 +23,16 @@ steps:
     title: Creează soarele
   - 
     title: Animează răsăritul de soare
+    completion:
+      - engaged
   - 
     title: 'Provocare: Animație în diagonală'
   - 
     title: Animație infinită
   - 
     title: Animează cerul
+    completion:
+      - internal
   - 
     title: 'Provocare: Perfecționează cerul'
   - 
