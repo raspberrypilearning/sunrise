@@ -23,12 +23,16 @@ steps:
     title: إنشاء كائن الشمس
   - 
     title: تحريك شروق الشمس
+    completion:
+      - engaged
   - 
     title: 'التحدي: التحريك بشكل قطري'
   - 
     title: رسم متحرك لانهائي
   - 
     title: تحريك السماء
+    completion:
+      - internal
   - 
     title: 'التحدي: تحسين ظهور السماء'
   - 
