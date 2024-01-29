@@ -23,12 +23,16 @@ steps:
     title: De zon creëren
   - 
     title: Animatie van de zonsopgang
+    completion:
+      - engaged
   - 
     title: 'Uitdaging: diagonale animatie'
   - 
     title: Oneindige animatie
   - 
     title: De lucht animeren
+    completion:
+      - internal
   - 
     title: 'Uitdaging: verbeter de lucht'
   - 
