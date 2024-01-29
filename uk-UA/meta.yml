@@ -23,12 +23,16 @@ steps:
     title: Створення сонця
   - 
     title: Анімація сходу сонця
+    completion:
+      - engaged
   - 
     title: 'Завдання: діагональна анімація'
   - 
     title: Нескінченна анімація
   - 
     title: Анімація неба
+    completion:
+      - internal
   - 
     title: 'Завдання: вдосконалення неба'
   - 
