@@ -23,12 +23,16 @@ steps:
     title: Stvaranje sunca
   - 
     title: Animiranje izlaska sunca
+    completion:
+      - engaged
   - 
     title: 'Izazov: dijagonalna animacija'
   - 
     title: Beskonačna animacija
   - 
     title: Animiranje neba
+    completion:
+      - internal
   - 
     title: 'Izazov: poboljšaj nebo'
   - 
