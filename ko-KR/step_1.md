@@ -34,7 +34,7 @@
 
 ## 오프라인 자료
 
-This project can be [completed offline](https://rpf.io/html-offline) if preferred. 'Download Project Materials' 라는 링크를 클릭하여 이 프로젝트의 자료를 확인해볼 수 있습니다. 이 링크에는 학생들이 프로젝트를 오프라인으로 완료하는 데 필요한 자료가 포함된 'Project Resource' 폴더가 있습니다. 학생들이 자료의 사본에 접근할 수 있는지 확인하십시오. 이 섹션에는 아래와 같은 파일들이 포함되어 있습니다.
+여러분의 선호에 따라 프로젝트를 [오프라인에서 완성](../offline.html)할 수 있습니다. 'Download Project Materials' 라는 링크를 클릭하여 이 프로젝트의 자료를 확인해볼 수 있습니다. 이 링크에는 학생들이 프로젝트를 오프라인으로 완료하는 데 필요한 자료가 포함된 'Project Resource' 폴더가 있습니다. 학생들이 자료의 사본에 접근할 수 있는지 확인하십시오. 이 섹션에는 아래와 같은 파일들이 포함되어 있습니다.
 
 + template/index.html
 + template/prefix.js
