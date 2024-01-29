@@ -23,12 +23,16 @@ steps:
     title: सूर्य निर्माण करणे
   - 
     title: सूर्योदय सजीव करणे
+    completion:
+      - engaged
   - 
     title: 'आव्हान: कर्णरेषा(Diagonal) अ‍ॅनिमेशन'
   - 
     title: अनंत अ‍ॅनिमेशन
   - 
     title: आकाश सजीव करणे
+    completion:
+      - internal
   - 
     title: 'आव्हान: आकाश सुधारणे'
   - 
