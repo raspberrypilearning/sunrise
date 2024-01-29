@@ -23,12 +23,16 @@ steps:
     title: Créer le soleil
   - 
     title: Animer le lever de soleil
+    completion:
+      - engaged
   - 
     title: 'Défi : Animation diagonale'
   - 
     title: Animation infinie
   - 
     title: Animer le ciel
+    completion:
+      - internal
   - 
     title: 'Défi : Améliorer le ciel'
   - 
