@@ -23,12 +23,16 @@ steps:
     title: Creando el Sol
   - 
     title: Animando el amanecer
+    completion:
+      - engaged
   - 
     title: 'Reto: Animación diagonal'
   - 
     title: Animación infinita
   - 
     title: Animando el cielo
+    completion:
+      - internal
   - 
     title: 'Reto: Mejora el cielo'
   - 
