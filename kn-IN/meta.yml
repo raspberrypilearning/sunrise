@@ -23,12 +23,16 @@ steps:
     title: Creating the sun
   - 
     title: Animating the sunrise
+    completion:
+      - engaged
   - 
     title: 'Challenge: Diagonal animation'
   - 
     title: Infinite animation
   - 
     title: Animating the sky
+    completion:
+      - internal
   - 
     title: 'Challenge: Improve the sky'
   - 
