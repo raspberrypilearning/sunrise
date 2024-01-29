@@ -23,12 +23,16 @@ steps:
     title: Stworzenie Słońca
   - 
     title: Animacja wschodu Słońca
+    completion:
+      - engaged
   - 
     title: 'Wyzwanie: Animacja po przekątnej'
   - 
     title: Niekończąca się animacja
   - 
     title: Tworzenie animacji nieba
+    completion:
+      - internal
   - 
     title: 'Wyzwanie: Popraw niebo'
   - 
