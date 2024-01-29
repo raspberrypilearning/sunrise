@@ -23,12 +23,16 @@ steps:
     title: Die Sonne erschaffen
   - 
     title: Den Sonnenaufgang animieren
+    completion:
+      - engaged
   - 
     title: 'Herausforderung: Diagonale Animation'
   - 
     title: Endlose Animation
   - 
     title: Den Himmel animieren
+    completion:
+      - internal
   - 
     title: 'Herausforderung: Verbessere den Himmel'
   - 
