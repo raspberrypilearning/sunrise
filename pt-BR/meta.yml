@@ -23,12 +23,16 @@ steps:
     title: Criando o sol
   - 
     title: Animando o nascer do sol
+    completion:
+      - engaged
   - 
     title: 'Desafio: Melhorar a animação'
   - 
     title: Animação repetitiva
   - 
     title: Animação do céu
+    completion:
+      - internal
   - 
     title: 'Desafio: Melhorar o céu'
   - 
