@@ -34,7 +34,7 @@ Il y a aussi un Trinket contenant un exemple de solution pour les défis :
 
 ## Ressources hors-ligne
 
-This project can be [completed offline](https://rpf.io/html-offline) if preferred. Vous pouvez accéder aux ressources du projet en cliquant sur le lien « Télécharger les matériaux du projet » pour ce projet. Ce lien contient un dossier « Ressources du projet », qui inclut les ressources dont les enfants auront besoin pour mener à bien ce projet hors-ligne. Assurez-vous que les enfants ont accès à une copie de ces ressources. Ce dossier comprend les fichiers suivants :
+Ce projet peut être [complété hors-ligne](../offline.html) si désiré. Vous pouvez accéder aux ressources du projet en cliquant sur le lien « Télécharger les matériaux du projet » pour ce projet. Ce lien contient un dossier « Ressources du projet », qui inclut les ressources dont les enfants auront besoin pour mener à bien ce projet hors-ligne. Assurez-vous que les enfants ont accès à une copie de ces ressources. Ce dossier comprend les fichiers suivants :
 
 + template/index.html
 + template/prefix.js
