@@ -1,4 +1,5 @@
 ---
+---
 hero_image: images/banner.png
 title: Sunrise
 theme: yellow
@@ -17,9 +18,12 @@ software: html-css-javascript
 version: 3
 last_tested: 2017-01-01
 steps:
+steps:
 - title: Introduction
 - title: Creating the sun
 - title: Animating the sunrise
+  completion:
+  - engaged
   completion:
   - engaged
 - title: 'Challenge: Diagonal animation'
