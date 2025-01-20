@@ -24,8 +24,6 @@ steps:
 - title: Animating the sunrise
   completion:
   - engaged
-  completion:
-  - engaged
 - title: 'Challenge: Diagonal animation'
 - title: Infinite animation
 - title: Animating the sky
