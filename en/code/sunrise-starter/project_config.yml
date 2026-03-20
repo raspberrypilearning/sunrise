@@ -1,0 +1,4 @@
+name: 'Sunrise - starter'
+identifier: 'sunrise-starter'
+type: 'html'
+build: true

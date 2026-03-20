@@ -8,6 +8,7 @@ To do this you define a list of __key frames__. Each key frame defines the CSS p
 
     Add this CSS code to the end of your `style.css` file:
 
+    <div class="c-project-code">
     --- code ---
     ---
     filename: style.css
@@ -19,6 +20,7 @@ To do this you define a list of __key frames__. Each key frame defines the CSS p
         100% { top: 0; }
     }
     --- /code ---
+    </div>
 
     This code tells the sun where to position itself at the start (`0%`) and the end (`100%`) of the animation.
 
@@ -28,6 +30,7 @@ To do this you define a list of __key frames__. Each key frame defines the CSS p
 
     Add the highlighted code to your sun's CSS:
 
+    <div class="c-project-code">
     --- code ---
     ---
     filename: style.css
@@ -42,6 +45,7 @@ To do this you define a list of __key frames__. Each key frame defines the CSS p
         animation: sunrise 10s;
     }
     --- /code ---
+    </div>
     ![screenshot](images/sunrise-sunrise.png)
 
     This tells the sun to spend 10 seconds animating a sunrise.

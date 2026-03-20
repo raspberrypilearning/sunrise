@@ -23,6 +23,7 @@ Don't forget you can put items in the sea as well as the sky:
 
 In the example the rainbow uses opacity for a fade effect:
 
+<div class="c-project-code">
 --- code ---
 ---
 filename: style.css
@@ -36,9 +37,11 @@ line_numbers: false
   100%
 }
 --- /code ---
+</div>
 
 The boat uses a negative starting position so that you can't see it for part of the animation:
 
+<div class="c-project-code">
 --- code ---
 ---
 filename: style.css
@@ -50,5 +53,6 @@ line_numbers: false
   100%
 }
 --- /code ---
+</div>
 
 --- /challenge ---

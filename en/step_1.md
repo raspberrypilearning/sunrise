@@ -78,6 +78,7 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 
 + This project makes use of the javascript `prefixfree.js` library, to allow animation compatibility between browsers. If this library isn't used, then children using older browsers will instead need to declare an animation for their browser, for example:
 
+<div class="c-project-code">
 --- code ---
 ---
 filename: style.css
@@ -90,6 +91,7 @@ animation: sky 10s infinite;            //for all newer browsers
 -o-animation: sky 10s infinite;        // For Opera browsers
 -ms-animation: sky 10s infinite;       // For Microsoft browsers
 --- /code ---
+</div>
 
 --- /collapse ---
 

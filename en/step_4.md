@@ -6,6 +6,7 @@ Can you add code to your `sunrise` animation, to make your sun start at the bott
 
 You can use the `left` property to do this, for example:
 
+<div class="c-project-code">
 --- code ---
 ---
 filename: style.css
@@ -14,6 +15,7 @@ line_numbers: false
 ---
 left: 40%;
 --- /code ---
+</div>
 
 ![screenshot](images/sunrise-left.png)
 

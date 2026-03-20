@@ -4,6 +4,7 @@ Animation isn't just for movement. Let's animate the sky to turn dark at night.
 
 + Add an animation called `sky` to your CSS:
 
+    <div class="c-project-code">
     --- code ---
     ---
     filename: style.css
@@ -15,11 +16,13 @@ Animation isn't just for movement. Let's animate the sky to turn dark at night.
         100% { background: lightblue; }
     }
     --- /code ---
+    </div>
 
     Notice that this time you're animating the colour of the sky, and not the position.
 
 + Add code to your sky, to tell it to use your new animation:
 
+    <div class="c-project-code">
     --- code ---
     ---
     filename: style.css
@@ -28,6 +31,7 @@ Animation isn't just for movement. Let's animate the sky to turn dark at night.
     ---
     animation: sky 10s;
     --- /code ---
+    </div>
 
     ![screenshot](images/sunrise-sky.png)
 
