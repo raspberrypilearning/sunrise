@@ -12,7 +12,6 @@ Start by adding an image for the sun and positioning it with some CSS.
 
     --- code ---
     ---
-    filename: index.html
     language: html
     line_numbers: false
     ---
@@ -27,9 +26,10 @@ Start by adding an image for the sun and positioning it with some CSS.
 
     Add the image inside your sun `div` including an id so you can style it:
 
+    ![screenshot](images/sunrise-sun-image.png)
+
     --- code ---
     ---
-    filename: index.html
     language: html
     line_numbers: false
     ---
@@ -40,9 +40,10 @@ Start by adding an image for the sun and positioning it with some CSS.
 
 + Whoa, the image is huge. Go to `style.css` and add the CSS to set the image height:
 
+    ![screenshot](images/sunrise-sun-height.png)
+
     --- code ---
     ---
-    filename: style.css
     language: css
     line_numbers: false
     ---
@@ -55,9 +56,10 @@ Start by adding an image for the sun and positioning it with some CSS.
 
 + Finally, let's add some code to position the sun:
 
+    ![screenshot](images/sunrise-sun-position.png)
+
     --- code ---
     ---
-    filename: style.css
     language: css
     line_numbers: false
     ---
@@ -68,7 +70,5 @@ Start by adding an image for the sun and positioning it with some CSS.
       left: 40%;
     }
     --- /code ---
-
-
 
 
