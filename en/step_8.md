@@ -23,22 +23,32 @@ Don't forget you can put items in the sea as well as the sky:
 
 In the example the rainbow uses opacity for a fade effect:
 
-```
+--- code ---
+---
+filename: style.css
+language: css
+line_numbers: false
+---
 @keyframes fade {
-  0%  
-  50% 
-  66% 
-  100%  
+  0%
+  50%
+  66%
+  100%
 }
-```
+--- /code ---
 
 The boat uses a negative starting position so that you can't see it for part of the animation:
 
-```
+--- code ---
+---
+filename: style.css
+language: css
+line_numbers: false
+---
  @keyframes left-right {
-  0%   
-  100% 
+  0%
+  100%
 }
-```
+--- /code ---
 
 --- /challenge ---
