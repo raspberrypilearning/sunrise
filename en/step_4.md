@@ -14,6 +14,6 @@ line_numbers: false
 left: 40%;
 --- /code ---
 
-![screenshot](images/sunrise-left.png)
+![screenshot](images/step4.gif)
 
 --- /challenge ---

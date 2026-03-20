@@ -27,6 +27,6 @@ Animation isn't just for movement. Let's animate the sky to turn dark at night.
     animation: sky 10s;
     --- /code ---
 
-    ![screenshot](images/sunrise-sky.png)
+    ![screenshot](images/step6.gif)
 
 + To run the animation again, just check the code and click **Run** in the editor. 

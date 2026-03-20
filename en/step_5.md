@@ -34,6 +34,6 @@ Let's make the animation keep repeating forever.
         animation: sunrise 10s infinite;
     }
     --- /code ---
-    ![screenshot](images/sunrise-infinite.png)
+    ![screenshot](images/step5.gif)
 
 + Test out your animation. Does the sun keep rising and setting? 
