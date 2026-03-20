@@ -44,4 +44,4 @@ To do this you define a list of __key frames__. Each key frame defines the CSS p
 
     This tells the sun to spend 10 seconds animating a sunrise.
 
-+ To run the animation again in Trinket, just click **Autorun**. 
++ To run the animation again, just check the code and click **Run** in the editor. 

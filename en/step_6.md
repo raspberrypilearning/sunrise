@@ -29,4 +29,4 @@ Animation isn't just for movement. Let's animate the sky to turn dark at night.
 
     ![screenshot](images/sunrise-sky.png)
 
-+ Click **Autorun** to test your animation. 
++ To run the animation again, just check the code and click **Run** in the editor. 

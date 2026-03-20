@@ -13,7 +13,7 @@ For each item you want to animate, you will need to:
 
 Click on the image icon to see the images that are included in the project:
 
-![screenshot](images/sunrise-images.png)
+![screenshot](images/images.png)
 
 You can also upload your own images if you like. 
 
