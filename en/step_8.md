@@ -2,7 +2,7 @@
 
 ## Challenge: More animation
 
-Can you animate another image? You can animate the position, colour, shape, size, opacity (seethroughness) or anything else you can think of. Also try changing the amount of time your animations run for. 
+Can you animate another image? You can animate the position, colour, shape, size, opacity (seethroughness) or anything else you can think of. Also try changing the amount of time your animations run for.  
 
 For each item you want to animate, you will need to:
 
@@ -13,7 +13,7 @@ For each item you want to animate, you will need to:
 
 Click on the image icon to see the images that are included in the project:
 
-![screenshot](images/sunrise-images.png)
+![screenshot](images/images.png)
 
 You can also upload your own images if you like. 
 
@@ -21,24 +21,32 @@ Don't forget you can put items in the sea as well as the sky:
 
 ![screenshot](images/sunrise-boat.png)
 
-In the example the rainbow uses opacity for a fade effect:
+In the example the rainbow uses opacity for a fade effect in `style.css`:
 
-```
+--- code ---
+---
+language: css
+line_numbers: false
+---
 @keyframes fade {
-  0%  
-  50% 
-  66% 
-  100%  
+  0%
+  50%
+  66%
+  100%
 }
-```
+--- /code ---
 
-The boat uses a negative starting position so that you can't see it for part of the animation:
+The boat uses a negative starting position in `style.css` so that you can't see it for part of the animation:
 
-```
+--- code ---
+---
+language: css
+line_numbers: false
+---
  @keyframes left-right {
-  0%   
-  100% 
+  0%
+  100%
 }
-```
+--- /code ---
 
 --- /challenge ---

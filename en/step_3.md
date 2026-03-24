@@ -8,12 +8,16 @@ To do this you define a list of __key frames__. Each key frame defines the CSS p
 
     Add this CSS code to the end of your `style.css` file:
 
-    ```
+    --- code ---
+    ---
+    language: css
+    line_numbers: false
+    ---
     @keyframes sunrise {
-        0%
-        100%
+        0% { top: 90%; }
+        100% { top: 0; }
     }
-    ```
+    --- /code ---
 
     This code tells the sun where to position itself at the start (`0%`) and the end (`100%`) of the animation.
 
@@ -23,8 +27,21 @@ To do this you define a list of __key frames__. Each key frame defines the CSS p
 
     Add the highlighted code to your sun's CSS:
 
+    --- code ---
+    ---
+    language: css
+    line_numbers: false
+    ---
+    #sun {
+        height: 100px;
+        position: absolute;
+        top: 0;
+        left: 40%;
+        animation: sunrise 10s;
+    }
+    --- /code ---
     ![screenshot](images/sunrise-sunrise.png)
 
     This tells the sun to spend 10 seconds animating a sunrise.
 
-+ To run the animation again in Trinket, just click **Autorun**. 
++ To run the animation again, just check the code and click **Run** in the editor. 

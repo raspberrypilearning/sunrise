@@ -2,11 +2,10 @@
 
 In this project, you'll learn how to use CSS to create an animated sunrise.
 
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/html/abcc0284a3?outputOnly=true&start=result" width="600" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-  <img src="images/sunrise-final.png">
-</div>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/sunrise-complete" width="600" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe>
+<img src="images/sunrise-final.png">
+
 
 ### Additional information for club leaders
 
@@ -23,15 +22,15 @@ In this project, children will to learn how to animate a simple scene using CSS.
 
 ## Online Resources
 
-We recommend using [trinket](https://trinket.io/) to write HTML & CSS online. This project contains the following trinkets:
+We recommend using the [Raspberry Pi Code Editor](https://editor.raspberrypi.org/) to write HTML & CSS online. This project contains the following projects:
 
-+ ['Sunrise' starting point](http://jumpto.cc/web-sunrise)
++ ['Sunrise' starting point](https://editor.raspberrypi.org/en/sunrise-starter)
 
-Children can also make use of this blank trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) to write their own HTML & CSS, or alternatively they can use this template trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
+Children can also make use of the blank editor project [here](https://editor.raspberrypi.org/), or alternatively they can use the template project [here](https://editor.raspberrypi.org/).
 
-There is also a trinket containing a sample solution to the challenges:
+There is also a project containing a sample solution to the challenges:
 
-+ ['Sunrise' Finished](https://trinket.io/html/abcc0284a3)
++ ['Sunrise' Finished](https://editor.raspberrypi.org/en/sunrise-complete)
 
 ## Offline Resources
 
@@ -76,15 +75,19 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 
 ## Frequently Asked Questions
 
-+ This project makes use of the javascript `prefixfree.js` library, to allow animation compatibility between browsers. If this library isn't used, then children using older browsers will instead need to declare an animation for their browser, for example:
++ This project makes use of the javascript `prefixfree.js` library, to allow animation compatibility between browsers. If this library isn't used, then children using older browsers will instead need to declare an animation in their `style.css` file, for example:
 
-```
-animation: sky 10s infinite; 		  	//for all newer browsers
--webkit-animation: sky 10s infinite;  	// For Webkit browsers(Chrome, Safari...)
--moz-animation: sky 10s infinite;     	// For Mozilla browsers
--o-animation: sky 10s infinite;       	// For Opera browsers
--ms-animation: sky 10s infinite;		// For Microsoft browsers 
-```
+--- code ---
+---
+language: css
+line_numbers: false
+---
+animation: sky 10s infinite;            //for all newer browsers
+-webkit-animation: sky 10s infinite;   // For Webkit browsers(Chrome, Safari...)
+-moz-animation: sky 10s infinite;      // For Mozilla browsers
+-o-animation: sky 10s infinite;        // For Opera browsers
+-ms-animation: sky 10s infinite;       // For Microsoft browsers
+--- /code ---
 
 --- /collapse ---
 
@@ -96,9 +99,9 @@ title: Project materials
 ## Project resources
 
 * [.zip file containing all project resources](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-project-resources.zip)
-* [Online Trinket containing all 'Sunrise' project resources](http://jumpto.cc/web-sunrise)
-* [Online Trinket template](http://jumpto.cc/trinket-template)
-* [Online blank Trinket](http://jumpto.cc/trinket-blank)
+* [Online editor project containing all 'Sunrise' project resources](https://editor.raspberrypi.org/)
+* [Online editor template](https://editor.raspberrypi.org/)
+* [Online blank editor project](https://editor.raspberrypi.org/)
 * [template/index.html](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/template-index.html)
 * [template/style.css](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/template-style.css)
 * [intro/index.html](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/intro-index.html)
@@ -115,7 +118,7 @@ title: Project materials
 ## Club leader resources
 
 * [.zip file containing all completed project resources](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-volunteer-resources.zip)
-* [Online completed Trinket project](https://trinket.io/html/abcc0284a3)
+* [Online completed editor project](https://editor.raspberrypi.org/en/sunrise-complete)
 * [sunrise-finished/index.html](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-index.html)
 * [sunrise-finished/style.css](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-style.css)
 * [sunrise-finished/prefixfree.js](https://github.com/raspberrypilearning/sunrise/raw/master/en/resources/sunrise-finished-prefixfree.js)
