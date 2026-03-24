@@ -2,7 +2,7 @@
 
 Start by adding an image for the sun and positioning it with some CSS.
 
-+ Open this starter code: <a href="ADD" target="_blank">ADD</a>. 
++ Open the <a href="https://editor.raspberrypi.org/en-US/projects/sunrise-starter" target="_blank">starter code</a> in the editor. 
 
     The project should look like this:
 
